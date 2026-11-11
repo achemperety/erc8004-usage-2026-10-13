@@ -1,0 +1,65 @@
+{
+ "chainId": 534352,
+ "chain": "Scroll",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 29432421,
+ "from_block_source": "resolved",
+ "to_block": 35358439,
+ "to_block_utc": "2026-10-13T08:57:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.scroll.io",
+  "https://scroll-rpc.publicnode.com"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 35358439,
+ "count": 2,
+ "first_block": 29432421,
+ "last_block": 29432548,
+ "chunks": 42,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 357670,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 43.0,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   29432421,
+   30420090
+  ],
+  [
+   30420091,
+   31407760
+  ],
+  [
+   31407761,
+   32395430
+  ],
+  [
+   32395431,
+   33383100
+  ],
+  [
+   33383101,
+   34370770
+  ],
+  [
+   34370771,
+   35358439
+  ]
+ ],
+ "scanned_from": 29432421,
+ "rpc_endpoints_used": {
+  "https://rpc.scroll.io": 42
+ }
+}

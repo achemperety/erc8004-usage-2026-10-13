@@ -1,0 +1,62 @@
+{
+ "chainId": 534352,
+ "chain": "Scroll",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 29432418,
+ "from_block_source": "resolved",
+ "to_block": 35358439,
+ "to_block_utc": "2026-10-13T08:57:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.scroll.io",
+  "https://scroll-rpc.publicnode.com"
+ ],
+ "status": "complete",
+ "scanned_to_block": 35358439,
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "chunks": 42,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 357671,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 8.5,
+ "segments": 6,
+ "by_topic": {},
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   29432418,
+   30420088
+  ],
+  [
+   30420089,
+   31407759
+  ],
+  [
+   31407760,
+   32395430
+  ],
+  [
+   32395431,
+   33383101
+  ],
+  [
+   33383102,
+   34370772
+  ],
+  [
+   34370773,
+   35358439
+  ]
+ ],
+ "scanned_from": 29432418,
+ "rpc_endpoints_used": {
+  "https://rpc.scroll.io": 42
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "chainId": 2741,
+ "chain": "Abstract",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 39596878,
+ "from_block_source": "resolved",
+ "to_block": 87535983,
+ "to_block_utc": "2026-10-13T09:04:00Z",
+ "rpc_endpoints_configured": [
+  "https://api.mainnet.abs.xyz"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 51596878,
+ "count": 2,
+ "first_block": 39596878,
+ "last_block": 39597016,
+ "chunks": 54,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 23.2,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   39596878,
+   41596878
+  ],
+  [
+   41596879,
+   43596879
+  ],
+  [
+   43596880,
+   45596880
+  ],
+  [
+   45596881,
+   47596881
+  ],
+  [
+   47596882,
+   49596882
+  ],
+  [
+   49596883,
+   51596878
+  ]
+ ],
+ "scanned_from": 39596878,
+ "rpc_endpoints_used": {
+  "https://api.mainnet.abs.xyz": 54
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "chainId": 43114,
+ "chain": "Avalanche",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 77389003,
+ "from_block_source": "resolved",
+ "to_block": 97432220,
+ "to_block_utc": "2026-10-13T09:05:20Z",
+ "rpc_endpoints_configured": [
+  "https://api.avax.network/ext/bc/C/rpc"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 89389003,
+ "count": 2,
+ "first_block": 77389003,
+ "last_block": 77389041,
+ "chunks": 56,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 201.7,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   77389003,
+   79389003
+  ],
+  [
+   79389004,
+   81389004
+  ],
+  [
+   81389005,
+   83389005
+  ],
+  [
+   83389006,
+   85389006
+  ],
+  [
+   85389007,
+   87389007
+  ],
+  [
+   87389008,
+   89389003
+  ]
+ ],
+ "scanned_from": 77389003,
+ "rpc_endpoints_used": {
+  "https://api.avax.network/ext/bc/C/rpc": 56
+ }
+}

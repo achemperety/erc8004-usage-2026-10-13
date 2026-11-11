@@ -1,0 +1,64 @@
+{
+ "chainId": 137,
+ "chain": "Polygon",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 82458484,
+ "from_block_source": "resolved",
+ "to_block": 95451277,
+ "to_block_utc": "2026-10-13T09:03:31Z",
+ "rpc_endpoints_configured": [
+  "https://polygon.gateway.tenderly.co",
+  "https://rpc-mainnet.matic.quiknode.pro"
+ ],
+ "status": "complete",
+ "scanned_to_block": 95451277,
+ "count": 686,
+ "first_block": 82465362,
+ "last_block": 95332091,
+ "chunks": 60,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 38.2,
+ "segments": 6,
+ "by_topic": {
+  "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 686
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   82458484,
+   84623949
+  ],
+  [
+   84623950,
+   86789415
+  ],
+  [
+   86789416,
+   88954881
+  ],
+  [
+   88954882,
+   91120347
+  ],
+  [
+   91120348,
+   93285813
+  ],
+  [
+   93285814,
+   95451277
+  ]
+ ],
+ "scanned_from": 82458484,
+ "rpc_endpoints_used": {
+  "https://polygon.gateway.tenderly.co": 60
+ }
+}

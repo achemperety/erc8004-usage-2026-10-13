@@ -1,0 +1,872 @@
+{
+ "1": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 24339871,
+   "block_utc": "2026-01-29T10:20:23Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 21,
+   "search_window_start": 23479244,
+   "status": "resolved"
+  },
+  "name": "Ethereum",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 24339873,
+   "block_utc": "2026-01-29T10:20:47Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 21,
+   "search_window_start": 23479244,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 24339874,
+   "block_utc": "2026-01-29T10:20:59Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 22,
+   "search_window_start": 23479244,
+   "status": "resolved"
+  }
+ },
+ "10": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 147514947,
+   "block_utc": "2026-02-09T09:17:51Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 141839012,
+   "status": "resolved"
+  },
+  "name": "Optimism",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 147514948,
+   "block_utc": "2026-02-09T09:17:53Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 141839012,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 147514949,
+   "block_utc": "2026-02-09T09:17:55Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 141839012,
+   "status": "resolved"
+  }
+ },
+ "100": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 44505010,
+   "block_utc": "2026-02-04T09:49:00Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 42393983,
+   "status": "resolved"
+  },
+  "name": "Gnosis",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 44505016,
+   "block_utc": "2026-02-04T09:49:30Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 42393983,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 44505017,
+   "block_utc": "2026-02-04T09:49:35Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 22,
+   "search_window_start": 42393983,
+   "status": "resolved"
+  }
+ },
+ "1088": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 22161525,
+   "block_utc": "2026-02-13T01:13:54Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 21,
+   "search_window_start": 21341075,
+   "status": "resolved"
+  },
+  "name": "Metis",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 22161527,
+   "block_utc": "2026-02-13T01:14:26Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 21,
+   "search_window_start": 21341075,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 22161528,
+   "block_utc": "2026-02-13T01:14:36Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 21,
+   "search_window_start": 21341075,
+   "status": "resolved"
+  }
+ },
+ "1187947933": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "floor_block": 1,
+   "search_window_start": 1,
+   "status": "code_present_at_search_floor"
+  },
+  "name": "SKALE Base",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "floor_block": 1,
+   "search_window_start": 1,
+   "status": "code_present_at_search_floor"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "floor_block": 1,
+   "search_window_start": 1,
+   "status": "code_present_at_search_floor"
+  }
+ },
+ "137": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 82458484,
+   "block_utc": "2026-02-02T12:56:14Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 77106032,
+   "status": "resolved"
+  },
+  "name": "Polygon",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 82458486,
+   "block_utc": "2026-02-02T12:56:18Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 77106032,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 82458489,
+   "block_utc": "2026-02-02T12:56:24Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 77106032,
+   "status": "resolved"
+  }
+ },
+ "143": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 52952790,
+   "block_utc": "2026-02-03T11:36:02Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 26,
+   "search_window_start": 26000212,
+   "status": "resolved"
+  },
+  "name": "Monad",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 52952794,
+   "block_utc": "2026-02-03T11:36:04Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 26,
+   "search_window_start": 26000212,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 52952798,
+   "block_utc": "2026-02-03T11:36:05Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 27,
+   "search_window_start": 26000212,
+   "status": "resolved"
+  }
+ },
+ "16661": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 30941187,
+   "block_utc": "2026-04-19T08:11:13Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 7410450,
+   "status": "resolved"
+  },
+  "name": "0G",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 30941196,
+   "block_utc": "2026-04-19T08:11:21Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 7410450,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 30941213,
+   "block_utc": "2026-04-19T08:11:36Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 7410450,
+   "status": "resolved"
+  }
+ },
+ "167000": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 4305747,
+   "block_utc": "2026-02-05T13:21:15Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 2671898,
+   "status": "resolved"
+  },
+  "name": "Taiko",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 4305749,
+   "block_utc": "2026-02-05T13:21:31Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 2671898,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 4305750,
+   "block_utc": "2026-02-05T13:21:39Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 2671898,
+   "status": "resolved"
+  }
+ },
+ "1776": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "floor_error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "status": "unresolved_no_floor"
+  },
+  "name": "Injective",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "floor_error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "status": "unresolved_no_floor"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "floor_error": "https://injectiveevm-rpc.polkachu.com: null block (likely pruned/no history)",
+   "status": "unresolved_no_floor"
+  }
+ },
+ "1868": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 18879198,
+   "block_utc": "2026-02-12T10:45:47Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 13071025,
+   "status": "resolved"
+  },
+  "name": "Soneium",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 18879201,
+   "block_utc": "2026-02-12T10:45:53Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 13071025,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 18879204,
+   "block_utc": "2026-02-12T10:45:59Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 13071025,
+   "status": "resolved"
+  }
+ },
+ "2345": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "error": "https://rpc.goat.network: rpc error: historical state 693ab6087e5a2b2ea006104fce0b25d1789fad60f955f80381b6d236bc1a6cfa is not available",
+   "floor_block": 6931867,
+   "floor_utc": "2025-10-01T00:00:02Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "name": "GOAT Network",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "error": "https://rpc.goat.network: rpc error: historical state 693ab6087e5a2b2ea006104fce0b25d1789fad60f955f80381b6d236bc1a6cfa is not available",
+   "floor_block": 6931867,
+   "floor_utc": "2025-10-01T00:00:02Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "error": "https://rpc.goat.network: rpc error: historical state 693ab6087e5a2b2ea006104fce0b25d1789fad60f955f80381b6d236bc1a6cfa is not available",
+   "floor_block": 6931867,
+   "floor_utc": "2025-10-01T00:00:02Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  }
+ },
+ "2741": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 39596871,
+   "block_utc": "2026-02-10T08:54:49Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 26,
+   "search_window_start": 20338345,
+   "status": "resolved"
+  },
+  "name": "Abstract",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 39596875,
+   "block_utc": "2026-02-10T08:54:52Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 26,
+   "search_window_start": 20338345,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 39596878,
+   "block_utc": "2026-02-10T08:54:53Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 26,
+   "search_window_start": 20338345,
+   "status": "resolved"
+  }
+ },
+ "295": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "status": "no_code_at_to_block"
+  },
+  "name": "Hedera",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "status": "no_code_at_to_block"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "status": "no_code_at_to_block"
+  }
+ },
+ "360": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 25649378,
+   "block_utc": "2026-03-09T08:00:27Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 18766165,
+   "status": "resolved"
+  },
+  "name": "Shape",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 25649379,
+   "block_utc": "2026-03-09T08:00:29Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 18766165,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 25649381,
+   "block_utc": "2026-03-09T08:00:33Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 18766165,
+   "status": "resolved"
+  }
+ },
+ "42161": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "error": "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 384761330,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "search_window_start": 384761330,
+   "status": "unresolved_no_archive"
+  },
+  "name": "Arbitrum One",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "error": "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 384761330,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "search_window_start": 384761330,
+   "status": "unresolved_no_archive"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "error": "https://arbitrum-one-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 384761330,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "search_window_start": 384761330,
+   "status": "unresolved_no_archive"
+  }
+ },
+ "42220": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 58396724,
+   "block_utc": "2026-02-05T13:18:02Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 0,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 47376042,
+   "status": "resolved"
+  },
+  "name": "Celo",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 58396729,
+   "block_utc": "2026-02-05T13:18:07Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 47376042,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 58396736,
+   "block_utc": "2026-02-05T13:18:14Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 0,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 47376042,
+   "status": "resolved"
+  }
+ },
+ "43114": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 77389000,
+   "block_utc": "2026-02-06T06:54:11Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 69566448,
+   "status": "resolved"
+  },
+  "name": "Avalanche",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 77389003,
+   "block_utc": "2026-02-06T06:54:14Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 69566448,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 77389011,
+   "block_utc": "2026-02-06T06:54:25Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 69566448,
+   "status": "resolved"
+  }
+ },
+ "4326": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 7833805,
+   "block_utc": "2026-02-09T09:53:36Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 0,
+   "status": "resolved"
+  },
+  "name": "MegaETH",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 7833806,
+   "block_utc": "2026-02-09T09:53:37Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 0,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 7833807,
+   "block_utc": "2026-02-09T09:53:38Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 25,
+   "search_window_start": 0,
+   "status": "resolved"
+  }
+ },
+ "4663": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "error": "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 1,
+   "floor_utc": "2026-04-30T16:52:11Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "name": "Robinhood Chain",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "error": "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 1,
+   "floor_utc": "2026-04-30T16:52:11Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "error": "https://robinhood-mainnet-rpc.blockreq.com/v1/rpc/public: rpc error: public endpoint only serves recent blocks (last 1024). Register at blockreq.com for historical / archive access.",
+   "floor_block": 1,
+   "floor_utc": "2026-04-30T16:52:11Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  }
+ },
+ "5000": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 91333846,
+   "block_utc": "2026-02-11T08:20:04Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 85573244,
+   "status": "resolved"
+  },
+  "name": "Mantle",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 91333848,
+   "block_utc": "2026-02-11T08:20:08Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 85573244,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 91333851,
+   "block_utc": "2026-02-11T08:20:14Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 85573244,
+   "status": "resolved"
+  }
+ },
+ "534352": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 29432417,
+   "block_utc": "2026-02-04T10:11:36Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 22287222,
+   "status": "resolved"
+  },
+  "name": "Scroll",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 29432418,
+   "block_utc": "2026-02-04T10:11:37Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 22287222,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 29432421,
+   "block_utc": "2026-02-04T10:11:39Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 22287222,
+   "status": "resolved"
+  }
+ },
+ "56": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "error": "https://bsc-rpc.publicnode.com: HTTP 403",
+   "floor_block": 63036986,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "name": "BSC",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "error": "https://bsc-rpc.publicnode.com: HTTP 403",
+   "floor_block": 63036986,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "error": "https://bsc-rpc.publicnode.com: HTTP 403",
+   "floor_block": 63036986,
+   "floor_utc": "2025-10-01T00:00:00Z",
+   "method": "fallback: first block at/after 2025-10-01 UTC",
+   "status": "unresolved_no_archive"
+  }
+ },
+ "59144": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 28662553,
+   "block_utc": "2026-02-06T07:26:52Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 24001510,
+   "status": "resolved"
+  },
+  "name": "Linea",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 28662554,
+   "block_utc": "2026-02-06T07:26:56Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 24001510,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 28662556,
+   "block_utc": "2026-02-06T07:27:00Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 23,
+   "search_window_start": 24001510,
+   "status": "resolved"
+  }
+ },
+ "8453": {
+  "identity": {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "block": 41663783,
+   "block_utc": "2026-02-03T11:08:33Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 36243727,
+   "status": "resolved"
+  },
+  "name": "Base",
+  "reputation": {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "block": 41663784,
+   "block_utc": "2026-02-03T11:08:35Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 36243727,
+   "status": "resolved"
+  },
+  "validation": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "block": 41663785,
+   "block_utc": "2026-02-03T11:08:37Z",
+   "code_at_block": true,
+   "logs_at_deploy_block": 3,
+   "method": "binary search on eth_getCode within [first block >= 2025-10-01 UTC, as-of]",
+   "no_code_at_prev_block": true,
+   "probes": 24,
+   "search_window_start": 36243727,
+   "status": "resolved"
+  }
+ }
+}

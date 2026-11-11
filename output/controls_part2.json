@@ -1,0 +1,493 @@
+{
+ "errors": [],
+ "incomplete": [
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741187,
+    30941186
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 280
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 433016,
+   "window": [
+    30941187,
+    42941187
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 1206
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 208,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449381,
+    25649380
+   ],
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1353
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649381,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 911
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 6082,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449379,
+    25649378
+   ],
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1566
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649379,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 898
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449378,
+    25649377
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1528
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 1904,
+   "window": [
+    25649378,
+    35068820
+   ],
+   "window_is_full_range": true
+  }
+ ],
+ "nonzero": [],
+ "results": [
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 108
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 108
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 336
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741213,
+    30941212
+   ],
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 281
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 28,
+   "window": [
+    30941213,
+    42941213
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741196,
+    30941195
+   ],
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 281
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 10,
+   "window": [
+    30941196,
+    42941196
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741187,
+    30941186
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 280
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 433016,
+   "window": [
+    30941187,
+    42941187
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 1206
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 208,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449381,
+    25649380
+   ],
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1353
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649381,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 911
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 6082,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449379,
+    25649378
+   ],
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1566
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649379,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 898
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449378,
+    25649377
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1528
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 1904,
+   "window": [
+    25649378,
+    35068820
+   ],
+   "window_is_full_range": true
+  }
+ ],
+ "run_at_utc": "2026-10-13T12:10:51Z"
+}

@@ -1,0 +1,65 @@
+{
+ "chainId": 143,
+ "chain": "Monad",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 52952798,
+ "from_block_source": "resolved",
+ "to_block": 113001219,
+ "to_block_utc": "2026-10-13T09:08:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc2.monad.xyz",
+  "https://rpc3.monad.xyz"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 58952798,
+ "count": 2,
+ "first_block": 52952798,
+ "last_block": 52952906,
+ "chunks": 605,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 10000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 630.5,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   52952798,
+   53952798
+  ],
+  [
+   53952799,
+   54952799
+  ],
+  [
+   54952800,
+   55952800
+  ],
+  [
+   55952801,
+   56952801
+  ],
+  [
+   56952802,
+   57952802
+  ],
+  [
+   57952803,
+   58952798
+  ]
+ ],
+ "scanned_from": 52952798,
+ "rpc_endpoints_used": {
+  "https://rpc2.monad.xyz": 605
+ }
+}

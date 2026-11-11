@@ -1,0 +1,65 @@
+{
+ "chainId": 5000,
+ "chain": "Mantle",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 91333848,
+ "from_block_source": "resolved",
+ "to_block": 101875890,
+ "to_block_utc": "2026-10-13T09:01:32Z",
+ "rpc_endpoints_configured": [
+  "https://mantle-rpc.publicnode.com",
+  "https://rpc.mantle.xyz"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 101875890,
+ "count": 2,
+ "first_block": 91333848,
+ "last_block": 91333891,
+ "chunks": 222,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 50000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 491.9,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   91333848,
+   93090855
+  ],
+  [
+   93090856,
+   94847863
+  ],
+  [
+   94847864,
+   96604871
+  ],
+  [
+   96604872,
+   98361879
+  ],
+  [
+   98361880,
+   100118887
+  ],
+  [
+   100118888,
+   101875890
+  ]
+ ],
+ "scanned_from": 91333848,
+ "rpc_endpoints_used": {
+  "https://mantle-rpc.publicnode.com": 222
+ }
+}

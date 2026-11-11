@@ -1,0 +1,278 @@
+[2026-10-13T12:11:14Z] count 1 Ethereum      ValidationRequest  complete count=0 validators=0 blocks=24339874-26182323
+[2026-10-13T12:11:14Z] count 1 Ethereum      ValidationResponse complete count=0 validators=0 blocks=24339874-26182323
+[2026-10-13T12:11:16Z] count 100 Gnosis        ValidationRequest  complete count=0 validators=0 blocks=44505017-48732735
+[2026-10-13T12:11:16Z] count 100 Gnosis        ValidationResponse complete count=0 validators=0 blocks=44505017-48732735
+[2026-10-13T12:11:18Z] count 534352 Scroll        ValidationRequest  complete count=0 validators=0 blocks=29432421-35358439
+[2026-10-13T12:11:18Z] count 534352 Scroll        ValidationResponse complete count=0 validators=0 blocks=29432421-35358439
+[2026-10-13T12:11:19Z] count 10 Optimism      ValidationRequest  complete count=0 validators=0 blocks=147514949-158141652
+[2026-10-13T12:11:19Z] count 10 Optimism      ValidationResponse complete count=0 validators=0 blocks=147514949-158141652
+[2026-10-13T12:11:20Z] count 137 Polygon       ValidationRequest  complete count=0 validators=0 blocks=82458489-95451277
+[2026-10-13T12:11:20Z] count 137 Polygon       ValidationResponse complete count=0 validators=0 blocks=82458489-95451277
+[2026-10-13T12:11:24Z] count 56 BSC           ValidationRequest  INCOMPLETE count=None validators=None blocks=63036986-127376079
+[2026-10-13T12:11:24Z] count 56 BSC           ValidationResponse INCOMPLETE count=None validators=None blocks=63036986-127376079
+[2026-10-13T12:11:28Z] count 4326 MegaETH       ValidationRequest  complete count=0 validators=0 blocks=7833807-29085340
+[2026-10-13T12:11:28Z] count 4326 MegaETH       ValidationResponse complete count=0 validators=0 blocks=7833807-29085340
+[2026-10-13T12:11:28Z] count 1088 Metis         ValidationRequest  complete count=0 validators=0 blocks=22161528-23271915
+[2026-10-13T12:11:28Z] count 1088 Metis         ValidationResponse complete count=0 validators=0 blocks=22161528-23271915
+[2026-10-13T12:11:28Z] count 43114 Avalanche     ValidationRequest  complete count=0 validators=0 blocks=77389011-97432220
+[2026-10-13T12:11:28Z] count 43114 Avalanche     ValidationResponse complete count=0 validators=0 blocks=77389011-97432220
+[2026-10-13T12:11:37Z] count 2345 GOAT Network  ValidationRequest  complete count=0 validators=0 blocks=6931867-16054619
+[2026-10-13T12:11:37Z] count 2345 GOAT Network  ValidationResponse complete count=0 validators=0 blocks=6931867-16054619
+[2026-10-13T12:11:48Z] count 1868 Soneium       ValidationRequest  INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T12:11:48Z] count 1868 Soneium       ValidationResponse INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T12:11:50Z] count 167000 Taiko         ValidationRequest  complete count=0 validators=0 blocks=4305750-12619470
+[2026-10-13T12:11:50Z] count 167000 Taiko         ValidationResponse complete count=0 validators=0 blocks=4305750-12619470
+[2026-10-13T12:12:31Z] count 16661 0G            ValidationRequest  complete count=14 validators=1 blocks=30941213-47005936
+[2026-10-13T12:12:31Z] count 16661 0G            ValidationResponse complete count=14 validators=1 blocks=30941213-47005936
+[2026-10-13T12:12:54Z] count 2741 Abstract      ValidationRequest  complete count=0 validators=0 blocks=39596878-87535983
+[2026-10-13T12:12:54Z] count 2741 Abstract      ValidationResponse complete count=0 validators=0 blocks=39596878-87535983
+[2026-10-13T12:13:16Z] count 59144 Linea         ValidationRequest  complete count=0 validators=0 blocks=28662556-32310196
+[2026-10-13T12:13:16Z] count 59144 Linea         ValidationResponse complete count=0 validators=0 blocks=28662556-32310196
+[2026-10-13T12:13:30Z] count 5000 Mantle        ValidationRequest  complete count=10 validators=2 blocks=91333851-101875890
+[2026-10-13T12:13:30Z] count 5000 Mantle        ValidationResponse complete count=0 validators=0 blocks=91333851-101875890
+[2026-10-13T12:14:00Z] count 10 Optimism      Registered         complete count=565 blocks=147514947-158141652
+[2026-10-13T12:14:33Z] count 10 Optimism      NewFeedback        complete count=340 blocks=147514948-158141652
+[2026-10-13T12:14:44Z] count 1 Ethereum      Registered         complete count=53903 blocks=24339871-26182323
+[2026-10-13T12:14:57Z] count 1 Ethereum      NewFeedback        complete count=21337 blocks=24339873-26182323
+[2026-10-13T12:15:05Z]   progress 8453 validation[41663785-43477548]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:05Z]   progress 8453 validation[43477549-45291312]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:06Z]   progress 8453 validation[45291313-47105076]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:11Z] count 137 Polygon       Registered         complete count=686 blocks=82458484-95451277
+[2026-10-13T12:15:11Z] count 137 Polygon       NewFeedback        complete count=632 blocks=82458486-95451277
+[2026-10-13T12:15:15Z] count 43114 Avalanche     Registered         complete count=1845 blocks=77389000-97432220
+[2026-10-13T12:15:18Z]   progress 143 validation[72968940-82977010]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:18Z]   progress 143 validation[62960869-72968939]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:20Z]   progress 143 validation[52952798-62960868]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:23Z]   progress 42220 validation[58396736-61994211]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:15:23Z]   progress 42220 validation[65591688-69189163]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:15:24Z]   progress 42220 validation[61994212-65591687]: 35% (250 calls, 38 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[406365012-427968693]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[427968694-449572375]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[384761330-406365011]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:16:01Z] count 56 BSC           Registered         INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:16:01Z] count 56 BSC           NewFeedback        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:16:25Z] count 43114 Avalanche     NewFeedback        complete count=14624 blocks=77389003-97432220
+[2026-10-13T12:16:34Z] count 534352 Scroll        Registered         complete count=108 blocks=29432417-35358439
+[2026-10-13T12:16:43Z] count 534352 Scroll        NewFeedback        complete count=0 blocks=29432418-35358439
+[2026-10-13T12:17:03Z]   progress 1187947933 validation[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:04Z]   progress 1187947933 validation[512157-1024312]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:04Z]   progress 1187947933 validation[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:15Z] count 100 Gnosis        Registered         complete count=4159 blocks=44505010-48732735
+[2026-10-13T12:17:35Z] count 100 Gnosis        NewFeedback        complete count=4341 blocks=44505016-48732735
+[2026-10-13T12:17:51Z] count 360 Shape         ValidationRequest  complete count=0 validators=0 blocks=25649381-35068820
+[2026-10-13T12:17:51Z] count 360 Shape         ValidationResponse complete count=0 validators=0 blocks=25649381-35068820
+[2026-10-13T12:17:57Z]   progress 8453 validation[50732605-52546365]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:18:06Z]   progress 8453 validation[43477549-45291312]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:18:08Z] count 4663 Robinhood Chain ValidationRequest  complete count=0 validators=0 blocks=1-87395843
+[2026-10-13T12:18:08Z] count 4663 Robinhood Chain ValidationResponse complete count=0 validators=0 blocks=1-87395843
+[2026-10-13T12:18:19Z]   progress 143 validation[102993153-113001219]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:19Z]   progress 143 validation[92985082-102993152]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:22Z]   progress 143 validation[82977011-92985081]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:36Z]   progress 42220 validation[76384116-79981588]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:38Z]   progress 42220 validation[69189164-72786639]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:39Z]   progress 42220 validation[72786640-76384115]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:47Z] count 167000 Taiko         Registered         complete count=94 blocks=4305747-12619470
+[2026-10-13T12:19:06Z]   progress 8453 NewFeedback[43477548-45291311]: 14% (250 calls, 9642 logs so far)
+[2026-10-13T12:19:12Z]   progress 42161 validation[471176058-492779739]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:19:28Z] count 167000 Taiko         NewFeedback        complete count=0 blocks=4305749-12619470
+[2026-10-13T12:20:25Z]   progress 42161 validation[449572376-471176057]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:20:25Z]   progress 42161 validation[492779740-514383417]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:20:38Z]   progress 8453 validation[48918841-50732604]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:20:58Z] count 59144 Linea         Registered         complete count=115 blocks=28662553-32310196
+[2026-10-13T12:21:20Z] count 42161 Arbitrum One  ValidationRequest  complete count=0 validators=0 blocks=384761330-514383417
+[2026-10-13T12:21:20Z] count 42161 Arbitrum One  ValidationResponse complete count=0 validators=0 blocks=384761330-514383417
+[2026-10-13T12:21:21Z]   progress 143 Registered[72968934-82977005]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:21:22Z]   progress 1187947933 validation[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:22Z]   progress 1187947933 validation[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:24Z]   progress 143 Registered[62960862-72968933]: 25% (250 calls, 2 logs so far)
+[2026-10-13T12:21:24Z]   progress 1187947933 validation[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:41Z]   progress 42220 Registered[69189158-72786635]: 35% (250 calls, 190 logs so far)
+[2026-10-13T12:21:43Z] count 1187947933 SKALE Base    ValidationRequest  complete count=0 validators=0 blocks=1-3072934
+[2026-10-13T12:21:43Z] count 1187947933 SKALE Base    ValidationResponse complete count=0 validators=0 blocks=1-3072934
+[2026-10-13T12:21:49Z]   progress 42220 validation[69189164-72786639]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:22:01Z]   progress 143 Registered[82977006-92985077]: 25% (250 calls, 1296 logs so far)
+[2026-10-13T12:22:12Z]   progress 42220 NewFeedback[61994206-65591682]: 35% (250 calls, 5073 logs so far)
+[2026-10-13T12:22:19Z] count 4326 MegaETH       Registered         complete count=12727 blocks=7833805-29085340
+[2026-10-13T12:22:19Z] count 4326 MegaETH       NewFeedback        complete count=23 blocks=7833806-29085340
+[2026-10-13T12:22:19Z] count 42161 Arbitrum One  NewFeedback        complete count=1055 blocks=384761330-514383417
+[2026-10-13T12:22:39Z] count 42161 Arbitrum One  Registered         complete count=1623 blocks=384761330-514383417
+[2026-10-13T12:22:41Z] count 59144 Linea         NewFeedback        complete count=31 blocks=28662554-32310196
+[2026-10-13T12:22:56Z]   progress 8453 validation[47105077-48918840]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:23:09Z] count 1868 Soneium       Registered         INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T12:23:11Z] count 2741 Abstract      NewFeedback        complete count=296 blocks=39596875-87535983
+[2026-10-13T12:23:30Z] count 2345 GOAT Network  Registered         complete count=88 blocks=6931867-16054619
+[2026-10-13T12:23:35Z]   progress 8453 Registered[50732603-52546365]: 14% (250 calls, 1067 logs so far)
+[2026-10-13T12:23:36Z] count 1868 Soneium       NewFeedback        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T12:23:46Z] count 1088 Metis         Registered         complete count=138 blocks=22161525-23271915
+[2026-10-13T12:23:47Z] count 2741 Abstract      Registered         complete count=16918 blocks=39596871-87535983
+[2026-10-13T12:23:51Z] count 2345 GOAT Network  NewFeedback        complete count=1 blocks=6931867-16054619
+[2026-10-13T12:23:55Z] count 1088 Metis         NewFeedback        complete count=0 blocks=22161527-23271915
+[2026-10-13T12:24:36Z]   progress 42220 Registered[72786636-76384113]: 35% (250 calls, 25 logs so far)
+[2026-10-13T12:24:39Z]   progress 8453 NewFeedback[41663784-43477547]: 14% (250 calls, 7812 logs so far)
+[2026-10-13T12:24:49Z]   progress 143 NewFeedback[72968936-82977006]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:24:49Z]   progress 42220 Registered[69189158-72786635]: 69% (500 calls, 232 logs so far)
+[2026-10-13T12:25:10Z]   progress 42220 Registered[58396724-61994201]: 35% (250 calls, 108 logs so far)
+[2026-10-13T12:25:38Z]   progress 143 validation[82977011-92985081]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:25:59Z]   progress 8453 validation[41663785-43477548]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:26:44Z]   progress 143 validation[72968940-82977010]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:27:02Z] count 5000 Mantle        Registered         complete count=144 blocks=91333846-101875890
+[2026-10-13T12:27:23Z] count 5000 Mantle        NewFeedback        complete count=1699 blocks=91333848-101875890
+[2026-10-13T12:28:00Z]   progress 8453 NewFeedback[50732604-52546365]: 14% (250 calls, 7460 logs so far)
+[2026-10-13T12:28:13Z]   progress 42220 NewFeedback[61994206-65591682]: 69% (500 calls, 5412 logs so far)
+[2026-10-13T12:28:24Z] count 4663 Robinhood Chain Registered         complete count=8784 blocks=1-87395843
+[2026-10-13T12:28:29Z]   progress 42220 Registered[76384114-79981588]: 35% (250 calls, 25 logs so far)
+[2026-10-13T12:28:37Z]   progress 1187947933 Registered[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:28:39Z]   progress 1187947933 Registered[512157-1024312]: 98% (250 calls, 90 logs so far)
+[2026-10-13T12:28:44Z]   progress 1187947933 Registered[1024313-1536468]: 98% (250 calls, 744 logs so far)
+[2026-10-13T12:28:45Z]   progress 42220 validation[72786640-76384115]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:29:20Z] count 4663 Robinhood Chain NewFeedback        complete count=702 blocks=1-87395843
+[2026-10-13T12:29:42Z]   progress 143 NewFeedback[102993149-113001219]: 25% (250 calls, 7 logs so far)
+[2026-10-13T12:30:56Z]   progress 143 NewFeedback[82977007-92985077]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:32:18Z]   progress 143 Registered[92985078-102993149]: 25% (250 calls, 23 logs so far)
+[2026-10-13T12:32:19Z]   progress 8453 NewFeedback[45291312-47105075]: 14% (250 calls, 172 logs so far)
+[2026-10-13T12:33:25Z]   progress 42220 NewFeedback[72786637-76384113]: 35% (250 calls, 63 logs so far)
+[2026-10-13T12:33:54Z] count 360 Shape         Registered         complete count=2098 blocks=25649378-35068820
+[2026-10-13T12:34:00Z]   progress 42220 validation[76384116-79981588]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:34:03Z]   progress 8453 Registered[47105075-48918838]: 14% (250 calls, 669 logs so far)
+[2026-10-13T12:34:20Z]   progress 8453 Registered[41663783-43477546]: 14% (250 calls, 14452 logs so far)
+[2026-10-13T12:34:25Z]   progress 42220 Registered[65591680-69189157]: 35% (250 calls, 7 logs so far)
+[2026-10-13T12:35:46Z]   progress 1187947933 Registered[2048625-2560780]: 98% (250 calls, 219 logs so far)
+[2026-10-13T12:35:54Z]   progress 1187947933 NewFeedback[2560781-3072934]: 98% (250 calls, 88 logs so far)
+[2026-10-13T12:36:02Z] count 16661 0G            NewFeedback        complete count=20 blocks=30941196-47005936
+[2026-10-13T12:36:22Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339871-26182323
+[2026-10-13T12:36:34Z]   progress 143 Registered[62960862-72968933]: 50% (500 calls, 3 logs so far)
+[2026-10-13T12:36:42Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339873-26182323
+[2026-10-13T12:36:59Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339874-26182323
+[2026-10-13T12:37:14Z]   progress 143 NewFeedback[102993149-113001219]: 50% (500 calls, 7 logs so far)
+[2026-10-13T12:37:41Z] count 360 Shape         NewFeedback        complete count=0 blocks=25649379-35068820
+[2026-10-13T12:37:57Z]   progress 1187947933 NewFeedback[1024313-1536468]: 98% (250 calls, 7378 logs so far)
+[2026-10-13T12:38:16Z]   progress 8453 NewFeedback[50732604-52546365]: 28% (500 calls, 16505 logs so far)
+[2026-10-13T12:38:49Z]   progress 143 validation[72968940-82977010]: 75% (750 calls, 0 logs so far)
+[2026-10-13T12:39:47Z]   progress 8453 validation[43477549-45291312]: 41% (750 calls, 0 logs so far)
+[2026-10-13T12:39:56Z]   progress 42220 validation[61994212-65591687]: 69% (500 calls, 38 logs so far)
+[2026-10-13T12:40:18Z]   progress 42220 NewFeedback[69189160-72786636]: 35% (250 calls, 3531 logs so far)
+[2026-10-13T12:40:41Z]   progress 42220 Registered[65591680-69189157]: 69% (500 calls, 106 logs so far)
+[2026-10-13T12:40:46Z]   progress 8453 NewFeedback[41663784-43477547]: 28% (500 calls, 12044 logs so far)
+[2026-10-13T12:42:53Z]   progress 143 NewFeedback[52952794-62960864]: 25% (250 calls, 379 logs so far)
+[2026-10-13T12:43:20Z]   progress 143 validation[52952798-62960868]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:44:02Z]   progress 1187947933 NewFeedback[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:44:31Z]   progress 8453 Registered[50732603-52546365]: 28% (500 calls, 2512 logs so far)
+[2026-10-13T12:45:07Z]   progress 143 validation[102993153-113001219]: 50% (500 calls, 2 logs so far)
+[2026-10-13T12:45:12Z]   progress 8453 validation[47105077-48918840]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:45:41Z]   progress 1187947933 NewFeedback[1536469-2048624]: 98% (250 calls, 1597 logs so far)
+[2026-10-13T12:45:57Z]   progress 1187947933 NewFeedback[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:45:58Z]   progress 8453 validation[50732605-52546365]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:46:51Z]   progress 42220 NewFeedback[76384114-79981588]: 35% (250 calls, 169 logs so far)
+[2026-10-13T12:47:07Z]   progress 42220 Registered[72786636-76384113]: 69% (500 calls, 37 logs so far)
+[2026-10-13T12:49:09Z]   progress 143 validation[92985082-102993152]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:49:35Z]   progress 143 Registered[82977006-92985077]: 50% (500 calls, 1364 logs so far)
+[2026-10-13T12:50:28Z]   progress 8453 validation[48918841-50732604]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:51:06Z]   progress 143 validation[82977011-92985081]: 75% (750 calls, 0 logs so far)
+[2026-10-13T12:51:53Z]   progress 1187947933 Registered[2560781-3072934]: 98% (250 calls, 94 logs so far)
+[2026-10-13T12:53:06Z]   progress 42220 NewFeedback[65591683-69189159]: 35% (250 calls, 54 logs so far)
+[2026-10-13T12:53:55Z]   progress 1187947933 Registered[1536469-2048624]: 98% (250 calls, 981 logs so far)
+[2026-10-13T12:54:05Z] count 1187947933 SKALE Base    Registered         complete count=2226 blocks=1-3072934
+[2026-10-13T12:54:07Z]   progress 1187947933 NewFeedback[512157-1024312]: 98% (250 calls, 63 logs so far)
+[2026-10-13T12:54:31Z] count 1187947933 SKALE Base    NewFeedback        complete count=10068 blocks=1-3072934
+[2026-10-13T12:54:34Z]   progress 42220 Registered[61994202-65591679]: 35% (250 calls, 2408 logs so far)
+[2026-10-13T12:55:08Z]   progress 143 Registered[62960862-72968933]: 75% (750 calls, 6 logs so far)
+[2026-10-13T12:55:32Z]   progress 143 NewFeedback[62960865-72968935]: 25% (250 calls, 29 logs so far)
+[2026-10-13T12:56:11Z] count 143 Monad         ValidationRequest  INCOMPLETE_BUDGET count=1 validators=1 blocks=52952798-113001219
+[2026-10-13T12:56:11Z] count 143 Monad         ValidationResponse INCOMPLETE_BUDGET count=1 validators=1 blocks=52952798-113001219
+[2026-10-13T12:56:13Z] count 143 Monad         NewFeedback        INCOMPLETE_BUDGET count=415 blocks=52952794-113001219
+[2026-10-13T12:56:13Z] count 143 Monad         Registered         INCOMPLETE_BUDGET count=1402 blocks=52952790-113001219
+[2026-10-13T12:56:40Z] count 10 Optimism      Initialized        complete count=2 blocks=147514947-158141652
+[2026-10-13T12:57:00Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T12:57:07Z] count 10 Optimism      Initialized        complete count=2 blocks=147514948-158141652
+[2026-10-13T12:57:25Z]   progress 42220 NewFeedback[76384114-79981588]: 69% (500 calls, 327 logs so far)
+[2026-10-13T12:57:27Z] count 10 Optimism      Initialized        complete count=2 blocks=147514949-158141652
+[2026-10-13T12:57:29Z] count 137 Polygon       Initialized        complete count=2 blocks=82458484-94458484
+[2026-10-13T12:57:55Z] count 42220 Celo          ValidationRequest  INCOMPLETE_BUDGET count=21 validators=21 blocks=58396736-79981588
+[2026-10-13T12:57:55Z] count 42220 Celo          ValidationResponse INCOMPLETE_BUDGET count=17 validators=17 blocks=58396736-79981588
+[2026-10-13T12:57:56Z] count 42220 Celo          NewFeedback        INCOMPLETE_BUDGET count=10455 blocks=58396729-79981588
+[2026-10-13T12:57:57Z] count 42220 Celo          Registered         INCOMPLETE_BUDGET count=2969 blocks=58396724-79981588
+[2026-10-13T12:58:12Z] count 137 Polygon       Initialized        complete count=2 blocks=82458486-94458486
+[2026-10-13T12:59:07Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:59:49Z] count 137 Polygon       Initialized        complete count=2 blocks=82458489-94458489
+[2026-10-13T12:59:51Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T13:00:22Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389000-89389000
+[2026-10-13T13:00:24Z] count 8453 Base          ValidationRequest  INCOMPLETE_BUDGET count=0 validators=0 blocks=41663785-52546365
+[2026-10-13T13:00:24Z] count 8453 Base          ValidationResponse INCOMPLETE_BUDGET count=0 validators=0 blocks=41663785-52546365
+[2026-10-13T13:00:41Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T13:01:05Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432417-35358439
+[2026-10-13T13:01:07Z]   progress 16661 Registered[44328482-47005936]: 93% (250 calls, 247849 logs so far)
+[2026-10-13T13:01:18Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389003-89389003
+[2026-10-13T13:01:33Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432418-35358439
+[2026-10-13T13:01:35Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389011-89389011
+[2026-10-13T13:01:56Z] count 8453 Base          NewFeedback        INCOMPLETE_BUDGET count=66342 blocks=41663784-52546365
+[2026-10-13T13:01:58Z] count 8453 Base          Registered         INCOMPLETE_BUDGET count=17704 blocks=41663783-52546365
+[2026-10-13T13:02:01Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432421-35358439
+[2026-10-13T13:02:41Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505017-48732735
+[2026-10-13T13:02:51Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T13:02:58Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505010-48732735
+[2026-10-13T13:02:59Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505016-48732735
+[2026-10-13T13:03:28Z] count 8453 Base          Initialized        complete count=2 blocks=41663783-42263783
+[2026-10-13T13:03:55Z] count 8453 Base          Initialized        complete count=2 blocks=41663785-42263785
+[2026-10-13T13:04:40Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T13:05:05Z] count 8453 Base          Initialized        complete count=2 blocks=41663784-42263784
+[2026-10-13T13:05:31Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833805-19833805
+[2026-10-13T13:05:55Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305747-12619470
+[2026-10-13T13:05:55Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833806-19833806
+[2026-10-13T13:06:17Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596871-51596871
+[2026-10-13T13:06:22Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833807-19833807
+[2026-10-13T13:06:29Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305749-12619470
+[2026-10-13T13:06:30Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305750-12619470
+[2026-10-13T13:06:45Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596878-51596878
+[2026-10-13T13:06:52Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596875-51596875
+[2026-10-13T13:07:35Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T13:08:17Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T13:08:58Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879204-29373675
+[2026-10-13T13:09:26Z] count 16661 0G            Registered         INCOMPLETE_BUDGET count=1609162 blocks=30941187-47005936
+[2026-10-13T13:09:28Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:09:42Z] count 59144 Linea         Initialized        complete count=2 blocks=28662553-32310196
+[2026-10-13T13:09:48Z] count 1088 Metis         Initialized        complete count=2 blocks=22161525-23271915
+[2026-10-13T13:09:51Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:09:54Z] count 1088 Metis         Initialized        complete count=2 blocks=22161527-23271915
+[2026-10-13T13:09:59Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:10:00Z] count 143 Monad         Initialized        complete count=2 blocks=52952794-58952794
+[2026-10-13T13:10:01Z] count 1088 Metis         Initialized        complete count=2 blocks=22161528-23271915
+[2026-10-13T13:10:21Z] count 59144 Linea         Initialized        complete count=2 blocks=28662556-32310196
+[2026-10-13T13:10:22Z] count 59144 Linea         Initialized        complete count=2 blocks=28662554-32310196
+[2026-10-13T13:10:44Z] count 42220 Celo          Initialized        complete count=0 blocks=58396736-61396736
+[2026-10-13T13:10:55Z] count 143 Monad         Initialized        complete count=2 blocks=52952790-58952790
+[2026-10-13T13:10:55Z] count 143 Monad         Initialized        complete count=2 blocks=52952798-58952798
+[2026-10-13T13:11:36Z] count 42220 Celo          Initialized        complete count=0 blocks=58396729-61396729
+[2026-10-13T13:11:37Z] count 42220 Celo          Initialized        complete count=2 blocks=58396724-61396724
+[2026-10-13T13:12:03Z] count 16661 0G            Initialized        complete count=2 blocks=30941187-42941187
+[2026-10-13T13:12:21Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:39Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:39Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:42Z] count 16661 0G            Initialized        complete count=2 blocks=30941213-42941213
+[2026-10-13T13:12:51Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333851-101875890
+[2026-10-13T13:12:54Z] count 16661 0G            Initialized        complete count=2 blocks=30941196-42941196
+[2026-10-13T13:13:16Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:13:17Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:13:17Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:13:46Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333846-101875890
+[2026-10-13T13:14:42Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333848-101875890
+[2026-10-13T13:15:43Z] count 360 Shape         Initialized        complete count=2 blocks=25649378-35068820
+[2026-10-13T13:16:40Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:16:41Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:16:43Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:18:42Z] count 360 Shape         Initialized        complete count=2 blocks=25649381-35068820
+[2026-10-13T13:18:43Z] count 360 Shape         Initialized        complete count=2 blocks=25649379-35068820
+[2026-10-13T13:20:03Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:20:05Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:20:09Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:31Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:32Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:34Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:04Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:13Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:16Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:33Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:42Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:30:45Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934
+[2026-10-13T13:30:47Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934
+[2026-10-13T13:30:49Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:55Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934

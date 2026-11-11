@@ -1,0 +1,64 @@
+{
+ "chainId": 16661,
+ "chain": "0G",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 30941187,
+ "from_block_source": "resolved",
+ "to_block": 47005936,
+ "to_block_utc": "2026-10-13T09:06:38Z",
+ "rpc_endpoints_configured": [
+  "https://evmrpc.0g.ai"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 42941187,
+ "count": 2,
+ "first_block": 30941187,
+ "last_block": 32073714,
+ "chunks": 138,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 100000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 26.9,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   30941187,
+   32941187
+  ],
+  [
+   32941188,
+   34941188
+  ],
+  [
+   34941189,
+   36941189
+  ],
+  [
+   36941190,
+   38941190
+  ],
+  [
+   38941191,
+   40941191
+  ],
+  [
+   40941192,
+   42941187
+  ]
+ ],
+ "scanned_from": 30941187,
+ "rpc_endpoints_used": {
+  "https://evmrpc.0g.ai": 138
+ }
+}

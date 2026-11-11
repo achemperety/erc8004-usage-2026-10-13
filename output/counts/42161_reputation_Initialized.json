@@ -1,0 +1,63 @@
+{
+ "chainId": 42161,
+ "chain": "Arbitrum One",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 384761330,
+ "from_block_source": "unresolved_no_archive",
+ "to_block": 514383417,
+ "to_block_utc": "2026-10-13T09:08:41Z",
+ "rpc_endpoints_configured": [
+  "https://arb1.arbitrum.io/rpc"
+ ],
+ "status": "complete",
+ "scanned_to_block": 514383417,
+ "count": 2,
+ "first_block": 428895450,
+ "last_block": 428895784,
+ "chunks": 452,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 399.2,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   384761330,
+   406365011
+  ],
+  [
+   406365012,
+   427968693
+  ],
+  [
+   427968694,
+   449572375
+  ],
+  [
+   449572376,
+   471176057
+  ],
+  [
+   471176058,
+   492779739
+  ],
+  [
+   492779740,
+   514383417
+  ]
+ ],
+ "scanned_from": 384761330,
+ "rpc_endpoints_used": {
+  "https://arb1.arbitrum.io/rpc": 452
+ }
+}

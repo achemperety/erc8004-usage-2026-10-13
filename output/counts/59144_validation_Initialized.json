@@ -1,0 +1,64 @@
+{
+ "chainId": 59144,
+ "chain": "Linea",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 28662556,
+ "from_block_source": "resolved",
+ "to_block": 32310196,
+ "to_block_utc": "2026-10-13T08:37:21Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.linea.build"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 32310196,
+ "count": 2,
+ "first_block": 28662556,
+ "last_block": 28662568,
+ "chunks": 366,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 10000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 340.5,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   28662556,
+   29270496
+  ],
+  [
+   29270497,
+   29878437
+  ],
+  [
+   29878438,
+   30486378
+  ],
+  [
+   30486379,
+   31094319
+  ],
+  [
+   31094320,
+   31702260
+  ],
+  [
+   31702261,
+   32310196
+  ]
+ ],
+ "scanned_from": 28662556,
+ "rpc_endpoints_used": {
+  "https://rpc.linea.build": 366
+ }
+}

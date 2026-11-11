@@ -1,0 +1,114 @@
+{
+ "chainId": 16661,
+ "chain": "0G",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 30941187,
+ "from_block_source": "resolved",
+ "to_block": 47005936,
+ "to_block_utc": "2026-10-13T09:06:38Z",
+ "rpc_endpoints_configured": [
+  "https://evmrpc.0g.ai"
+ ],
+ "status": "complete",
+ "scanned_to_block": 47005936,
+ "count": 3882470,
+ "first_block": 33283117,
+ "last_block": 47005932,
+ "chunks": 662,
+ "splits": 5,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 100000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 2406.0,
+ "segments": 6,
+ "by_topic": {
+  "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 1609162
+ },
+ "incomplete": true,
+ "covered_ranges": [
+  [
+   30941187,
+   33618645
+  ],
+  [
+   33618646,
+   36296104
+  ],
+  [
+   36296105,
+   37614854
+  ],
+  [
+   37614855,
+   37841306
+  ],
+  [
+   37841307,
+   38067758
+  ],
+  [
+   38067759,
+   38294210
+  ],
+  [
+   38294211,
+   38520662
+  ],
+  [
+   38520663,
+   38747114
+  ],
+  [
+   38747115,
+   38973563
+  ],
+  [
+   38973564,
+   39943563
+  ],
+  [
+   39943564,
+   40228140
+  ],
+  [
+   40228141,
+   40512717
+  ],
+  [
+   40512718,
+   40797294
+  ],
+  [
+   40797295,
+   41081871
+  ],
+  [
+   41081872,
+   41366448
+  ],
+  [
+   41366449,
+   41651022
+  ],
+  [
+   41651023,
+   44328481
+  ],
+  [
+   44328482,
+   47005936
+  ]
+ ],
+ "scanned_from": 30941187,
+ "rpc_endpoints_used": {
+  "https://evmrpc.0g.ai": 662
+ },
+ "scan_chunks": 1043,
+ "resumed_at_utc": "2026-10-13T14:57:33Z",
+ "resume_note": "uncovered sub-ranges rescanned by `finish` and merged; covered ranges never rescanned"
+}

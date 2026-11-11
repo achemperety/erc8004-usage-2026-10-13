@@ -1,0 +1,63 @@
+{
+ "chainId": 2345,
+ "chain": "GOAT Network",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 6931867,
+ "from_block_source": "unresolved_no_archive",
+ "to_block": 16054619,
+ "to_block_utc": "2026-10-13T08:55:12Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.goat.network"
+ ],
+ "status": "complete",
+ "scanned_to_block": 16054619,
+ "count": 2,
+ "first_block": 10129147,
+ "last_block": 10129167,
+ "chunks": 48,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 24.8,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   6931867,
+   8452325
+  ],
+  [
+   8452326,
+   9972784
+  ],
+  [
+   9972785,
+   11493243
+  ],
+  [
+   11493244,
+   13013702
+  ],
+  [
+   13013703,
+   14534161
+  ],
+  [
+   14534162,
+   16054619
+  ]
+ ],
+ "scanned_from": 6931867,
+ "rpc_endpoints_used": {
+  "https://rpc.goat.network": 48
+ }
+}

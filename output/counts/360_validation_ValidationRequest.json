@@ -1,0 +1,57 @@
+{
+ "chainId": 360,
+ "chain": "Shape",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 25649381,
+ "from_block_source": "resolved",
+ "to_block": 35068820,
+ "to_block_utc": "2026-10-13T09:01:51Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.shape.network"
+ ],
+ "status": "complete",
+ "scanned_to_block": 35068820,
+ "covered_ranges": [
+  [
+   25649381,
+   27219287
+  ],
+  [
+   27219288,
+   28789194
+  ],
+  [
+   28789195,
+   30359101
+  ],
+  [
+   30359102,
+   31929008
+  ],
+  [
+   31929009,
+   33498915
+  ],
+  [
+   33498916,
+   35068820
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 1026,
+ "scan_splits": 55,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://mainnet.shape.network": 1026
+ }
+}

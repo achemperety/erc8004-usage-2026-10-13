@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 achemperety
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Scope and third-party material
+
+The licence above covers the code (erc8004_usage.py, inline/, addenda/*.py) and
+the measurement record and documents written for this repository. It does not
+cover the following upstream files, which are redistributed unchanged and keep
+their own licences:
+
+1. abis/IdentityRegistry.json, abis/ReputationRegistry.json,
+   abis/ValidationRegistry.json, abis/addresses.ts.vendored
+   From https://github.com/erc-8004/erc-8004-contracts at commit
+   b9e466c250744a7e06b13dff9d3c2844ed64f825 (see abis/PROVENANCE.json).
+   That repository has no LICENSE file. Its README states "License: CC0 -
+   Public Domain", its package.json declares "ISC", and its contract sources
+   carry "SPDX-License-Identifier: MIT". All three terms permit redistribution;
+   these files are included unchanged with this attribution.
+
+Not included: output/chainlist.json, the chainid.network chain list used by the
+run (https://github.com/ethereum-lists/chains, MIT). It is pinned and fetched by
+hash; see PROVENANCE-chain-list.md.

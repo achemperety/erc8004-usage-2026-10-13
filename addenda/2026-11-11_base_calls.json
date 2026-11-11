@@ -1,0 +1,398 @@
+{
+ "run_at_utc": "2026-11-11T09:51:20Z",
+ "as_of_block": 52546365,
+ "endpoints": {
+  "https://base.gateway.tenderly.co": {
+   "chainId": 8453
+  },
+  "https://mainnet.base.org": {
+   "chainId": 8453
+  },
+  "https://base.publicnode.com": {
+   "chainId": 8453
+  },
+  "https://base.drpc.org": {
+   "chainId": 8453
+  }
+ },
+ "head_block_at_run": 56001562,
+ "requests": [
+  {
+   "block": 43134133,
+   "logIndex": 169,
+   "tx": "0x7f95b566aab2706023804dd63c4cd1075d79817557bb212695f9ee3ae857b2fa",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773057613,
+   "utc": "2026-03-09T12:00:13Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773057613,
+    "https://mainnet.base.org": 1773057613
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43134146,
+   "logIndex": 869,
+   "tx": "0x3fdd4cca086e6cf9db090fb316c73e4b177002aecb8887c02a1f391dfe9d9cc4",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773057639,
+   "utc": "2026-03-09T12:00:39Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773057639,
+    "https://mainnet.base.org": 1773057639
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43134682,
+   "logIndex": 677,
+   "tx": "0x879ab0be74e44a8f0e7eab931b1870dc25bb05403f60573e3dda55fc45181c31",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773058711,
+   "utc": "2026-03-09T12:18:31Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773058711,
+    "https://mainnet.base.org": 1773058711
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43134858,
+   "logIndex": 543,
+   "tx": "0xde34e59888f7067c4d307fa39cb28ff969d0ff5b65caea51255f7449cdfa288e",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773059063,
+   "utc": "2026-03-09T12:24:23Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773059063,
+    "https://mainnet.base.org": 1773059063
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43134870,
+   "logIndex": 423,
+   "tx": "0x2cfe585197abe48d45d3765d03a150f7b32782606b5de621d93e9f1132d90346",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773059087,
+   "utc": "2026-03-09T12:24:47Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773059087,
+    "https://mainnet.base.org": 1773059087
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43135041,
+   "logIndex": 199,
+   "tx": "0xfe736921d8b98c5e7cb776e360984163875fa148047970816eb78f9017cd807b",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773059429,
+   "utc": "2026-03-09T12:30:29Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773059429,
+    "https://mainnet.base.org": 1773059429
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43138402,
+   "logIndex": 255,
+   "tx": "0xc18d0be0454277caa0380e7b94f43fe177e96553b6a5e4947f0368e083b41d42",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773066151,
+   "utc": "2026-03-09T14:22:31Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773066151,
+    "https://mainnet.base.org": 1773066151
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43138830,
+   "logIndex": 284,
+   "tx": "0x3f0150b496c9e1a1743329be66a44ef02279fb3913b6b3d54d8a1280ba9fbd90",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773067007,
+   "utc": "2026-03-09T14:36:47Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773067007,
+    "https://mainnet.base.org": 1773067007
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43140910,
+   "logIndex": 785,
+   "tx": "0x1501c8da7ecbb0f05840ccb458113b81f65c1f4a2410e0a6dd009b2f232bfd81",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773071167,
+   "utc": "2026-03-09T15:46:07Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773071167,
+    "https://mainnet.base.org": 1773071167
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43177272,
+   "logIndex": 454,
+   "tx": "0xc4b96f55d1e494285fa8a5a3990b2b86f81f47b0a7abd1e0e1f0991de8b470d3",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773143891,
+   "utc": "2026-03-10T11:58:11Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773143891,
+    "https://mainnet.base.org": 1773143891
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43181588,
+   "logIndex": 302,
+   "tx": "0x3366fc9f0a948b6e344be1723bf43dcb49e93923f42c0f30ae87ccb8e1f82658",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773152523,
+   "utc": "2026-03-10T14:22:03Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773152523,
+    "https://mainnet.base.org": 1773152523
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 43183045,
+   "logIndex": 508,
+   "tx": "0x4f88c401bb0c06eb5f465206c767fd64fd1acdfb842fc3699a02e01c0359f89f",
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "agentId": 25331,
+   "timestamp": 1773155437,
+   "utc": "2026-03-10T15:10:37Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1773155437,
+    "https://mainnet.base.org": 1773155437
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 50073293,
+   "logIndex": 532,
+   "tx": "0x8b4bb34b6681dd0406b19a14ad8a939afb4dbeddb0905881f2713b67ed51620c",
+   "validator": "0x3a77efd0f47907a32ee9f5c90d9ec91ba7fca4c3",
+   "agentId": 60102,
+   "timestamp": 1786935933,
+   "utc": "2026-08-17T03:05:33Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1786935933,
+    "https://mainnet.base.org": 1786935933
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 51606429,
+   "logIndex": 729,
+   "tx": "0xc73eb383890e98b5f19671e54654ba31a5e1b752af5fcde4a7e4e84d3866ec2d",
+   "validator": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+   "agentId": 95265,
+   "timestamp": 1790002205,
+   "utc": "2026-09-21T14:50:05Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1790002205,
+    "https://mainnet.base.org": 1790002205
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  },
+  {
+   "block": 51702363,
+   "logIndex": 653,
+   "tx": "0x885769e81d7fb3218cf0e0659e57f1bac48469aabf950222023b14ecb47e7235",
+   "validator": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+   "agentId": 95374,
+   "timestamp": 1790194073,
+   "utc": "2026-09-23T20:07:53Z",
+   "timestamp_sources": {
+    "https://base.gateway.tenderly.co": 1790194073,
+    "https://mainnet.base.org": 1790194073
+   },
+   "receipt_endpoint": "https://base.gateway.tenderly.co",
+   "emitter": "0x8004cc8439f36fd5f9f049d9ff86523df6daab58",
+   "receipt_topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+   "receipt_errors": null
+  }
+ ],
+ "proxies": {
+  "scanned": {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "as_of": {
+    "https://base.gateway.tenderly.co": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://mainnet.base.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://base.publicnode.com": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://base.drpc.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    }
+   },
+   "latest_at_run": {
+    "https://base.gateway.tenderly.co": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://mainnet.base.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://base.publicnode.com": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    },
+    "https://base.drpc.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+     "errors": {}
+    }
+   }
+  },
+  "post437": {
+   "address": "0x8004Cb1BF31DAf7788923b405b754f57acEB4272",
+   "as_of": {
+    "https://base.gateway.tenderly.co": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://mainnet.base.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://base.publicnode.com": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://base.drpc.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    }
+   },
+   "latest_at_run": {
+    "https://base.gateway.tenderly.co": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://mainnet.base.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://base.publicnode.com": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    },
+    "https://base.drpc.org": {
+     "code_len_bytes": 130,
+     "code_keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41",
+     "impl_slot": "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234",
+     "errors": {}
+    }
+   }
+  }
+ },
+ "implementations": {
+  "0xd53de688e0b0ad436fbdbda00036832ff6499234": {
+   "code_len_bytes_at_head": 2188,
+   "endpoint": "https://base.gateway.tenderly.co"
+  },
+  "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99": {
+   "code_len_bytes_at_head": 5876,
+   "endpoint": "https://base.gateway.tenderly.co"
+  }
+ }
+}

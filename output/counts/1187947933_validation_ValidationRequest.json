@@ -1,0 +1,57 @@
+{
+ "chainId": 1187947933,
+ "chain": "SKALE Base",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 1,
+ "from_block_source": "code_present_at_search_floor",
+ "to_block": 3072934,
+ "to_block_utc": "2026-10-13T08:27:15Z",
+ "rpc_endpoints_configured": [
+  "https://skale-base.skalenodes.com/v1/base"
+ ],
+ "status": "complete",
+ "scanned_to_block": 3072934,
+ "covered_ranges": [
+  [
+   1,
+   512156
+  ],
+  [
+   512157,
+   1024312
+  ],
+  [
+   1024313,
+   1536468
+  ],
+  [
+   1536469,
+   2048624
+  ],
+  [
+   2048625,
+   2560780
+  ],
+  [
+   2560781,
+   3072934
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 1542,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://skale-base.skalenodes.com/v1/base": 1542
+ }
+}

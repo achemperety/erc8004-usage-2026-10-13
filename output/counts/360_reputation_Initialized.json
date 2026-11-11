@@ -1,0 +1,64 @@
+{
+ "chainId": 360,
+ "chain": "Shape",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 25649379,
+ "from_block_source": "resolved",
+ "to_block": 35068820,
+ "to_block_utc": "2026-10-13T09:01:51Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.shape.network"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 35068820,
+ "count": 2,
+ "first_block": 25649379,
+ "last_block": 25649500,
+ "chunks": 938,
+ "splits": 48,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 20000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 501.8,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   25649379,
+   27219285
+  ],
+  [
+   27219286,
+   28789192
+  ],
+  [
+   28789193,
+   30359099
+  ],
+  [
+   30359100,
+   31929006
+  ],
+  [
+   31929007,
+   33498913
+  ],
+  [
+   33498914,
+   35068820
+  ]
+ ],
+ "scanned_from": 25649379,
+ "rpc_endpoints_used": {
+  "https://mainnet.shape.network": 938
+ }
+}

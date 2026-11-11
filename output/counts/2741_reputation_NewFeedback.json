@@ -1,0 +1,63 @@
+{
+ "chainId": 2741,
+ "chain": "Abstract",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 39596875,
+ "from_block_source": "resolved",
+ "to_block": 87535983,
+ "to_block_utc": "2026-10-13T09:04:00Z",
+ "rpc_endpoints_configured": [
+  "https://api.mainnet.abs.xyz"
+ ],
+ "status": "complete",
+ "scanned_to_block": 87535983,
+ "count": 296,
+ "first_block": 39698233,
+ "last_block": 72234239,
+ "chunks": 126,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 52.3,
+ "segments": 6,
+ "by_topic": {
+  "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 296
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   39596875,
+   47586726
+  ],
+  [
+   47586727,
+   55576578
+  ],
+  [
+   55576579,
+   63566430
+  ],
+  [
+   63566431,
+   71556282
+  ],
+  [
+   71556283,
+   79546134
+  ],
+  [
+   79546135,
+   87535983
+  ]
+ ],
+ "scanned_from": 39596875,
+ "rpc_endpoints_used": {
+  "https://api.mainnet.abs.xyz": 126
+ }
+}

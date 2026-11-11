@@ -1,0 +1,13 @@
+{
+  "source_repo": "https://github.com/erc-8004/erc-8004-contracts",
+  "source_commit": "b9e466c250744a7e06b13dff9d3c2844ed64f825",
+  "source_commit_date": "2026-08-15T16:26:49Z",
+  "fetched": "2026-10-13",
+  "files": {
+    "abis/IdentityRegistry.json": "cdb8e30f41a56ed53421126dab87551ff2a178b8463646f69f75bc5dc9620564",
+    "abis/ReputationRegistry.json": "867b7975a5f2f9fee38c4a148a84471b141f4de91409ccc0c6bebe3df4f04001",
+    "abis/ValidationRegistry.json": "e16bd4344b287f8ab129c443b6c8ec01eb1c18f3a6d75bf5cbd6ad1c25e780a4",
+    "scripts/addresses.ts (vendored as abis/addresses.ts.vendored)": "923d39e1f406f785b78b7cfae05b0ec18c415807874448861bd845759dfb03ff"
+  },
+  "note": "Fetched from raw.githubusercontent.com at the 'master' ref; commit sha above was master HEAD at fetch time. The README in this repo lists Identity+Reputation per chain but NO Validation address; the Validation address comes from scripts/addresses.ts MAINNET_ADDRESSES."
+}

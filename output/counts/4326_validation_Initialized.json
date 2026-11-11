@@ -1,0 +1,64 @@
+{
+ "chainId": 4326,
+ "chain": "MegaETH",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 7833807,
+ "from_block_source": "resolved",
+ "to_block": 29085340,
+ "to_block_utc": "2026-10-13T09:05:51Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.megaeth.com/rpc"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 19833807,
+ "count": 2,
+ "first_block": 7833807,
+ "last_block": 7833821,
+ "chunks": 54,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 26.9,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   7833807,
+   9833807
+  ],
+  [
+   9833808,
+   11833808
+  ],
+  [
+   11833809,
+   13833809
+  ],
+  [
+   13833810,
+   15833810
+  ],
+  [
+   15833811,
+   17833811
+  ],
+  [
+   17833812,
+   19833807
+  ]
+ ],
+ "scanned_from": 7833807,
+ "rpc_endpoints_used": {
+  "https://mainnet.megaeth.com/rpc": 54
+ }
+}

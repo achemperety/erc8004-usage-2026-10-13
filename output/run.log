@@ -1,0 +1,1022 @@
+[2026-10-13T09:06:56Z] select 1 Ethereum: 3 endpoints ['https://ethereum-rpc.publicnode.com']
+[2026-10-13T09:06:56Z] select 8453 Base: 3 endpoints ['https://base.gateway.tenderly.co']
+[2026-10-13T09:06:56Z] select 42161 Arbitrum One: 2 endpoints ['https://arb1.arbitrum.io/rpc']
+[2026-10-13T09:06:56Z] select 10 Optimism: 3 endpoints ['https://optimism-rpc.publicnode.com']
+[2026-10-13T09:06:56Z] select 137 Polygon: 3 endpoints ['https://rpc-mainnet.matic.quiknode.pro']
+[2026-10-13T09:06:56Z] select 43114 Avalanche: 3 endpoints ['https://api.avax.network/ext/bc/C/rpc']
+[2026-10-13T09:07:30Z] select 56 BSC: 0 endpoints []
+[2026-10-13T09:07:30Z] select 143 Monad: 0 endpoints []
+[2026-10-13T09:07:30Z] select 534352 Scroll: 3 endpoints ['https://rpc.scroll.io']
+[2026-10-13T09:07:30Z] select 100 Gnosis: 3 endpoints ['https://rpc.gnosischain.com']
+[2026-10-13T09:07:30Z] select 42220 Celo: 2 endpoints ['https://forno.celo.org']
+[2026-10-13T09:07:30Z] select 167000 Taiko: 2 endpoints ['https://rpc.mainnet.taiko.xyz']
+[2026-10-13T09:07:30Z] select 59144 Linea: 2 endpoints ['https://rpc.linea.build']
+[2026-10-13T09:07:30Z] select 4326 MegaETH: 1 endpoints ['https://mainnet.megaeth.com/rpc']
+[2026-10-13T09:07:30Z] select 196 XLayer: 0 endpoints []
+[2026-10-13T09:07:30Z] select 2741 Abstract: 1 endpoints ['https://api.mainnet.abs.xyz']
+[2026-10-13T09:07:30Z] select 5000 Mantle: 2 endpoints ['https://rpc.mantle.xyz']
+[2026-10-13T09:07:30Z] select 1868 Soneium: 1 endpoints ['https://rpc.soneium.org']
+[2026-10-13T09:07:30Z] select 2345 GOAT Network: 1 endpoints ['https://rpc.goat.network']
+[2026-10-13T09:07:30Z] select 1088 Metis: 2 endpoints ['https://andromeda.metis.io/?owner=1088']
+[2026-10-13T09:07:30Z] select 295 Hedera: 2 endpoints ['https://mainnet.hashio.io/api']
+[2026-10-13T09:07:30Z] select 1187947933 SKALE Base: 1 endpoints ['https://skale-base.skalenodes.com/v1/base']
+[2026-10-13T09:07:30Z] select 360 Shape: 1 endpoints ['https://mainnet.shape.network']
+[2026-10-13T09:07:30Z] select 4663 Robinhood Chain: 2 endpoints ['https://rpc.mainnet.chain.robinhood.com']
+[2026-10-13T09:07:30Z] select 45056 Billions: 0 endpoints []
+[2026-10-13T09:07:30Z] select 1776 Injective: 2 endpoints ['https://sentry.evm-rpc.injective.network']
+[2026-10-13T09:07:30Z] select 16661 0G: 1 endpoints ['https://evmrpc.0g.ai']
+[2026-10-13T09:09:40Z] select 56 BSC: 1 endpoints ['https://bsc-rpc.publicnode.com']
+[2026-10-13T09:09:40Z] select 143 Monad: 2 endpoints ['https://rpc2.monad.xyz']
+[2026-10-13T09:09:40Z] select 196 XLayer: 0 endpoints []
+[2026-10-13T09:09:49Z] asof 1 Ethereum to_block=26182323 2026-10-13T08:18:23Z
+[2026-10-13T09:09:51Z] asof 8453 Base to_block=52546365 2026-10-13T09:01:17Z
+[2026-10-13T09:09:53Z] asof 42161 Arbitrum One to_block=514383417 2026-10-13T09:08:41Z
+[2026-10-13T09:09:54Z] asof 10 Optimism to_block=158141652 2026-10-13T09:01:21Z
+[2026-10-13T09:09:56Z] asof 137 Polygon to_block=95451277 2026-10-13T09:03:31Z
+[2026-10-13T09:09:57Z] asof 43114 Avalanche to_block=97432220 2026-10-13T09:05:20Z
+[2026-10-13T09:09:58Z] asof 56 BSC to_block=127376079 2026-10-13T09:08:02Z
+[2026-10-13T09:10:00Z] asof 143 Monad to_block=113001219 2026-10-13T09:08:41Z
+[2026-10-13T09:10:01Z] asof 534352 Scroll to_block=35358439 2026-10-13T08:57:41Z
+[2026-10-13T09:10:03Z] asof 100 Gnosis to_block=48732735 2026-10-13T08:48:20Z
+[2026-10-13T09:10:04Z] asof 42220 Celo to_block=79981588 2026-10-13T09:05:46Z
+[2026-10-13T09:10:06Z] asof 167000 Taiko to_block=12619470 2026-10-13T09:01:31Z
+[2026-10-13T09:10:08Z] asof 59144 Linea to_block=32310196 2026-10-13T08:37:21Z
+[2026-10-13T09:10:09Z] asof 4326 MegaETH to_block=29085340 2026-10-13T09:05:51Z
+[2026-10-13T09:10:10Z] asof 2741 Abstract to_block=87535983 2026-10-13T09:04:00Z
+[2026-10-13T09:10:12Z] asof 5000 Mantle to_block=101875890 2026-10-13T09:01:32Z
+[2026-10-13T09:10:14Z] asof 1868 Soneium to_block=29373675 2026-10-13T09:01:41Z
+[2026-10-13T09:10:16Z] asof 2345 GOAT Network to_block=16054619 2026-10-13T08:55:12Z
+[2026-10-13T09:10:18Z] asof 1088 Metis to_block=23271915 2026-10-13T07:13:27Z
+[2026-10-13T09:10:20Z] asof 295 Hedera to_block=101067831 2026-10-13T09:00:59Z
+[2026-10-13T09:10:22Z] asof 1187947933 SKALE Base to_block=3072934 2026-10-13T08:27:15Z
+[2026-10-13T09:10:24Z] asof 360 Shape to_block=35068820 2026-10-13T09:01:51Z
+[2026-10-13T09:10:25Z] asof 4663 Robinhood Chain to_block=87395843 2026-10-13T09:09:57Z
+[2026-10-13T09:10:27Z] asof 1776 Injective to_block=187094908 2026-10-13T09:07:53Z
+[2026-10-13T09:10:28Z] asof 16661 0G to_block=47005936 2026-10-13T09:06:38Z
+[2026-10-13T09:10:53Z] deploy 1 Ethereum identity: resolved block=24339871
+[2026-10-13T09:10:53Z] deploy 1 Ethereum reputation: resolved block=24339873
+[2026-10-13T09:10:53Z] deploy 1 Ethereum validation: resolved block=24339874
+[2026-10-13T09:10:53Z] deploy 8453 Base identity: resolved block=41663783
+[2026-10-13T09:10:53Z] deploy 8453 Base reputation: resolved block=41663784
+[2026-10-13T09:10:53Z] deploy 8453 Base validation: resolved block=41663785
+[2026-10-13T09:10:53Z] deploy 42161 Arbitrum One identity: unresolved_no_archive block=384761330
+[2026-10-13T09:10:53Z] deploy 42161 Arbitrum One reputation: unresolved_no_archive block=384761330
+[2026-10-13T09:10:53Z] deploy 42161 Arbitrum One validation: unresolved_no_archive block=384761330
+[2026-10-13T09:13:18Z] deploy 1 Ethereum identity: resolved block=24339871
+[2026-10-13T09:13:18Z] deploy 1 Ethereum reputation: resolved block=24339873
+[2026-10-13T09:13:18Z] deploy 1 Ethereum validation: resolved block=24339874
+[2026-10-13T09:13:18Z] deploy 8453 Base identity: resolved block=41663783
+[2026-10-13T09:13:18Z] deploy 8453 Base reputation: resolved block=41663784
+[2026-10-13T09:13:18Z] deploy 8453 Base validation: resolved block=41663785
+[2026-10-13T09:13:18Z] deploy 42161 Arbitrum One identity: unresolved_no_archive block=384761330
+[2026-10-13T09:13:18Z] deploy 42161 Arbitrum One reputation: unresolved_no_archive block=384761330
+[2026-10-13T09:13:18Z] deploy 42161 Arbitrum One validation: unresolved_no_archive block=384761330
+[2026-10-13T09:13:18Z] deploy 10 Optimism identity: unresolved_no_floor block=None
+[2026-10-13T09:13:18Z] deploy 10 Optimism reputation: unresolved_no_floor block=None
+[2026-10-13T09:13:18Z] deploy 10 Optimism validation: unresolved_no_floor block=None
+[2026-10-13T09:13:18Z] deploy 137 Polygon identity: resolved block=82458484
+[2026-10-13T09:13:20Z] deploy 137 Polygon reputation: resolved block=82458486
+[2026-10-13T09:13:20Z] deploy 137 Polygon validation: resolved block=82458489
+[2026-10-13T09:13:20Z] deploy 43114 Avalanche identity: resolved block=77389000
+[2026-10-13T09:13:20Z] deploy 43114 Avalanche reputation: resolved block=77389003
+[2026-10-13T09:13:20Z] deploy 43114 Avalanche validation: resolved block=77389011
+[2026-10-13T09:13:24Z] deploy 56 BSC identity: unresolved_no_archive block=63036986
+[2026-10-13T09:13:24Z] deploy 56 BSC reputation: unresolved_no_archive block=63036986
+[2026-10-13T09:13:25Z] deploy 56 BSC validation: unresolved_no_archive block=63036986
+[2026-10-13T09:13:34Z] deploy 143 Monad identity: resolved block=52952790
+[2026-10-13T09:13:34Z] deploy 143 Monad reputation: resolved block=52952794
+[2026-10-13T09:13:35Z] deploy 143 Monad validation: resolved block=52952798
+[2026-10-13T09:13:35Z] deploy 534352 Scroll identity: resolved block=29432417
+[2026-10-13T09:13:35Z] deploy 534352 Scroll reputation: resolved block=29432418
+[2026-10-13T09:13:35Z] deploy 534352 Scroll validation: resolved block=29432421
+[2026-10-13T09:13:35Z] deploy 100 Gnosis identity: resolved block=44505010
+[2026-10-13T09:13:35Z] deploy 100 Gnosis reputation: resolved block=44505016
+[2026-10-13T09:13:35Z] deploy 100 Gnosis validation: resolved block=44505017
+[2026-10-13T09:13:41Z] deploy 42220 Celo identity: resolved block=58396724
+[2026-10-13T09:13:41Z] deploy 42220 Celo reputation: resolved block=58396729
+[2026-10-13T09:13:41Z] deploy 42220 Celo validation: resolved block=58396736
+[2026-10-13T09:13:48Z] deploy 167000 Taiko identity: resolved block=4305747
+[2026-10-13T09:13:48Z] deploy 167000 Taiko reputation: resolved block=4305749
+[2026-10-13T09:13:48Z] deploy 167000 Taiko validation: resolved block=4305750
+[2026-10-13T09:13:51Z] deploy 59144 Linea identity: resolved block=28662553
+[2026-10-13T09:13:51Z] deploy 59144 Linea reputation: resolved block=28662554
+[2026-10-13T09:13:51Z] deploy 59144 Linea validation: resolved block=28662556
+[2026-10-13T09:13:51Z] deploy 4326 MegaETH identity: resolved block=7833805
+[2026-10-13T09:13:51Z] deploy 4326 MegaETH reputation: resolved block=7833806
+[2026-10-13T09:13:51Z] deploy 4326 MegaETH validation: resolved block=7833807
+[2026-10-13T09:13:57Z] deploy 2741 Abstract identity: resolved block=39596871
+[2026-10-13T09:13:58Z] deploy 2741 Abstract reputation: resolved block=39596875
+[2026-10-13T09:13:59Z] deploy 2741 Abstract validation: resolved block=39596878
+[2026-10-13T09:14:13Z] deploy 5000 Mantle identity: resolved block=91333846
+[2026-10-13T09:14:13Z] deploy 5000 Mantle reputation: resolved block=91333848
+[2026-10-13T09:14:13Z] deploy 5000 Mantle validation: resolved block=91333851
+[2026-10-13T09:14:13Z] deploy 1868 Soneium identity: resolved block=18879198
+[2026-10-13T09:14:13Z] deploy 1868 Soneium reputation: resolved block=18879201
+[2026-10-13T09:14:13Z] deploy 1868 Soneium validation: resolved block=18879204
+[2026-10-13T09:14:19Z] deploy 2345 GOAT Network identity: unresolved_no_archive block=6931867
+[2026-10-13T09:14:20Z] deploy 2345 GOAT Network reputation: unresolved_no_archive block=6931867
+[2026-10-13T09:14:20Z] deploy 2345 GOAT Network validation: unresolved_no_archive block=6931867
+[2026-10-13T09:14:20Z] deploy 1088 Metis identity: resolved block=22161525
+[2026-10-13T09:14:20Z] deploy 1088 Metis reputation: resolved block=22161527
+[2026-10-13T09:14:20Z] deploy 1088 Metis validation: resolved block=22161528
+[2026-10-13T09:14:20Z] deploy 295 Hedera identity: no_code_at_to_block block=None
+[2026-10-13T09:14:20Z] deploy 295 Hedera reputation: no_code_at_to_block block=None
+[2026-10-13T09:14:20Z] deploy 295 Hedera validation: no_code_at_to_block block=None
+[2026-10-13T09:14:31Z] deploy 1187947933 SKALE Base identity: resolved block=0
+[2026-10-13T09:14:31Z] deploy 1187947933 SKALE Base reputation: resolved block=0
+[2026-10-13T09:14:32Z] deploy 1187947933 SKALE Base validation: resolved block=0
+[2026-10-13T09:14:32Z] deploy 360 Shape identity: resolved block=25649378
+[2026-10-13T09:14:32Z] deploy 360 Shape reputation: resolved block=25649379
+[2026-10-13T09:14:32Z] deploy 360 Shape validation: resolved block=25649381
+[2026-10-13T09:14:32Z] deploy 4663 Robinhood Chain identity: unresolved_no_archive block=1
+[2026-10-13T09:14:32Z] deploy 4663 Robinhood Chain reputation: unresolved_no_archive block=1
+[2026-10-13T09:14:32Z] deploy 4663 Robinhood Chain validation: unresolved_no_archive block=1
+[2026-10-13T09:14:32Z] deploy 1776 Injective identity: unresolved_no_floor block=None
+[2026-10-13T09:14:32Z] deploy 1776 Injective reputation: unresolved_no_floor block=None
+[2026-10-13T09:14:32Z] deploy 1776 Injective validation: unresolved_no_floor block=None
+[2026-10-13T09:14:36Z] deploy 16661 0G identity: resolved block=30941187
+[2026-10-13T09:14:36Z] deploy 16661 0G reputation: resolved block=30941196
+[2026-10-13T09:14:36Z] deploy 16661 0G validation: resolved block=30941213
+[2026-10-13T09:15:35Z] select 10 Optimism: 3 endpoints ['https://optimism-rpc.publicnode.com']
+[2026-10-13T09:15:35Z] select 1776 Injective: 3 endpoints ['https://injective-evm-rpc.publicnode.com']
+[2026-10-13T09:15:39Z] deploy 10 Optimism identity: unresolved_no_floor block=None
+[2026-10-13T09:15:39Z] deploy 10 Optimism reputation: unresolved_no_floor block=None
+[2026-10-13T09:15:39Z] deploy 10 Optimism validation: unresolved_no_floor block=None
+[2026-10-13T09:15:39Z] deploy 1776 Injective identity: unresolved_no_floor block=None
+[2026-10-13T09:15:40Z] deploy 1776 Injective reputation: unresolved_no_floor block=None
+[2026-10-13T09:15:40Z] deploy 1776 Injective validation: unresolved_no_floor block=None
+[2026-10-13T09:16:35Z] deploy 1 Ethereum identity: resolved block=24339871
+[2026-10-13T09:16:35Z] deploy 1 Ethereum reputation: resolved block=24339873
+[2026-10-13T09:16:36Z] deploy 1 Ethereum validation: resolved block=24339874
+[2026-10-13T09:16:36Z] deploy 8453 Base identity: resolved block=41663783
+[2026-10-13T09:16:36Z] deploy 8453 Base reputation: resolved block=41663784
+[2026-10-13T09:16:36Z] deploy 8453 Base validation: resolved block=41663785
+[2026-10-13T09:16:36Z] deploy 42161 Arbitrum One identity: unresolved_no_archive block=384761330
+[2026-10-13T09:16:36Z] deploy 42161 Arbitrum One reputation: unresolved_no_archive block=384761330
+[2026-10-13T09:16:36Z] deploy 42161 Arbitrum One validation: unresolved_no_archive block=384761330
+[2026-10-13T09:16:36Z] deploy 10 Optimism identity: resolved block=147514947
+[2026-10-13T09:16:37Z] deploy 10 Optimism reputation: resolved block=147514948
+[2026-10-13T09:16:37Z] deploy 10 Optimism validation: resolved block=147514949
+[2026-10-13T09:17:05Z] deploy 137 Polygon identity: resolved block=82458484
+[2026-10-13T09:17:06Z] deploy 137 Polygon reputation: resolved block=82458486
+[2026-10-13T09:17:07Z] deploy 137 Polygon validation: resolved block=82458489
+[2026-10-13T09:18:43Z] deploy 43114 Avalanche identity: resolved block=77389000
+[2026-10-13T09:18:43Z] deploy 43114 Avalanche reputation: resolved block=77389003
+[2026-10-13T09:18:45Z] deploy 43114 Avalanche validation: resolved block=77389011
+[2026-10-13T09:18:45Z] deploy 56 BSC identity: unresolved_no_archive block=63036986
+[2026-10-13T09:18:45Z] deploy 56 BSC reputation: unresolved_no_archive block=63036986
+[2026-10-13T09:18:45Z] deploy 56 BSC validation: unresolved_no_archive block=63036986
+[2026-10-13T09:18:45Z] deploy 143 Monad identity: resolved block=52952790
+[2026-10-13T09:18:45Z] deploy 143 Monad reputation: resolved block=52952794
+[2026-10-13T09:18:45Z] deploy 143 Monad validation: resolved block=52952798
+[2026-10-13T09:18:45Z] deploy 534352 Scroll identity: resolved block=29432417
+[2026-10-13T09:18:45Z] deploy 534352 Scroll reputation: resolved block=29432418
+[2026-10-13T09:18:45Z] deploy 534352 Scroll validation: resolved block=29432421
+[2026-10-13T09:18:45Z] deploy 100 Gnosis identity: resolved block=44505010
+[2026-10-13T09:18:45Z] deploy 100 Gnosis reputation: resolved block=44505016
+[2026-10-13T09:18:45Z] deploy 100 Gnosis validation: resolved block=44505017
+[2026-10-13T09:18:45Z] deploy 42220 Celo identity: resolved block=58396724
+[2026-10-13T09:18:45Z] deploy 42220 Celo reputation: resolved block=58396729
+[2026-10-13T09:18:45Z] deploy 42220 Celo validation: resolved block=58396736
+[2026-10-13T09:18:45Z] deploy 167000 Taiko identity: resolved block=4305747
+[2026-10-13T09:18:45Z] deploy 167000 Taiko reputation: resolved block=4305749
+[2026-10-13T09:18:45Z] deploy 167000 Taiko validation: resolved block=4305750
+[2026-10-13T09:18:45Z] deploy 59144 Linea identity: resolved block=28662553
+[2026-10-13T09:18:45Z] deploy 59144 Linea reputation: resolved block=28662554
+[2026-10-13T09:18:45Z] deploy 59144 Linea validation: resolved block=28662556
+[2026-10-13T09:18:45Z] deploy 4326 MegaETH identity: resolved block=7833805
+[2026-10-13T09:18:45Z] deploy 4326 MegaETH reputation: resolved block=7833806
+[2026-10-13T09:18:45Z] deploy 4326 MegaETH validation: resolved block=7833807
+[2026-10-13T09:18:45Z] deploy 2741 Abstract identity: resolved block=39596871
+[2026-10-13T09:18:45Z] deploy 2741 Abstract reputation: resolved block=39596875
+[2026-10-13T09:18:45Z] deploy 2741 Abstract validation: resolved block=39596878
+[2026-10-13T09:18:45Z] deploy 5000 Mantle identity: resolved block=91333846
+[2026-10-13T09:18:45Z] deploy 5000 Mantle reputation: resolved block=91333848
+[2026-10-13T09:18:45Z] deploy 5000 Mantle validation: resolved block=91333851
+[2026-10-13T09:18:45Z] deploy 1868 Soneium identity: resolved block=18879198
+[2026-10-13T09:18:45Z] deploy 1868 Soneium reputation: resolved block=18879201
+[2026-10-13T09:18:45Z] deploy 1868 Soneium validation: resolved block=18879204
+[2026-10-13T09:18:45Z] deploy 2345 GOAT Network identity: unresolved_no_archive block=6931867
+[2026-10-13T09:18:45Z] deploy 2345 GOAT Network reputation: unresolved_no_archive block=6931867
+[2026-10-13T09:18:45Z] deploy 2345 GOAT Network validation: unresolved_no_archive block=6931867
+[2026-10-13T09:19:07Z] deploy 1088 Metis identity: resolved block=22161525
+[2026-10-13T09:19:07Z] deploy 1088 Metis reputation: resolved block=22161527
+[2026-10-13T09:19:08Z] deploy 1088 Metis validation: resolved block=22161528
+[2026-10-13T09:19:08Z] deploy 295 Hedera identity: no_code_at_to_block block=None
+[2026-10-13T09:19:08Z] deploy 295 Hedera reputation: no_code_at_to_block block=None
+[2026-10-13T09:19:08Z] deploy 295 Hedera validation: no_code_at_to_block block=None
+[2026-10-13T09:19:08Z] deploy 1187947933 SKALE Base identity: code_present_at_search_floor block=1
+[2026-10-13T09:19:08Z] deploy 1187947933 SKALE Base reputation: code_present_at_search_floor block=1
+[2026-10-13T09:19:08Z] deploy 1187947933 SKALE Base validation: code_present_at_search_floor block=1
+[2026-10-13T09:19:11Z] deploy 360 Shape identity: resolved block=25649378
+[2026-10-13T09:19:12Z] deploy 360 Shape reputation: resolved block=25649379
+[2026-10-13T09:19:12Z] deploy 360 Shape validation: resolved block=25649381
+[2026-10-13T09:19:12Z] deploy 4663 Robinhood Chain identity: unresolved_no_floor block=None
+[2026-10-13T09:19:12Z] deploy 4663 Robinhood Chain reputation: unresolved_no_floor block=None
+[2026-10-13T09:19:12Z] deploy 4663 Robinhood Chain validation: unresolved_no_floor block=None
+[2026-10-13T09:19:12Z] deploy 1776 Injective identity: unresolved_no_floor block=None
+[2026-10-13T09:19:12Z] deploy 1776 Injective reputation: unresolved_no_floor block=None
+[2026-10-13T09:19:12Z] deploy 1776 Injective validation: unresolved_no_floor block=None
+[2026-10-13T09:19:21Z] deploy 16661 0G identity: resolved block=30941187
+[2026-10-13T09:19:23Z] deploy 16661 0G reputation: resolved block=30941196
+[2026-10-13T09:19:23Z] deploy 16661 0G validation: resolved block=30941213
+[2026-10-13T09:21:00Z] deploy 1 Ethereum identity: resolved block=24339871
+[2026-10-13T09:21:00Z] deploy 1 Ethereum reputation: resolved block=24339873
+[2026-10-13T09:21:01Z] deploy 1 Ethereum validation: resolved block=24339874
+[2026-10-13T09:21:01Z] deploy 8453 Base identity: resolved block=41663783
+[2026-10-13T09:21:01Z] deploy 8453 Base reputation: resolved block=41663784
+[2026-10-13T09:21:01Z] deploy 8453 Base validation: resolved block=41663785
+[2026-10-13T09:21:01Z] deploy 42161 Arbitrum One identity: unresolved_no_archive block=384761330
+[2026-10-13T09:21:01Z] deploy 42161 Arbitrum One reputation: unresolved_no_archive block=384761330
+[2026-10-13T09:21:01Z] deploy 42161 Arbitrum One validation: unresolved_no_archive block=384761330
+[2026-10-13T09:21:02Z] deploy 10 Optimism identity: resolved block=147514947
+[2026-10-13T09:21:02Z] deploy 10 Optimism reputation: resolved block=147514948
+[2026-10-13T09:21:02Z] deploy 10 Optimism validation: resolved block=147514949
+[2026-10-13T09:21:30Z] deploy 137 Polygon identity: resolved block=82458484
+[2026-10-13T09:21:30Z] deploy 137 Polygon reputation: resolved block=82458486
+[2026-10-13T09:21:30Z] deploy 137 Polygon validation: resolved block=82458489
+[2026-10-13T09:21:30Z] deploy 43114 Avalanche identity: resolved block=77389000
+[2026-10-13T09:21:30Z] deploy 43114 Avalanche reputation: resolved block=77389003
+[2026-10-13T09:21:30Z] deploy 43114 Avalanche validation: resolved block=77389011
+[2026-10-13T09:21:30Z] deploy 56 BSC identity: unresolved_no_archive block=63036986
+[2026-10-13T09:21:30Z] deploy 56 BSC reputation: unresolved_no_archive block=63036986
+[2026-10-13T09:21:30Z] deploy 56 BSC validation: unresolved_no_archive block=63036986
+[2026-10-13T09:21:33Z] deploy 143 Monad identity: resolved block=52952790
+[2026-10-13T09:21:33Z] deploy 143 Monad reputation: resolved block=52952794
+[2026-10-13T09:21:33Z] deploy 143 Monad validation: resolved block=52952798
+[2026-10-13T09:21:46Z] deploy 534352 Scroll identity: resolved block=29432417
+[2026-10-13T09:21:46Z] deploy 534352 Scroll reputation: resolved block=29432418
+[2026-10-13T09:21:46Z] deploy 534352 Scroll validation: resolved block=29432421
+[2026-10-13T09:21:53Z] deploy 100 Gnosis identity: resolved block=44505010
+[2026-10-13T09:21:58Z] deploy 100 Gnosis reputation: resolved block=44505016
+[2026-10-13T09:21:58Z] deploy 100 Gnosis validation: resolved block=44505017
+[2026-10-13T09:21:59Z] deploy 42220 Celo identity: resolved block=58396724
+[2026-10-13T09:21:59Z] deploy 42220 Celo reputation: resolved block=58396729
+[2026-10-13T09:22:01Z] deploy 42220 Celo validation: resolved block=58396736
+[2026-10-13T09:22:01Z] deploy 167000 Taiko identity: resolved block=4305747
+[2026-10-13T09:22:01Z] deploy 167000 Taiko reputation: resolved block=4305749
+[2026-10-13T09:22:01Z] deploy 167000 Taiko validation: resolved block=4305750
+[2026-10-13T09:22:16Z] deploy 59144 Linea identity: resolved block=28662553
+[2026-10-13T09:22:17Z] deploy 59144 Linea reputation: resolved block=28662554
+[2026-10-13T09:22:17Z] deploy 59144 Linea validation: resolved block=28662556
+[2026-10-13T09:22:19Z] deploy 4326 MegaETH identity: resolved block=7833805
+[2026-10-13T09:22:19Z] deploy 4326 MegaETH reputation: resolved block=7833806
+[2026-10-13T09:22:22Z] deploy 4326 MegaETH validation: resolved block=7833807
+[2026-10-13T09:22:22Z] deploy 2741 Abstract identity: resolved block=39596871
+[2026-10-13T09:22:23Z] deploy 2741 Abstract reputation: resolved block=39596875
+[2026-10-13T09:22:23Z] deploy 2741 Abstract validation: resolved block=39596878
+[2026-10-13T09:22:30Z] deploy 5000 Mantle identity: resolved block=91333846
+[2026-10-13T09:22:30Z] deploy 5000 Mantle reputation: resolved block=91333848
+[2026-10-13T09:22:31Z] deploy 5000 Mantle validation: resolved block=91333851
+[2026-10-13T09:22:40Z] deploy 1868 Soneium identity: resolved block=18879198
+[2026-10-13T09:22:41Z] deploy 1868 Soneium reputation: resolved block=18879201
+[2026-10-13T09:22:41Z] deploy 1868 Soneium validation: resolved block=18879204
+[2026-10-13T09:22:42Z] deploy 2345 GOAT Network identity: unresolved_no_archive block=6931867
+[2026-10-13T09:22:43Z] deploy 2345 GOAT Network reputation: unresolved_no_archive block=6931867
+[2026-10-13T09:22:47Z] deploy 2345 GOAT Network validation: unresolved_no_archive block=6931867
+[2026-10-13T09:22:49Z] deploy 1088 Metis identity: resolved block=22161525
+[2026-10-13T09:22:50Z] deploy 1088 Metis reputation: resolved block=22161527
+[2026-10-13T09:22:50Z] deploy 1088 Metis validation: resolved block=22161528
+[2026-10-13T09:22:50Z] deploy 295 Hedera identity: no_code_at_to_block block=None
+[2026-10-13T09:22:50Z] deploy 295 Hedera reputation: no_code_at_to_block block=None
+[2026-10-13T09:22:50Z] deploy 295 Hedera validation: no_code_at_to_block block=None
+[2026-10-13T09:22:52Z] deploy 1187947933 SKALE Base identity: code_present_at_search_floor block=1
+[2026-10-13T09:22:52Z] deploy 1187947933 SKALE Base reputation: code_present_at_search_floor block=1
+[2026-10-13T09:22:52Z] deploy 1187947933 SKALE Base validation: code_present_at_search_floor block=1
+[2026-10-13T09:23:07Z] deploy 360 Shape identity: resolved block=25649378
+[2026-10-13T09:23:08Z] deploy 360 Shape reputation: resolved block=25649379
+[2026-10-13T09:23:08Z] deploy 360 Shape validation: resolved block=25649381
+[2026-10-13T09:23:08Z] deploy 4663 Robinhood Chain identity: unresolved_no_archive block=1
+[2026-10-13T09:23:08Z] deploy 4663 Robinhood Chain reputation: unresolved_no_archive block=1
+[2026-10-13T09:23:08Z] deploy 4663 Robinhood Chain validation: unresolved_no_archive block=1
+[2026-10-13T09:23:08Z] deploy 1776 Injective identity: unresolved_no_floor block=None
+[2026-10-13T09:23:08Z] deploy 1776 Injective reputation: unresolved_no_floor block=None
+[2026-10-13T09:23:08Z] deploy 1776 Injective validation: unresolved_no_floor block=None
+[2026-10-13T09:23:23Z] deploy 16661 0G identity: resolved block=30941187
+[2026-10-13T09:23:23Z] deploy 16661 0G reputation: resolved block=30941196
+[2026-10-13T09:23:23Z] deploy 16661 0G validation: resolved block=30941213
+[2026-10-13T09:23:35Z] CONTROL chain=1           Ethereum      Registered         (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0
+[2026-10-13T09:23:35Z] CONTROL chain=1           Ethereum      NewFeedback        (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0
+[2026-10-13T09:23:35Z] CONTROL chain=1           Ethereum      ValidationRequest  (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0
+[2026-10-13T09:23:36Z] CONTROL chain=1           Ethereum      ValidationResponse (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0xafddf629e874.. over [24339874, 26182323] -> 0
+[2026-10-13T09:36:19Z] select 1 Ethereum: 3 endpoints ['https://mainnet.gateway.tenderly.co']
+[2026-10-13T09:36:19Z] select 8453 Base: 3 endpoints ['https://base-rpc.publicnode.com']
+[2026-10-13T09:36:19Z] select 42161 Arbitrum One: 2 endpoints ['https://arb1.arbitrum.io/rpc']
+[2026-10-13T09:36:19Z] select 10 Optimism: 3 endpoints ['https://optimism.gateway.tenderly.co']
+[2026-10-13T09:36:19Z] select 137 Polygon: 3 endpoints ['https://polygon.gateway.tenderly.co']
+[2026-10-13T09:36:19Z] select 43114 Avalanche: 3 endpoints ['https://api.avax.network/ext/bc/C/rpc']
+[2026-10-13T09:36:58Z] select 56 BSC: 1 endpoints ['https://bsc-rpc.publicnode.com']
+[2026-10-13T09:36:58Z] select 143 Monad: 2 endpoints ['https://rpc2.monad.xyz']
+[2026-10-13T09:36:58Z] select 534352 Scroll: 3 endpoints ['https://rpc.scroll.io']
+[2026-10-13T09:36:58Z] select 100 Gnosis: 3 endpoints ['https://rpc.gnosischain.com']
+[2026-10-13T09:36:58Z] select 42220 Celo: 2 endpoints ['https://forno.celo.org']
+[2026-10-13T09:36:58Z] select 167000 Taiko: 2 endpoints ['https://taiko-rpc.publicnode.com']
+[2026-10-13T09:36:58Z] select 59144 Linea: 2 endpoints ['https://rpc.linea.build']
+[2026-10-13T09:36:58Z] select 4326 MegaETH: 1 endpoints ['https://mainnet.megaeth.com/rpc']
+[2026-10-13T09:36:58Z] select 196 XLayer: 0 endpoints []
+[2026-10-13T09:36:58Z] select 2741 Abstract: 1 endpoints ['https://api.mainnet.abs.xyz']
+[2026-10-13T09:36:58Z] select 5000 Mantle: 2 endpoints ['https://mantle-rpc.publicnode.com']
+[2026-10-13T09:36:58Z] select 1868 Soneium: 1 endpoints ['https://rpc.soneium.org']
+[2026-10-13T09:36:58Z] select 2345 GOAT Network: 1 endpoints ['https://rpc.goat.network']
+[2026-10-13T09:36:58Z] select 1088 Metis: 2 endpoints ['https://andromeda.metis.io/?owner=1088']
+[2026-10-13T09:36:58Z] select 295 Hedera: 2 endpoints ['https://mainnet.hashio.io/api']
+[2026-10-13T09:36:58Z] select 1187947933 SKALE Base: 1 endpoints ['https://skale-base.skalenodes.com/v1/base']
+[2026-10-13T09:36:58Z] select 360 Shape: 1 endpoints ['https://mainnet.shape.network']
+[2026-10-13T09:36:58Z] select 4663 Robinhood Chain: 2 endpoints ['https://rpc.mainnet.chain.robinhood.com']
+[2026-10-13T09:36:58Z] select 45056 Billions: 0 endpoints []
+[2026-10-13T09:36:58Z] select 1776 Injective: 3 endpoints ['https://injective-evm-rpc.publicnode.com']
+[2026-10-13T09:36:58Z] select 16661 0G: 1 endpoints ['https://evmrpc.0g.ai']
+[2026-10-13T09:37:07Z] CONTROL chain=1           Ethereum      ValidationResponse (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0xafddf629e874.. over [24339874, 26182323] -> 0
+[2026-10-13T09:37:07Z] CONTROL chain=1           Ethereum      Registered         (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0
+[2026-10-13T09:37:07Z] CONTROL chain=1           Ethereum      ValidationRequest  (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0
+[2026-10-13T09:37:07Z] CONTROL chain=1           Ethereum      NewFeedback        (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0
+[2026-10-13T09:37:08Z] CONTROL chain=10          Optimism      NewFeedback        (a) pre-deploy [147314948, 147514947] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [147514948, 158141652] -> 0
+[2026-10-13T09:37:08Z] CONTROL chain=10          Optimism      ValidationRequest  (a) pre-deploy [147314949, 147514948] -> 0   (b) corrupted topic0 0x530436c3634a.. over [147514949, 158141652] -> 0
+[2026-10-13T09:37:09Z] CONTROL chain=137         Polygon       Registered         (a) pre-deploy [82258484, 82458483] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [82458484, 95451277] -> 0
+[2026-10-13T09:37:09Z] CONTROL chain=137         Polygon       NewFeedback        (a) pre-deploy [82258486, 82458485] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [82458486, 95451277] -> 0
+[2026-10-13T09:37:10Z] CONTROL chain=137         Polygon       ValidationResponse (a) pre-deploy [82258489, 82458488] -> 0   (b) corrupted topic0 0xafddf629e874.. over [82458489, 95451277] -> 0
+[2026-10-13T09:37:10Z] CONTROL chain=10          Optimism      ValidationResponse (a) pre-deploy [147314949, 147514948] -> 0   (b) corrupted topic0 0xafddf629e874.. over [147514949, 158141652] -> 0
+[2026-10-13T09:37:10Z] CONTROL chain=10          Optimism      Registered         (a) pre-deploy [147314947, 147514946] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [147514947, 158141652] -> 0
+[2026-10-13T09:37:11Z] CONTROL chain=137         Polygon       ValidationRequest  (a) pre-deploy [82258489, 82458488] -> 0   (b) corrupted topic0 0x530436c3634a.. over [82458489, 95451277] -> 0
+[2026-10-13T09:48:25Z] CONTROL chain=1           Ethereum      NewFeedback        (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0
+[2026-10-13T09:48:27Z] CONTROL chain=1           Ethereum      ValidationResponse (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0xafddf629e874.. over [24339874, 26182323] -> 0
+[2026-10-13T09:48:27Z] CONTROL chain=1           Ethereum      ValidationRequest  (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0
+[2026-10-13T09:48:27Z] CONTROL chain=1           Ethereum      Registered         (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0
+[2026-10-13T09:48:29Z] CONTROL chain=10          Optimism      ValidationResponse (a) pre-deploy [147314949, 147514948] -> 0   (b) corrupted topic0 0xafddf629e874.. over [147514949, 158141652] -> 0
+[2026-10-13T09:48:29Z] CONTROL chain=10          Optimism      Registered         (a) pre-deploy [147314947, 147514946] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [147514947, 158141652] -> 0
+[2026-10-13T09:48:31Z] CONTROL chain=10          Optimism      ValidationRequest  (a) pre-deploy [147314949, 147514948] -> 0   (b) corrupted topic0 0x530436c3634a.. over [147514949, 158141652] -> 0
+[2026-10-13T09:48:31Z] CONTROL chain=10          Optimism      NewFeedback        (a) pre-deploy [147314948, 147514947] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [147514948, 158141652] -> 0
+[2026-10-13T09:48:35Z] CONTROL chain=137         Polygon       Registered         (a) pre-deploy [82258484, 82458483] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [82458484, 95451277] -> 0
+[2026-10-13T09:48:35Z] CONTROL chain=137         Polygon       NewFeedback        (a) pre-deploy [82258486, 82458485] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [82458486, 95451277] -> 0
+[2026-10-13T09:48:36Z] CONTROL chain=137         Polygon       ValidationResponse (a) pre-deploy [82258489, 82458488] -> 0   (b) corrupted topic0 0xafddf629e874.. over [82458489, 95451277] -> 0
+[2026-10-13T09:48:38Z] CONTROL chain=137         Polygon       ValidationRequest  (a) pre-deploy [82258489, 82458488] -> 0   (b) corrupted topic0 0x530436c3634a.. over [82458489, 95451277] -> 0
+[2026-10-13T09:54:29Z] ranges 1 Ethereum: mainnet.gateway.tenderly.co=500000, rpc.mevblocker.io=50000, rpc.mevblocker.io=10000, rpc.mevblocker.io=10000
+[2026-10-13T09:54:29Z] ranges 8453 Base: base.gateway.tenderly.co=1000
+[2026-10-13T09:54:29Z] ranges 42161 Arbitrum One: arb1.arbitrum.io=500000
+[2026-10-13T09:54:29Z] ranges 10 Optimism: optimism.gateway.tenderly.co=500000
+[2026-10-13T09:54:29Z] ranges 137 Polygon: polygon.gateway.tenderly.co=500000, rpc-mainnet.matic.quiknode.pro=10000
+[2026-10-13T09:54:29Z] ranges 43114 Avalanche: api.avax.network=500000
+[2026-10-13T09:54:29Z] ranges 56 BSC: 
+[2026-10-13T09:54:29Z] ranges 143 Monad: rpc2.monad.xyz=10000, rpc3.monad.xyz=1000
+[2026-10-13T09:54:29Z] ranges 534352 Scroll: rpc.scroll.io=500000, scroll-rpc.publicnode.com=50000
+[2026-10-13T09:54:29Z] ranges 100 Gnosis: rpc.gnosischain.com=500000, rpc.gnosis.gateway.fm=500000, gnosis.oat.farm=10000, gnosis-rpc.publicnode.com=10000
+[2026-10-13T09:54:29Z] ranges 42220 Celo: forno.celo.org=5000
+[2026-10-13T09:54:29Z] ranges 167000 Taiko: taiko-rpc.publicnode.com=50000, rpc.mainnet.taiko.xyz=10000
+[2026-10-13T09:54:29Z] ranges 59144 Linea: rpc.linea.build=10000
+[2026-10-13T09:54:29Z] ranges 4326 MegaETH: mainnet.megaeth.com=500000
+[2026-10-13T09:54:29Z] ranges 2741 Abstract: api.mainnet.abs.xyz=500000
+[2026-10-13T09:54:29Z] ranges 5000 Mantle: mantle-rpc.publicnode.com=50000, rpc.mantle.xyz=10000
+[2026-10-13T09:54:29Z] ranges 1868 Soneium: rpc.soneium.org=100000
+[2026-10-13T09:54:29Z] ranges 2345 GOAT Network: rpc.goat.network=500000
+[2026-10-13T09:54:29Z] ranges 1088 Metis: andromeda.metis.io=500000, metis-rpc.publicnode.com=50000
+[2026-10-13T09:54:29Z] ranges 1187947933 SKALE Base: skale-base.skalenodes.com=2000
+[2026-10-13T09:54:29Z] ranges 360 Shape: mainnet.shape.network=50000
+[2026-10-13T09:54:29Z] ranges 4663 Robinhood Chain: rpc.mainnet.chain.robinhood.com=500000, robinhood-rpc.publicnode.com=1000
+[2026-10-13T09:54:29Z] ranges 16661 0G: evmrpc.0g.ai=100000
+[2026-10-13T09:55:14Z] ranges 8453 Base: base.gateway.tenderly.co=1000
+[2026-10-13T09:55:40Z] ranges 56 BSC: 
+[2026-10-13T09:55:40Z] ranges 143 Monad: rpc2.monad.xyz=10000, rpc3.monad.xyz=1000
+[2026-10-13T09:55:40Z] ranges 42220 Celo: forno.celo.org=5000
+[2026-10-13T10:00:33Z] CONTROL-ERROR ScanError: ctlA 8453 Registered single block 41658815 unfetchable: https://base.gateway.tenderly.co: HTTP 429
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] CONTROL-ERROR NameError: name 'Rpc' is not defined
+[2026-10-13T10:18:27Z] 0 control sets returned zero for (a)/(b); 69 errored (see controls.json)
+[2026-10-13T10:33:02Z] CONTROL chain=1           Ethereum      ValidationRequest+ValidationResponse   (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T10:35:35Z] CONTROL chain=1           Ethereum      NewFeedback                            (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0   (b') true topic0, same window -> 21337
+[2026-10-13T10:35:50Z] CONTROL chain=1           Ethereum      Registered                             (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0   (b') true topic0, same window -> 53903
+[2026-10-13T10:53:01Z]   progress ctlB 42161 ValidationRequest+ValidationResponse[406365012-427968693]: 92% (250 calls, 0 logs so far)
+[2026-10-13T10:53:02Z] CONTROL chain=1           Ethereum      ValidationRequest+ValidationResponse   (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T10:53:02Z]   progress ctlB 42161 ValidationRequest+ValidationResponse[427968694-449572375]: 92% (250 calls, 0 logs so far)
+[2026-10-13T10:53:03Z]   progress ctlB 42161 ValidationRequest+ValidationResponse[384761330-406365011]: 92% (250 calls, 0 logs so far)
+[2026-10-13T10:55:00Z] CONTROL chain=1           Ethereum      Registered                             (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0   (b') true topic0, same window -> 53903
+[2026-10-13T10:55:18Z] CONTROL chain=1           Ethereum      NewFeedback                            (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0   (b') true topic0, same window -> 21337
+[2026-10-13T10:56:13Z]   progress ctlB 42161 ValidationRequest+ValidationResponse[471176058-492779739]: 12% (250 calls, 0 logs so far)
+[2026-10-13T10:56:15Z]   progress ctlB 42161 Registered[449572376-471176057]: 12% (250 calls, 0 logs so far)
+[2026-10-13T10:56:15Z]   progress ctlB 42161 NewFeedback[427968694-449572375]: 12% (250 calls, 0 logs so far)
+[2026-10-13T10:57:05Z]   progress ctlB 43114 ValidationRequest+ValidationResponse[87410616-90751150]: 75% (250 calls, 0 logs so far)
+[2026-10-13T10:57:07Z]   progress ctlB 43114 ValidationRequest+ValidationResponse[90751151-94091685]: 75% (250 calls, 0 logs so far)
+[2026-10-13T10:57:08Z]   progress ctlB 43114 ValidationRequest+ValidationResponse[94091686-97432220]: 75% (250 calls, 0 logs so far)
+[2026-10-13T10:59:02Z]   progress ctlB 42161 Registered[406365012-427968693]: 10% (250 calls, 0 logs so far)
+[2026-10-13T10:59:04Z]   progress ctlB 42161 NewFeedback[384761330-406365011]: 10% (250 calls, 0 logs so far)
+[2026-10-13T10:59:18Z]   progress ctlB 42161 Registered[492779740-514383417]: 10% (250 calls, 0 logs so far)
+[2026-10-13T11:01:17Z] CONTROL chain=137         Polygon       ValidationRequest+ValidationResponse   (a) pre-deploy [82258489, 82458488] -> 0   (b) corrupted topic0 0x530436c3634a.. over [82458489, 94458489] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:02:05Z] CONTROL chain=137         Polygon       Registered                             (a) pre-deploy [82258484, 82458483] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [82458484, 94458484] [window] -> 0   (b') true topic0, same window -> 675
+[2026-10-13T11:02:21Z] CONTROL chain=10          Optimism      ValidationRequest+ValidationResponse   (a) pre-deploy [147314949, 147514948] -> 0   (b) corrupted topic0 0x530436c3634a.. over [147514949, 158141652] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:02:31Z] CONTROL chain=10          Optimism      NewFeedback                            (a) pre-deploy [147314948, 147514947] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [147514948, 158141652] -> 0   (b') true topic0, same window -> 340
+[2026-10-13T11:02:40Z] CONTROL chain=10          Optimism      Registered                             (a) pre-deploy [147314947, 147514946] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [147514947, 158141652] -> 0   (b') true topic0, same window -> 565
+[2026-10-13T11:02:43Z] CONTROL chain=137         Polygon       NewFeedback                            (a) pre-deploy [82258486, 82458485] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [82458486, 94458486] [window] -> 0   (b') true topic0, same window -> 500
+[2026-10-13T11:02:54Z] CONTROL chain=42161       Arbitrum One  NewFeedback                            (a) pre-deploy n/a -> None   (b) corrupted topic0 0x6a4a61743519.. over [384761330, 396761330] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:03:12Z] CONTROL chain=1           Ethereum      ValidationRequest+ValidationResponse   (a) pre-deploy [24139874, 24339873] -> 0   (b) corrupted topic0 0x530436c3634a.. over [24339874, 26182323] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:03:40Z] CONTROL chain=43114       Avalanche     ValidationRequest+ValidationResponse   (a) pre-deploy [77189011, 77389010] -> 0   (b) corrupted topic0 0x530436c3634a.. over [77389011, 89389011] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:03:45Z] CONTROL chain=1           Ethereum      NewFeedback                            (a) pre-deploy [24139873, 24339872] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [24339873, 26182323] -> 0   (b') true topic0, same window -> 21337
+[2026-10-13T11:03:51Z] CONTROL chain=42161       Arbitrum One  Registered                             (a) pre-deploy n/a -> None   (b) corrupted topic0 0xca52e62c367d.. over [384761330, 396761330] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:03:54Z] CONTROL-ERROR ScanError: ctlB 56 ValidationRequest+ValidationResponse[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403
+[2026-10-13T11:04:05Z] CONTROL-ERROR ScanError: ctlB 56 Registered[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403
+[2026-10-13T11:04:05Z] CONTROL-ERROR ScanError: ctlB 56 NewFeedback[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403
+[2026-10-13T11:04:08Z] CONTROL chain=1           Ethereum      Registered                             (a) pre-deploy [24139871, 24339870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [24339871, 26182323] -> 0   (b') true topic0, same window -> 53903
+[2026-10-13T11:04:30Z] CONTROL chain=42161       Arbitrum One  ValidationRequest+ValidationResponse   (a) pre-deploy n/a -> None   (b) corrupted topic0 0x530436c3634a.. over [384761330, 396761330] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:05:00Z] CONTROL chain=534352      Scroll        ValidationRequest+ValidationResponse   (a) pre-deploy [29232421, 29432420] -> 0   (b) corrupted topic0 0x530436c3634a.. over [29432421, 35358439] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:05:02Z] CONTROL chain=43114       Avalanche     NewFeedback                            (a) pre-deploy [77189003, 77389002] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [77389003, 89389003] [window] -> 0   (b') true topic0, same window -> 14374
+[2026-10-13T11:05:03Z] CONTROL chain=43114       Avalanche     Registered                             (a) pre-deploy [77189000, 77388999] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [77389000, 89389000] [window] -> 0   (b') true topic0, same window -> 1771
+[2026-10-13T11:05:03Z] CONTROL chain=100         Gnosis        ValidationRequest+ValidationResponse   (a) pre-deploy [44305017, 44505016] -> 0   (b) corrupted topic0 0x530436c3634a.. over [44505017, 48732735] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:05:05Z] CONTROL chain=534352      Scroll        Registered                             (a) pre-deploy [29232417, 29432416] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [29432417, 35358439] -> 0   (b') true topic0, same window -> 108
+[2026-10-13T11:05:13Z] CONTROL chain=534352      Scroll        NewFeedback                            (a) pre-deploy [29232418, 29432417] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [29432418, 35358439] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:05:36Z] CONTROL chain=100         Gnosis        NewFeedback                            (a) pre-deploy [44305016, 44505015] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [44505016, 48732735] -> 0   (b') true topic0, same window -> 4341
+[2026-10-13T11:05:38Z] CONTROL chain=100         Gnosis        Registered                             (a) pre-deploy [44305010, 44505009] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [44505010, 48732735] -> 0   (b') true topic0, same window -> 4159
+[2026-10-13T11:07:26Z] CONTROL chain=167000      Taiko         Registered                             (a) pre-deploy [4105747, 4305746] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [4305747, 12619470] -> 0   (b') true topic0, same window -> 94
+[2026-10-13T11:08:29Z] CONTROL chain=167000      Taiko         ValidationRequest+ValidationResponse   (a) pre-deploy [4105750, 4305749] -> 0   (b) corrupted topic0 0x530436c3634a.. over [4305750, 12619470] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:08:30Z] CONTROL chain=167000      Taiko         NewFeedback                            (a) pre-deploy [4105749, 4305748] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [4305749, 12619470] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:09:42Z] CONTROL chain=4326        MegaETH       Registered                             (a) pre-deploy [7633805, 7833804] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [7833805, 19833805] [window] -> 0   (b') true topic0, same window -> 12727
+[2026-10-13T11:10:24Z] CONTROL chain=4326        MegaETH       ValidationRequest+ValidationResponse   (a) pre-deploy [7633807, 7833806] -> 0   (b) corrupted topic0 0x530436c3634a.. over [7833807, 19833807] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:10:52Z] CONTROL chain=4326        MegaETH       NewFeedback                            (a) pre-deploy [7633806, 7833805] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [7833806, 19833806] [window] -> 0   (b') true topic0, same window -> 23
+[2026-10-13T11:10:54Z] CONTROL chain=2741        Abstract      ValidationRequest+ValidationResponse   (a) pre-deploy [39396878, 39596877] -> 0   (b) corrupted topic0 0x530436c3634a.. over [39596878, 51596878] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:11:51Z] CONTROL chain=2741        Abstract      NewFeedback                            (a) pre-deploy [39396875, 39596874] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [39596875, 51596875] [window] -> 0   (b') true topic0, same window -> 131
+[2026-10-13T11:12:03Z] CONTROL chain=2741        Abstract      Registered                             (a) pre-deploy [39396871, 39596870] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [39596871, 51596871] [window] -> 0   (b') true topic0, same window -> 713
+[2026-10-13T11:12:51Z] CONTROL chain=143         Monad         ValidationRequest+ValidationResponse   (a) pre-deploy [52752798, 52952797] -> 0   (b) corrupted topic0 0x530436c3634a.. over [52952798, 58952798] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:13:32Z] CONTROL chain=59144       Linea         ValidationRequest+ValidationResponse   (a) pre-deploy [28462556, 28662555] -> 0   (b) corrupted topic0 0x530436c3634a.. over [28662556, 32310196] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:13:56Z] CONTROL chain=59144       Linea         Registered                             (a) pre-deploy [28462553, 28662552] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [28662553, 32310196] -> 0   (b') true topic0, same window -> 115
+[2026-10-13T11:17:05Z] CONTROL chain=59144       Linea         NewFeedback                            (a) pre-deploy [28462554, 28662553] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [28662554, 32310196] -> 0   (b') true topic0, same window -> 31
+[2026-10-13T11:17:25Z] CONTROL chain=1868        Soneium       ValidationRequest+ValidationResponse   (a) pre-deploy [18679204, 18879203] -> 0   (b) corrupted topic0 0x530436c3634a.. over [18879204, 29373675] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:17:45Z] CONTROL chain=1868        Soneium       Registered                             (a) pre-deploy [18679198, 18879197] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [18879198, 29373675] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:19:01Z] CONTROL chain=2345        GOAT Network  ValidationRequest+ValidationResponse   (a) pre-deploy n/a -> None   (b) corrupted topic0 0x530436c3634a.. over [6931867, 16054619] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:19:07Z] CONTROL chain=1868        Soneium       NewFeedback                            (a) pre-deploy [18679201, 18879200] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [18879201, 29373675] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:19:14Z] CONTROL chain=8453        Base          ValidationRequest+ValidationResponse   (a) pre-deploy [41463785, 41663784] -> 0   (b) corrupted topic0 0x530436c3634a.. over [41663785, 42263785] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:19:31Z] CONTROL chain=1088        Metis         ValidationRequest+ValidationResponse   (a) pre-deploy [21961528, 22161527] -> 0   (b) corrupted topic0 0x530436c3634a.. over [22161528, 23271915] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:19:35Z] CONTROL chain=2345        GOAT Network  Registered                             (a) pre-deploy n/a -> None   (b) corrupted topic0 0xca52e62c367d.. over [6931867, 16054619] -> 0   (b') true topic0, same window -> 88
+[2026-10-13T11:19:36Z] CONTROL chain=143         Monad         Registered                             (a) pre-deploy [52752790, 52952789] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [52952790, 58952790] [window] -> 0   (b') true topic0, same window -> 8359
+[2026-10-13T11:19:46Z] CONTROL chain=1088        Metis         Registered                             (a) pre-deploy [21961525, 22161524] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [22161525, 23271915] -> 0   (b') true topic0, same window -> 138
+[2026-10-13T11:19:52Z] CONTROL chain=2345        GOAT Network  NewFeedback                            (a) pre-deploy n/a -> None   (b) corrupted topic0 0x6a4a61743519.. over [6931867, 16054619] -> 0   (b') true topic0, same window -> 1
+[2026-10-13T11:19:55Z] CONTROL chain=1088        Metis         NewFeedback                            (a) pre-deploy [21961527, 22161526] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [22161527, 23271915] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:20:02Z] CONTROL chain=8453        Base          NewFeedback                            (a) pre-deploy [41463784, 41663783] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [41663784, 42263784] [window] -> 0   (b') true topic0, same window -> 12677
+[2026-10-13T11:21:09Z] CONTROL chain=8453        Base          Registered                             (a) pre-deploy [41463783, 41663782] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [41663783, 42263783] [window] -> 0   (b') true topic0, same window -> 17956
+[2026-10-13T11:21:22Z] CONTROL chain=143         Monad         NewFeedback                            (a) pre-deploy [52752794, 52952793] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [52952794, 58952794] [window] -> 0   (b') true topic0, same window -> 9009
+[2026-10-13T11:21:53Z] CONTROL chain=42220       Celo          NewFeedback                            (a) pre-deploy [58196729, 58396728] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [58396729, 61396729] [window] -> 0   (b') true topic0, same window -> 1190
+[2026-10-13T11:22:05Z] CONTROL chain=4663        Robinhood Chain Registered                             (a) pre-deploy n/a -> None   (b) corrupted topic0 0xca52e62c367d.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:22:10Z] CONTROL chain=42220       Celo          Registered                             (a) pre-deploy [58196724, 58396723] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [58396724, 61396724] [window] -> 0   (b') true topic0, same window -> 1082
+[2026-10-13T11:22:10Z] CONTROL chain=42220       Celo          ValidationRequest+ValidationResponse   (a) pre-deploy [58196736, 58396735] -> 0   (b) corrupted topic0 0x530436c3634a.. over [58396736, 61396736] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:22:57Z] CONTROL chain=4663        Robinhood Chain NewFeedback                            (a) pre-deploy n/a -> None   (b) corrupted topic0 0x6a4a61743519.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:23:13Z] CONTROL chain=4663        Robinhood Chain ValidationRequest+ValidationResponse   (a) pre-deploy n/a -> None   (b) corrupted topic0 0x530436c3634a.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:25:32Z] CONTROL chain=16661       0G            ValidationRequest+ValidationResponse   (a) pre-deploy [30741213, 30941212] -> 0   (b) corrupted topic0 0x530436c3634a.. over [30941213, 42941213] [window] -> 0   (b') true topic0, same window -> 28
+[2026-10-13T11:27:19Z] CONTROL chain=16661       0G            NewFeedback                            (a) pre-deploy [30741196, 30941195] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [30941196, 42941196] [window] -> 0   (b') true topic0, same window -> 10
+[2026-10-13T11:28:19Z] CONTROL chain=5000        Mantle        NewFeedback                            (a) pre-deploy [91133848, 91333847] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [91333848, 101875890] -> 0   (b') true topic0, same window -> 1699
+[2026-10-13T11:28:24Z] CONTROL chain=5000        Mantle        ValidationRequest+ValidationResponse   (a) pre-deploy [91133851, 91333850] -> 0   (b) corrupted topic0 0x530436c3634a.. over [91333851, 101875890] -> 0   (b') true topic0, same window -> 10
+[2026-10-13T11:29:09Z] CONTROL chain=5000        Mantle        Registered                             (a) pre-deploy [91133846, 91333845] -> 0   (b) corrupted topic0 0xca52e62c367d.. over [91333846, 101875890] -> 0   (b') true topic0, same window -> 144
+[2026-10-13T11:51:42Z] CONTROL chain=4663        Robinhood Chain NewFeedback                            (a) pre-deploy n/a -> None   (b) corrupted topic0 0x6a4a61743519.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:51:55Z] CONTROL chain=4663        Robinhood Chain Registered                             (a) pre-deploy n/a -> None   (b) corrupted topic0 0xca52e62c367d.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:52:45Z] CONTROL chain=4663        Robinhood Chain ValidationRequest+ValidationResponse   (a) pre-deploy n/a -> None   (b) corrupted topic0 0x530436c3634a.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:54:04Z] CONTROL chain=16661       0G            ValidationRequest+ValidationResponse   (a) pre-deploy [30741213, 30941212] -> 0   (b) corrupted topic0 0x530436c3634a.. over [30941213, 42941213] [window] -> 0   (b') true topic0, same window -> 28
+[2026-10-13T11:54:18Z] CONTROL chain=16661       0G            NewFeedback                            (a) pre-deploy [30741196, 30941195] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [30941196, 42941196] [window] -> 0   (b') true topic0, same window -> 10
+[2026-10-13T12:01:48Z] CONTROL-INCOMPLETE chain=16661 0G Registered: time budget hit; (a)=0 (b)=0 (b')=433016 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:03:57Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base Registered: time budget hit; (a)=None (b)=0 (b')=208 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:06:59Z] CONTROL-INCOMPLETE chain=360 Shape ValidationRequest+ValidationResponse: time budget hit; (a)=0 (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:09:48Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base NewFeedback: time budget hit; (a)=None (b)=0 (b')=6082 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:09:52Z] CONTROL-INCOMPLETE chain=360 Shape NewFeedback: time budget hit; (a)=0 (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:09Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base ValidationRequest+ValidationResponse: time budget hit; (a)=None (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:51Z] CONTROL-INCOMPLETE chain=360 Shape Registered: time budget hit; (a)=0 (b)=0 (b')=1904 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:51Z] 5 control sets returned zero for (a)/(b); 7 incomplete (budget); 0 errored (see controls.json)
+[2026-10-13T12:11:06Z] controls merged: 61 sets passed to the record, 0 non-zero, 3 errors, 7 incomplete
+[2026-10-13T12:11:14Z] count 1 Ethereum      ValidationRequest  complete count=0 validators=0 blocks=24339874-26182323
+[2026-10-13T12:11:14Z] count 1 Ethereum      ValidationResponse complete count=0 validators=0 blocks=24339874-26182323
+[2026-10-13T12:11:16Z] count 100 Gnosis        ValidationRequest  complete count=0 validators=0 blocks=44505017-48732735
+[2026-10-13T12:11:16Z] count 100 Gnosis        ValidationResponse complete count=0 validators=0 blocks=44505017-48732735
+[2026-10-13T12:11:18Z] count 534352 Scroll        ValidationRequest  complete count=0 validators=0 blocks=29432421-35358439
+[2026-10-13T12:11:18Z] count 534352 Scroll        ValidationResponse complete count=0 validators=0 blocks=29432421-35358439
+[2026-10-13T12:11:19Z] count 10 Optimism      ValidationRequest  complete count=0 validators=0 blocks=147514949-158141652
+[2026-10-13T12:11:19Z] count 10 Optimism      ValidationResponse complete count=0 validators=0 blocks=147514949-158141652
+[2026-10-13T12:11:20Z] count 137 Polygon       ValidationRequest  complete count=0 validators=0 blocks=82458489-95451277
+[2026-10-13T12:11:20Z] count 137 Polygon       ValidationResponse complete count=0 validators=0 blocks=82458489-95451277
+[2026-10-13T12:11:24Z] count 56 BSC           ValidationRequest  INCOMPLETE count=None validators=None blocks=63036986-127376079
+[2026-10-13T12:11:24Z] count 56 BSC           ValidationResponse INCOMPLETE count=None validators=None blocks=63036986-127376079
+[2026-10-13T12:11:28Z] count 4326 MegaETH       ValidationRequest  complete count=0 validators=0 blocks=7833807-29085340
+[2026-10-13T12:11:28Z] count 4326 MegaETH       ValidationResponse complete count=0 validators=0 blocks=7833807-29085340
+[2026-10-13T12:11:28Z] count 1088 Metis         ValidationRequest  complete count=0 validators=0 blocks=22161528-23271915
+[2026-10-13T12:11:28Z] count 1088 Metis         ValidationResponse complete count=0 validators=0 blocks=22161528-23271915
+[2026-10-13T12:11:28Z] count 43114 Avalanche     ValidationRequest  complete count=0 validators=0 blocks=77389011-97432220
+[2026-10-13T12:11:28Z] count 43114 Avalanche     ValidationResponse complete count=0 validators=0 blocks=77389011-97432220
+[2026-10-13T12:11:37Z] count 2345 GOAT Network  ValidationRequest  complete count=0 validators=0 blocks=6931867-16054619
+[2026-10-13T12:11:37Z] count 2345 GOAT Network  ValidationResponse complete count=0 validators=0 blocks=6931867-16054619
+[2026-10-13T12:11:48Z] count 1868 Soneium       ValidationRequest  INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T12:11:48Z] count 1868 Soneium       ValidationResponse INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T12:11:50Z] count 167000 Taiko         ValidationRequest  complete count=0 validators=0 blocks=4305750-12619470
+[2026-10-13T12:11:50Z] count 167000 Taiko         ValidationResponse complete count=0 validators=0 blocks=4305750-12619470
+[2026-10-13T12:12:31Z] count 16661 0G            ValidationRequest  complete count=14 validators=1 blocks=30941213-47005936
+[2026-10-13T12:12:31Z] count 16661 0G            ValidationResponse complete count=14 validators=1 blocks=30941213-47005936
+[2026-10-13T12:12:54Z] count 2741 Abstract      ValidationRequest  complete count=0 validators=0 blocks=39596878-87535983
+[2026-10-13T12:12:54Z] count 2741 Abstract      ValidationResponse complete count=0 validators=0 blocks=39596878-87535983
+[2026-10-13T12:13:16Z] count 59144 Linea         ValidationRequest  complete count=0 validators=0 blocks=28662556-32310196
+[2026-10-13T12:13:16Z] count 59144 Linea         ValidationResponse complete count=0 validators=0 blocks=28662556-32310196
+[2026-10-13T12:13:30Z] count 5000 Mantle        ValidationRequest  complete count=10 validators=2 blocks=91333851-101875890
+[2026-10-13T12:13:30Z] count 5000 Mantle        ValidationResponse complete count=0 validators=0 blocks=91333851-101875890
+[2026-10-13T12:14:00Z] count 10 Optimism      Registered         complete count=565 blocks=147514947-158141652
+[2026-10-13T12:14:33Z] count 10 Optimism      NewFeedback        complete count=340 blocks=147514948-158141652
+[2026-10-13T12:14:44Z] count 1 Ethereum      Registered         complete count=53903 blocks=24339871-26182323
+[2026-10-13T12:14:57Z] count 1 Ethereum      NewFeedback        complete count=21337 blocks=24339873-26182323
+[2026-10-13T12:15:05Z]   progress 8453 validation[41663785-43477548]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:05Z]   progress 8453 validation[43477549-45291312]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:06Z]   progress 8453 validation[45291313-47105076]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:15:11Z] count 137 Polygon       Registered         complete count=686 blocks=82458484-95451277
+[2026-10-13T12:15:11Z] count 137 Polygon       NewFeedback        complete count=632 blocks=82458486-95451277
+[2026-10-13T12:15:15Z] count 43114 Avalanche     Registered         complete count=1845 blocks=77389000-97432220
+[2026-10-13T12:15:18Z]   progress 143 validation[72968940-82977010]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:18Z]   progress 143 validation[62960869-72968939]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:20Z]   progress 143 validation[52952798-62960868]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:15:23Z]   progress 42220 validation[58396736-61994211]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:15:23Z]   progress 42220 validation[65591688-69189163]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:15:24Z]   progress 42220 validation[61994212-65591687]: 35% (250 calls, 38 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[406365012-427968693]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[427968694-449572375]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:15:54Z]   progress 42161 validation[384761330-406365011]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:16:01Z] count 56 BSC           Registered         INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:16:01Z] count 56 BSC           NewFeedback        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:16:25Z] count 43114 Avalanche     NewFeedback        complete count=14624 blocks=77389003-97432220
+[2026-10-13T12:16:34Z] count 534352 Scroll        Registered         complete count=108 blocks=29432417-35358439
+[2026-10-13T12:16:43Z] count 534352 Scroll        NewFeedback        complete count=0 blocks=29432418-35358439
+[2026-10-13T12:17:03Z]   progress 1187947933 validation[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:04Z]   progress 1187947933 validation[512157-1024312]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:04Z]   progress 1187947933 validation[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:17:15Z] count 100 Gnosis        Registered         complete count=4159 blocks=44505010-48732735
+[2026-10-13T12:17:35Z] count 100 Gnosis        NewFeedback        complete count=4341 blocks=44505016-48732735
+[2026-10-13T12:17:51Z] count 360 Shape         ValidationRequest  complete count=0 validators=0 blocks=25649381-35068820
+[2026-10-13T12:17:51Z] count 360 Shape         ValidationResponse complete count=0 validators=0 blocks=25649381-35068820
+[2026-10-13T12:17:57Z]   progress 8453 validation[50732605-52546365]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:18:06Z]   progress 8453 validation[43477549-45291312]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:18:08Z] count 4663 Robinhood Chain ValidationRequest  complete count=0 validators=0 blocks=1-87395843
+[2026-10-13T12:18:08Z] count 4663 Robinhood Chain ValidationResponse complete count=0 validators=0 blocks=1-87395843
+[2026-10-13T12:18:19Z]   progress 143 validation[102993153-113001219]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:19Z]   progress 143 validation[92985082-102993152]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:22Z]   progress 143 validation[82977011-92985081]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:18:36Z]   progress 42220 validation[76384116-79981588]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:38Z]   progress 42220 validation[69189164-72786639]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:39Z]   progress 42220 validation[72786640-76384115]: 35% (250 calls, 0 logs so far)
+[2026-10-13T12:18:47Z] count 167000 Taiko         Registered         complete count=94 blocks=4305747-12619470
+[2026-10-13T12:19:06Z]   progress 8453 NewFeedback[43477548-45291311]: 14% (250 calls, 9642 logs so far)
+[2026-10-13T12:19:12Z]   progress 42161 validation[471176058-492779739]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:19:28Z] count 167000 Taiko         NewFeedback        complete count=0 blocks=4305749-12619470
+[2026-10-13T12:20:25Z]   progress 42161 validation[449572376-471176057]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:20:25Z]   progress 42161 validation[492779740-514383417]: 92% (250 calls, 0 logs so far)
+[2026-10-13T12:20:38Z]   progress 8453 validation[48918841-50732604]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:20:58Z] count 59144 Linea         Registered         complete count=115 blocks=28662553-32310196
+[2026-10-13T12:21:20Z] count 42161 Arbitrum One  ValidationRequest  complete count=0 validators=0 blocks=384761330-514383417
+[2026-10-13T12:21:20Z] count 42161 Arbitrum One  ValidationResponse complete count=0 validators=0 blocks=384761330-514383417
+[2026-10-13T12:21:21Z]   progress 143 Registered[72968934-82977005]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:21:22Z]   progress 1187947933 validation[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:22Z]   progress 1187947933 validation[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:24Z]   progress 143 Registered[62960862-72968933]: 25% (250 calls, 2 logs so far)
+[2026-10-13T12:21:24Z]   progress 1187947933 validation[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:21:41Z]   progress 42220 Registered[69189158-72786635]: 35% (250 calls, 190 logs so far)
+[2026-10-13T12:21:43Z] count 1187947933 SKALE Base    ValidationRequest  complete count=0 validators=0 blocks=1-3072934
+[2026-10-13T12:21:43Z] count 1187947933 SKALE Base    ValidationResponse complete count=0 validators=0 blocks=1-3072934
+[2026-10-13T12:21:49Z]   progress 42220 validation[69189164-72786639]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:22:01Z]   progress 143 Registered[82977006-92985077]: 25% (250 calls, 1296 logs so far)
+[2026-10-13T12:22:12Z]   progress 42220 NewFeedback[61994206-65591682]: 35% (250 calls, 5073 logs so far)
+[2026-10-13T12:22:19Z] count 4326 MegaETH       Registered         complete count=12727 blocks=7833805-29085340
+[2026-10-13T12:22:19Z] count 4326 MegaETH       NewFeedback        complete count=23 blocks=7833806-29085340
+[2026-10-13T12:22:19Z] count 42161 Arbitrum One  NewFeedback        complete count=1055 blocks=384761330-514383417
+[2026-10-13T12:22:39Z] count 42161 Arbitrum One  Registered         complete count=1623 blocks=384761330-514383417
+[2026-10-13T12:22:41Z] count 59144 Linea         NewFeedback        complete count=31 blocks=28662554-32310196
+[2026-10-13T12:22:56Z]   progress 8453 validation[47105077-48918840]: 14% (250 calls, 0 logs so far)
+[2026-10-13T12:23:09Z] count 1868 Soneium       Registered         INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T12:23:11Z] count 2741 Abstract      NewFeedback        complete count=296 blocks=39596875-87535983
+[2026-10-13T12:23:30Z] count 2345 GOAT Network  Registered         complete count=88 blocks=6931867-16054619
+[2026-10-13T12:23:35Z]   progress 8453 Registered[50732603-52546365]: 14% (250 calls, 1067 logs so far)
+[2026-10-13T12:23:36Z] count 1868 Soneium       NewFeedback        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T12:23:46Z] count 1088 Metis         Registered         complete count=138 blocks=22161525-23271915
+[2026-10-13T12:23:47Z] count 2741 Abstract      Registered         complete count=16918 blocks=39596871-87535983
+[2026-10-13T12:23:51Z] count 2345 GOAT Network  NewFeedback        complete count=1 blocks=6931867-16054619
+[2026-10-13T12:23:55Z] count 1088 Metis         NewFeedback        complete count=0 blocks=22161527-23271915
+[2026-10-13T12:24:36Z]   progress 42220 Registered[72786636-76384113]: 35% (250 calls, 25 logs so far)
+[2026-10-13T12:24:39Z]   progress 8453 NewFeedback[41663784-43477547]: 14% (250 calls, 7812 logs so far)
+[2026-10-13T12:24:49Z]   progress 143 NewFeedback[72968936-82977006]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:24:49Z]   progress 42220 Registered[69189158-72786635]: 69% (500 calls, 232 logs so far)
+[2026-10-13T12:25:10Z]   progress 42220 Registered[58396724-61994201]: 35% (250 calls, 108 logs so far)
+[2026-10-13T12:25:38Z]   progress 143 validation[82977011-92985081]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:25:59Z]   progress 8453 validation[41663785-43477548]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:26:44Z]   progress 143 validation[72968940-82977010]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:27:02Z] count 5000 Mantle        Registered         complete count=144 blocks=91333846-101875890
+[2026-10-13T12:27:23Z] count 5000 Mantle        NewFeedback        complete count=1699 blocks=91333848-101875890
+[2026-10-13T12:28:00Z]   progress 8453 NewFeedback[50732604-52546365]: 14% (250 calls, 7460 logs so far)
+[2026-10-13T12:28:13Z]   progress 42220 NewFeedback[61994206-65591682]: 69% (500 calls, 5412 logs so far)
+[2026-10-13T12:28:24Z] count 4663 Robinhood Chain Registered         complete count=8784 blocks=1-87395843
+[2026-10-13T12:28:29Z]   progress 42220 Registered[76384114-79981588]: 35% (250 calls, 25 logs so far)
+[2026-10-13T12:28:37Z]   progress 1187947933 Registered[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:28:39Z]   progress 1187947933 Registered[512157-1024312]: 98% (250 calls, 90 logs so far)
+[2026-10-13T12:28:44Z]   progress 1187947933 Registered[1024313-1536468]: 98% (250 calls, 744 logs so far)
+[2026-10-13T12:28:45Z]   progress 42220 validation[72786640-76384115]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:29:20Z] count 4663 Robinhood Chain NewFeedback        complete count=702 blocks=1-87395843
+[2026-10-13T12:29:42Z]   progress 143 NewFeedback[102993149-113001219]: 25% (250 calls, 7 logs so far)
+[2026-10-13T12:30:56Z]   progress 143 NewFeedback[82977007-92985077]: 25% (250 calls, 0 logs so far)
+[2026-10-13T12:32:18Z]   progress 143 Registered[92985078-102993149]: 25% (250 calls, 23 logs so far)
+[2026-10-13T12:32:19Z]   progress 8453 NewFeedback[45291312-47105075]: 14% (250 calls, 172 logs so far)
+[2026-10-13T12:33:25Z]   progress 42220 NewFeedback[72786637-76384113]: 35% (250 calls, 63 logs so far)
+[2026-10-13T12:33:54Z] count 360 Shape         Registered         complete count=2098 blocks=25649378-35068820
+[2026-10-13T12:34:00Z]   progress 42220 validation[76384116-79981588]: 69% (500 calls, 0 logs so far)
+[2026-10-13T12:34:03Z]   progress 8453 Registered[47105075-48918838]: 14% (250 calls, 669 logs so far)
+[2026-10-13T12:34:20Z]   progress 8453 Registered[41663783-43477546]: 14% (250 calls, 14452 logs so far)
+[2026-10-13T12:34:25Z]   progress 42220 Registered[65591680-69189157]: 35% (250 calls, 7 logs so far)
+[2026-10-13T12:35:46Z]   progress 1187947933 Registered[2048625-2560780]: 98% (250 calls, 219 logs so far)
+[2026-10-13T12:35:54Z]   progress 1187947933 NewFeedback[2560781-3072934]: 98% (250 calls, 88 logs so far)
+[2026-10-13T12:36:02Z] count 16661 0G            NewFeedback        complete count=20 blocks=30941196-47005936
+[2026-10-13T12:36:22Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339871-26182323
+[2026-10-13T12:36:34Z]   progress 143 Registered[62960862-72968933]: 50% (500 calls, 3 logs so far)
+[2026-10-13T12:36:42Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339873-26182323
+[2026-10-13T12:36:59Z] count 1 Ethereum      Initialized        complete count=2 blocks=24339874-26182323
+[2026-10-13T12:37:14Z]   progress 143 NewFeedback[102993149-113001219]: 50% (500 calls, 7 logs so far)
+[2026-10-13T12:37:41Z] count 360 Shape         NewFeedback        complete count=0 blocks=25649379-35068820
+[2026-10-13T12:37:57Z]   progress 1187947933 NewFeedback[1024313-1536468]: 98% (250 calls, 7378 logs so far)
+[2026-10-13T12:38:16Z]   progress 8453 NewFeedback[50732604-52546365]: 28% (500 calls, 16505 logs so far)
+[2026-10-13T12:38:49Z]   progress 143 validation[72968940-82977010]: 75% (750 calls, 0 logs so far)
+[2026-10-13T12:39:47Z]   progress 8453 validation[43477549-45291312]: 41% (750 calls, 0 logs so far)
+[2026-10-13T12:39:56Z]   progress 42220 validation[61994212-65591687]: 69% (500 calls, 38 logs so far)
+[2026-10-13T12:40:18Z]   progress 42220 NewFeedback[69189160-72786636]: 35% (250 calls, 3531 logs so far)
+[2026-10-13T12:40:41Z]   progress 42220 Registered[65591680-69189157]: 69% (500 calls, 106 logs so far)
+[2026-10-13T12:40:46Z]   progress 8453 NewFeedback[41663784-43477547]: 28% (500 calls, 12044 logs so far)
+[2026-10-13T12:42:53Z]   progress 143 NewFeedback[52952794-62960864]: 25% (250 calls, 379 logs so far)
+[2026-10-13T12:43:20Z]   progress 143 validation[52952798-62960868]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:44:02Z]   progress 1187947933 NewFeedback[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:44:31Z]   progress 8453 Registered[50732603-52546365]: 28% (500 calls, 2512 logs so far)
+[2026-10-13T12:45:07Z]   progress 143 validation[102993153-113001219]: 50% (500 calls, 2 logs so far)
+[2026-10-13T12:45:12Z]   progress 8453 validation[47105077-48918840]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:45:41Z]   progress 1187947933 NewFeedback[1536469-2048624]: 98% (250 calls, 1597 logs so far)
+[2026-10-13T12:45:57Z]   progress 1187947933 NewFeedback[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T12:45:58Z]   progress 8453 validation[50732605-52546365]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:46:51Z]   progress 42220 NewFeedback[76384114-79981588]: 35% (250 calls, 169 logs so far)
+[2026-10-13T12:47:07Z]   progress 42220 Registered[72786636-76384113]: 69% (500 calls, 37 logs so far)
+[2026-10-13T12:49:09Z]   progress 143 validation[92985082-102993152]: 50% (500 calls, 0 logs so far)
+[2026-10-13T12:49:35Z]   progress 143 Registered[82977006-92985077]: 50% (500 calls, 1364 logs so far)
+[2026-10-13T12:50:28Z]   progress 8453 validation[48918841-50732604]: 28% (500 calls, 0 logs so far)
+[2026-10-13T12:51:06Z]   progress 143 validation[82977011-92985081]: 75% (750 calls, 0 logs so far)
+[2026-10-13T12:51:53Z]   progress 1187947933 Registered[2560781-3072934]: 98% (250 calls, 94 logs so far)
+[2026-10-13T12:53:06Z]   progress 42220 NewFeedback[65591683-69189159]: 35% (250 calls, 54 logs so far)
+[2026-10-13T12:53:55Z]   progress 1187947933 Registered[1536469-2048624]: 98% (250 calls, 981 logs so far)
+[2026-10-13T12:54:05Z] count 1187947933 SKALE Base    Registered         complete count=2226 blocks=1-3072934
+[2026-10-13T12:54:07Z]   progress 1187947933 NewFeedback[512157-1024312]: 98% (250 calls, 63 logs so far)
+[2026-10-13T12:54:31Z] count 1187947933 SKALE Base    NewFeedback        complete count=10068 blocks=1-3072934
+[2026-10-13T12:54:34Z]   progress 42220 Registered[61994202-65591679]: 35% (250 calls, 2408 logs so far)
+[2026-10-13T12:55:08Z]   progress 143 Registered[62960862-72968933]: 75% (750 calls, 6 logs so far)
+[2026-10-13T12:55:32Z]   progress 143 NewFeedback[62960865-72968935]: 25% (250 calls, 29 logs so far)
+[2026-10-13T12:56:11Z] count 143 Monad         ValidationRequest  INCOMPLETE_BUDGET count=1 validators=1 blocks=52952798-113001219
+[2026-10-13T12:56:11Z] count 143 Monad         ValidationResponse INCOMPLETE_BUDGET count=1 validators=1 blocks=52952798-113001219
+[2026-10-13T12:56:13Z] count 143 Monad         NewFeedback        INCOMPLETE_BUDGET count=415 blocks=52952794-113001219
+[2026-10-13T12:56:13Z] count 143 Monad         Registered         INCOMPLETE_BUDGET count=1402 blocks=52952790-113001219
+[2026-10-13T12:56:40Z] count 10 Optimism      Initialized        complete count=2 blocks=147514947-158141652
+[2026-10-13T12:57:00Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T12:57:07Z] count 10 Optimism      Initialized        complete count=2 blocks=147514948-158141652
+[2026-10-13T12:57:25Z]   progress 42220 NewFeedback[76384114-79981588]: 69% (500 calls, 327 logs so far)
+[2026-10-13T12:57:27Z] count 10 Optimism      Initialized        complete count=2 blocks=147514949-158141652
+[2026-10-13T12:57:29Z] count 137 Polygon       Initialized        complete count=2 blocks=82458484-94458484
+[2026-10-13T12:57:55Z] count 42220 Celo          ValidationRequest  INCOMPLETE_BUDGET count=21 validators=21 blocks=58396736-79981588
+[2026-10-13T12:57:55Z] count 42220 Celo          ValidationResponse INCOMPLETE_BUDGET count=17 validators=17 blocks=58396736-79981588
+[2026-10-13T12:57:56Z] count 42220 Celo          NewFeedback        INCOMPLETE_BUDGET count=10455 blocks=58396729-79981588
+[2026-10-13T12:57:57Z] count 42220 Celo          Registered         INCOMPLETE_BUDGET count=2969 blocks=58396724-79981588
+[2026-10-13T12:58:12Z] count 137 Polygon       Initialized        complete count=2 blocks=82458486-94458486
+[2026-10-13T12:59:07Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T12:59:49Z] count 137 Polygon       Initialized        complete count=2 blocks=82458489-94458489
+[2026-10-13T12:59:51Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T13:00:22Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389000-89389000
+[2026-10-13T13:00:24Z] count 8453 Base          ValidationRequest  INCOMPLETE_BUDGET count=0 validators=0 blocks=41663785-52546365
+[2026-10-13T13:00:24Z] count 8453 Base          ValidationResponse INCOMPLETE_BUDGET count=0 validators=0 blocks=41663785-52546365
+[2026-10-13T13:00:41Z] count 56 BSC           Initialized        INCOMPLETE count=None blocks=63036986-127376079
+[2026-10-13T13:01:05Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432417-35358439
+[2026-10-13T13:01:07Z]   progress 16661 Registered[44328482-47005936]: 93% (250 calls, 247849 logs so far)
+[2026-10-13T13:01:18Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389003-89389003
+[2026-10-13T13:01:33Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432418-35358439
+[2026-10-13T13:01:35Z] count 43114 Avalanche     Initialized        complete count=2 blocks=77389011-89389011
+[2026-10-13T13:01:56Z] count 8453 Base          NewFeedback        INCOMPLETE_BUDGET count=66342 blocks=41663784-52546365
+[2026-10-13T13:01:58Z] count 8453 Base          Registered         INCOMPLETE_BUDGET count=17704 blocks=41663783-52546365
+[2026-10-13T13:02:01Z] count 534352 Scroll        Initialized        complete count=2 blocks=29432421-35358439
+[2026-10-13T13:02:41Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505017-48732735
+[2026-10-13T13:02:51Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T13:02:58Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505010-48732735
+[2026-10-13T13:02:59Z] count 100 Gnosis        Initialized        complete count=2 blocks=44505016-48732735
+[2026-10-13T13:03:28Z] count 8453 Base          Initialized        complete count=2 blocks=41663783-42263783
+[2026-10-13T13:03:55Z] count 8453 Base          Initialized        complete count=2 blocks=41663785-42263785
+[2026-10-13T13:04:40Z] count 42161 Arbitrum One  Initialized        complete count=2 blocks=384761330-514383417
+[2026-10-13T13:05:05Z] count 8453 Base          Initialized        complete count=2 blocks=41663784-42263784
+[2026-10-13T13:05:31Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833805-19833805
+[2026-10-13T13:05:55Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305747-12619470
+[2026-10-13T13:05:55Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833806-19833806
+[2026-10-13T13:06:17Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596871-51596871
+[2026-10-13T13:06:22Z] count 4326 MegaETH       Initialized        complete count=2 blocks=7833807-19833807
+[2026-10-13T13:06:29Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305749-12619470
+[2026-10-13T13:06:30Z] count 167000 Taiko         Initialized        complete count=2 blocks=4305750-12619470
+[2026-10-13T13:06:45Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596878-51596878
+[2026-10-13T13:06:52Z] count 2741 Abstract      Initialized        complete count=2 blocks=39596875-51596875
+[2026-10-13T13:07:35Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T13:08:17Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T13:08:58Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879204-29373675
+[2026-10-13T13:09:26Z] count 16661 0G            Registered         INCOMPLETE_BUDGET count=1609162 blocks=30941187-47005936
+[2026-10-13T13:09:28Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:09:42Z] count 59144 Linea         Initialized        complete count=2 blocks=28662553-32310196
+[2026-10-13T13:09:48Z] count 1088 Metis         Initialized        complete count=2 blocks=22161525-23271915
+[2026-10-13T13:09:51Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:09:54Z] count 1088 Metis         Initialized        complete count=2 blocks=22161527-23271915
+[2026-10-13T13:09:59Z] count 2345 GOAT Network  Initialized        complete count=2 blocks=6931867-16054619
+[2026-10-13T13:10:00Z] count 143 Monad         Initialized        complete count=2 blocks=52952794-58952794
+[2026-10-13T13:10:01Z] count 1088 Metis         Initialized        complete count=2 blocks=22161528-23271915
+[2026-10-13T13:10:21Z] count 59144 Linea         Initialized        complete count=2 blocks=28662556-32310196
+[2026-10-13T13:10:22Z] count 59144 Linea         Initialized        complete count=2 blocks=28662554-32310196
+[2026-10-13T13:10:44Z] count 42220 Celo          Initialized        complete count=0 blocks=58396736-61396736
+[2026-10-13T13:10:55Z] count 143 Monad         Initialized        complete count=2 blocks=52952790-58952790
+[2026-10-13T13:10:55Z] count 143 Monad         Initialized        complete count=2 blocks=52952798-58952798
+[2026-10-13T13:11:36Z] count 42220 Celo          Initialized        complete count=0 blocks=58396729-61396729
+[2026-10-13T13:11:37Z] count 42220 Celo          Initialized        complete count=2 blocks=58396724-61396724
+[2026-10-13T13:12:03Z] count 16661 0G            Initialized        complete count=2 blocks=30941187-42941187
+[2026-10-13T13:12:21Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:39Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:39Z] count 4663 Robinhood Chain Initialized        complete count=2 blocks=1-87395843
+[2026-10-13T13:12:42Z] count 16661 0G            Initialized        complete count=2 blocks=30941213-42941213
+[2026-10-13T13:12:51Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333851-101875890
+[2026-10-13T13:12:54Z] count 16661 0G            Initialized        complete count=2 blocks=30941196-42941196
+[2026-10-13T13:13:16Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:13:17Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:13:17Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:13:46Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333846-101875890
+[2026-10-13T13:14:42Z] count 5000 Mantle        Initialized        complete count=2 blocks=91333848-101875890
+[2026-10-13T13:15:43Z] count 360 Shape         Initialized        complete count=2 blocks=25649378-35068820
+[2026-10-13T13:16:40Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:16:41Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:16:43Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:18:42Z] count 360 Shape         Initialized        complete count=2 blocks=25649381-35068820
+[2026-10-13T13:18:43Z] count 360 Shape         Initialized        complete count=2 blocks=25649379-35068820
+[2026-10-13T13:20:03Z]   progress 1187947933 Initialized[1024313-1536468]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:20:05Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:20:09Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:31Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:32Z]   progress 1187947933 Initialized[1-512156]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:23:34Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:04Z]   progress 1187947933 Initialized[1536469-2048624]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:13Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:27:16Z]   progress 1187947933 Initialized[2560781-3072934]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:33Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:42Z]   progress 1187947933 Initialized[512157-1024312]: 98% (250 calls, 2 logs so far)
+[2026-10-13T13:30:45Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934
+[2026-10-13T13:30:47Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934
+[2026-10-13T13:30:49Z]   progress 1187947933 Initialized[2048625-2560780]: 98% (250 calls, 0 logs so far)
+[2026-10-13T13:30:55Z] count 1187947933 SKALE Base    Initialized        complete count=2 blocks=1-3072934
+[2026-10-13T13:31:03Z] finish 143 Monad Registered: 6 uncovered range(s), 40,468,430 blocks
+[2026-10-13T13:31:15Z] finish 143 Monad Registered: 6 uncovered range(s), 40,468,430 blocks
+[2026-10-13T13:31:15Z] finish 143 Monad ValidationRequest: 6 uncovered range(s), 27,488,422 blocks
+[2026-10-13T13:32:52Z] finish 143 Monad ValidationRequest: 6 uncovered range(s), 27,488,422 blocks
+[2026-10-13T13:32:52Z] finish 8453 Base ValidationRequest: 6 uncovered range(s), 7,601,581 blocks
+[2026-10-13T13:35:05Z] count 1868 Soneium       NewFeedback        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T13:35:09Z] count 1868 Soneium       Registered         INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T13:35:10Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879204-29373675
+[2026-10-13T13:35:11Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879198-29373675
+[2026-10-13T13:35:11Z] count 1868 Soneium       Initialized        INCOMPLETE count=None blocks=18879201-29373675
+[2026-10-13T13:35:12Z] count 1868 Soneium       ValidationRequest  INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T13:35:12Z] count 1868 Soneium       ValidationResponse INCOMPLETE count=None validators=None blocks=18879204-29373675
+[2026-10-13T13:35:17Z] replicate 1 validation over 24339800-25601554: req=0 resp=0
+[2026-10-13T13:36:36Z] replicate 1 Registered over 24339800-25601554: 36778
+[2026-10-13T13:36:54Z] replicate 1 NewFeedback over 24339800-25601554: 3203
+[2026-10-13T13:43:55Z] finish 143 Monad ValidationRequest: now status=complete
+[2026-10-13T13:43:55Z] finish 42220 Celo ValidationRequest: 6 uncovered range(s), 8,244,853 blocks
+[2026-10-13T13:47:49Z] finish 143 Monad Registered: now status=complete
+[2026-10-13T13:47:49Z] finish 143 Monad NewFeedback: 6 uncovered range(s), 44,398,426 blocks
+[2026-10-13T13:49:37Z] finish 42220 Celo ValidationRequest: now status=complete
+[2026-10-13T13:56:36Z] finish 8453 Base ValidationRequest: now status=complete
+[2026-10-13T13:57:37Z] finish 8453 Base Registered: 6 uncovered range(s), 9,844,583 blocks
+[2026-10-13T13:59:51Z]   progress finish 8453 Registered[42175244-42435704]: 96% (250 calls, 1034 logs so far)
+[2026-10-13T13:59:52Z]   progress finish 8453 Registered[41914783-42175243]: 96% (250 calls, 3091 logs so far)
+[2026-10-13T14:01:20Z]   progress finish 8453 Registered[42435705-42696165]: 96% (250 calls, 2242 logs so far)
+[2026-10-13T14:01:58Z]   progress finish 8453 Registered[43217088-43477546]: 96% (250 calls, 3202 logs so far)
+[2026-10-13T14:02:18Z]   progress finish 8453 Registered[42956627-43217087]: 96% (250 calls, 3968 logs so far)
+[2026-10-13T14:02:23Z] finish 143 Monad NewFeedback: now status=complete
+[2026-10-13T14:02:23Z] finish 16661 0G Registered: 2 uncovered range(s), 3,066,168 blocks
+[2026-10-13T14:04:02Z]   progress finish 8453 Registered[42696166-42956626]: 96% (250 calls, 4178 logs so far)
+[2026-10-13T14:09:31Z]   progress finish 8453 Registered[44082803-44384930]: 83% (250 calls, 700 logs so far)
+[2026-10-13T14:09:41Z]   progress finish 8453 Registered[43780675-44082802]: 83% (250 calls, 1634 logs so far)
+[2026-10-13T14:09:51Z]   progress finish 8453 Registered[43478547-43780674]: 83% (250 calls, 3173 logs so far)
+[2026-10-13T14:15:35Z]   progress finish 8453 Registered[44989187-45291310]: 83% (250 calls, 483 logs so far)
+[2026-10-13T14:17:03Z]   progress finish 8453 Registered[44687059-44989186]: 83% (250 calls, 563 logs so far)
+[2026-10-13T14:18:31Z]   progress finish 8453 Registered[44384931-44687058]: 83% (250 calls, 5514 logs so far)
+[2026-10-13T14:25:08Z]   progress finish 8453 Registered[45324311-45621104]: 84% (250 calls, 748 logs so far)
+[2026-10-13T14:25:14Z]   progress finish 8453 Registered[45621105-45917898]: 84% (250 calls, 1179 logs so far)
+[2026-10-13T14:25:19Z]   progress finish 8453 Registered[45917899-46214692]: 84% (250 calls, 690 logs so far)
+[2026-10-13T14:31:22Z]   progress finish 8453 Registered[46808281-47105074]: 84% (250 calls, 530 logs so far)
+[2026-10-13T14:31:51Z]   progress finish 8453 Registered[46214693-46511486]: 84% (250 calls, 1714 logs so far)
+[2026-10-13T14:34:21Z]   progress finish 8453 Registered[46511487-46808280]: 84% (250 calls, 573 logs so far)
+[2026-10-13T14:41:45Z]   progress finish 8453 Registered[47876997-48137457]: 96% (250 calls, 950 logs so far)
+[2026-10-13T14:41:47Z]   progress finish 8453 Registered[47356075-47616535]: 96% (250 calls, 381 logs so far)
+[2026-10-13T14:41:50Z]   progress finish 8453 Registered[47616536-47876996]: 96% (250 calls, 1217 logs so far)
+[2026-10-13T14:47:09Z]   progress finish 8453 Registered[48397919-48658379]: 96% (250 calls, 370 logs so far)
+[2026-10-13T14:47:10Z]   progress finish 8453 Registered[48137458-48397918]: 96% (250 calls, 494 logs so far)
+[2026-10-13T14:47:44Z]   progress finish 8453 Registered[48658380-48918838]: 96% (250 calls, 440 logs so far)
+[2026-10-13T14:54:25Z]   progress finish 8453 Registered[48919839-49221966]: 83% (250 calls, 435 logs so far)
+[2026-10-13T14:54:31Z]   progress finish 8453 Registered[49524095-49826222]: 83% (250 calls, 719 logs so far)
+[2026-10-13T14:57:33Z] finish 16661 0G Registered: now status=complete
+[2026-10-13T14:57:33Z] finish 42220 Celo Registered: 5 uncovered range(s), 8,587,387 blocks
+[2026-10-13T14:57:39Z]   progress finish 8453 Registered[50430479-50732602]: 83% (250 calls, 5309 logs so far)
+[2026-10-13T14:59:13Z]   progress finish 8453 Registered[50128351-50430478]: 83% (250 calls, 3897 logs so far)
+[2026-10-13T14:59:14Z]   progress finish 8453 Registered[49826223-50128350]: 83% (250 calls, 2378 logs so far)
+[2026-10-13T15:00:46Z]   progress finish 8453 Registered[49221967-49524094]: 83% (250 calls, 479 logs so far)
+[2026-10-13T15:04:33Z] finish 42220 Celo Registered: now status=complete
+[2026-10-13T15:04:33Z] finish 42220 Celo NewFeedback: 6 uncovered range(s), 11,734,860 blocks
+[2026-10-13T15:06:01Z] finish 8453 Base Registered: now status=complete
+[2026-10-13T15:06:01Z] finish 8453 Base NewFeedback: 6 uncovered range(s), 9,072,582 blocks
+[2026-10-13T15:14:20Z] finish 42220 Celo NewFeedback: now status=complete
+[2026-10-13T15:15:50Z]   progress finish 8453 NewFeedback[44254804-44513931]: 96% (250 calls, 6379 logs so far)
+[2026-10-13T15:16:40Z]   progress finish 8453 NewFeedback[44773060-45032187]: 96% (250 calls, 1611 logs so far)
+[2026-10-13T15:17:26Z]   progress finish 8453 NewFeedback[43736548-43995675]: 96% (250 calls, 24573 logs so far)
+[2026-10-13T15:18:47Z]   progress finish 8453 NewFeedback[45032188-45291311]: 96% (250 calls, 12134 logs so far)
+[2026-10-13T15:18:57Z]   progress finish 8453 NewFeedback[43995676-44254803]: 96% (250 calls, 15238 logs so far)
+[2026-10-13T15:19:32Z]   progress finish 8453 NewFeedback[44513932-44773059]: 96% (250 calls, 8561 logs so far)
+[2026-10-13T15:22:14Z]   progress finish 8453 NewFeedback[45542312-45802772]: 96% (250 calls, 496 logs so far)
+[2026-10-13T15:22:22Z]   progress finish 8453 NewFeedback[45802773-46063233]: 96% (250 calls, 1280 logs so far)
+[2026-10-13T15:26:10Z]   progress finish 8453 NewFeedback[46844617-47105075]: 96% (250 calls, 30527 logs so far)
+[2026-10-13T15:26:20Z]   progress finish 8453 NewFeedback[46323695-46584155]: 96% (250 calls, 14766 logs so far)
+[2026-10-13T15:26:31Z]   progress finish 8453 NewFeedback[46584156-46844616]: 96% (250 calls, 29267 logs so far)
+[2026-10-13T15:28:21Z]   progress finish 8453 NewFeedback[46063234-46323694]: 96% (250 calls, 3544 logs so far)
+[2026-10-13T15:34:13Z]   progress finish 8453 NewFeedback[47200076-47486536]: 87% (250 calls, 29860 logs so far)
+[2026-10-13T15:35:39Z]   progress finish 8453 NewFeedback[48632381-48918839]: 87% (250 calls, 28805 logs so far)
+[2026-10-13T15:35:56Z]   progress finish 8453 NewFeedback[48059459-48345919]: 87% (250 calls, 14129 logs so far)
+[2026-10-13T15:38:48Z]   progress finish 8453 NewFeedback[48345920-48632380]: 87% (250 calls, 16648 logs so far)
+[2026-10-13T15:40:25Z]   progress finish 8453 NewFeedback[47486537-47772997]: 87% (250 calls, 36713 logs so far)
+[2026-10-13T15:40:54Z]   progress finish 8453 NewFeedback[47772998-48059458]: 87% (250 calls, 42419 logs so far)
+[2026-10-13T15:45:01Z]   progress finish 8453 NewFeedback[49927223-50195683]: 93% (250 calls, 1252 logs so far)
+[2026-10-13T15:46:15Z]   progress finish 8453 NewFeedback[50464145-50732603]: 93% (250 calls, 1861 logs so far)
+[2026-10-13T15:46:21Z]   progress finish 8453 NewFeedback[49658762-49927222]: 93% (250 calls, 7948 logs so far)
+[2026-10-13T15:47:12Z]   progress finish 8453 NewFeedback[49121840-49390300]: 93% (250 calls, 8715 logs so far)
+[2026-10-13T15:47:14Z]   progress finish 8453 NewFeedback[50195684-50464144]: 93% (250 calls, 2000 logs so far)
+[2026-10-13T15:47:32Z]   progress finish 8453 NewFeedback[49390301-49658761]: 93% (250 calls, 12646 logs so far)
+[2026-10-13T15:55:31Z] finish 8453 Base NewFeedback: now status=complete
+[2026-10-13T17:16:23Z]   progress repl 8453 validation[43172975-44342216]: 21% (250 calls, 6 logs so far)
+[2026-10-13T17:18:28Z]   progress repl 8453 validation[46680701-47849942]: 21% (250 calls, 0 logs so far)
+[2026-10-13T17:18:29Z]   progress repl 8453 validation[47849943-49019181]: 21% (250 calls, 0 logs so far)
+[2026-10-13T17:22:50Z]   progress repl 8453 validation[44342217-45511458]: 21% (250 calls, 0 logs so far)
+[2026-10-13T17:24:23Z]   progress repl 8453 validation[42003733-43172974]: 21% (250 calls, 0 logs so far)
+[2026-10-13T17:24:51Z]   progress repl 8453 validation[47849943-49019181]: 43% (500 calls, 0 logs so far)
+[2026-10-13T17:24:58Z]   progress union0 42220[65591688-69189163]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:24:59Z]   progress union0 42220[58396736-61994211]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:25:00Z]   progress union0 42220[61994212-65591687]: 35% (250 calls, 38 logs so far)
+[2026-10-13T17:25:03Z]   progress repl 8453 validation[44342217-45511458]: 43% (500 calls, 0 logs so far)
+[2026-10-13T17:25:55Z]   progress repl 8453 validation[45511459-46680700]: 21% (250 calls, 0 logs so far)
+[2026-10-13T17:27:12Z]   progress repl 8453 validation[47849943-49019181]: 64% (750 calls, 0 logs so far)
+[2026-10-13T17:27:21Z]   progress union0 42220[76384116-79981588]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:27:24Z]   progress union0 42220[72786640-76384115]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:27:25Z]   progress union0 42220[69189164-72786639]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:27:28Z]   progress repl 8453 validation[43172975-44342216]: 43% (500 calls, 6 logs so far)
+[2026-10-13T17:28:49Z]   progress repl 8453 validation[46680701-47849942]: 43% (500 calls, 0 logs so far)
+[2026-10-13T17:28:57Z]   progress repl 8453 validation[44342217-45511458]: 64% (750 calls, 0 logs so far)
+[2026-10-13T17:29:36Z]   progress union0 42220[58396736-61994211]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:29:37Z]   progress union0 42220[61994212-65591687]: 69% (500 calls, 38 logs so far)
+[2026-10-13T17:29:37Z]   progress repl 8453 validation[42003733-43172974]: 43% (500 calls, 0 logs so far)
+[2026-10-13T17:29:48Z]   progress union0 42220[65591688-69189163]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:31:08Z]   progress repl 8453 validation[43172975-44342216]: 64% (750 calls, 6 logs so far)
+[2026-10-13T17:31:41Z]   progress repl 8453 validation[44342217-45511458]: 86% (1000 calls, 0 logs so far)
+[2026-10-13T17:31:52Z]   progress repl 8453 validation[45511459-46680700]: 43% (500 calls, 0 logs so far)
+[2026-10-13T17:31:55Z]   progress union0 42220[76384116-79981588]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:31:55Z]   progress union0 42220[72786640-76384115]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:32:47Z]   progress repl 8453 validation[47849943-49019181]: 86% (1000 calls, 0 logs so far)
+[2026-10-13T17:33:43Z]   progress repl 8453 validation[42003733-43172974]: 64% (750 calls, 0 logs so far)
+[2026-10-13T17:34:17Z]   progress repl 8453 validation[45511459-46680700]: 64% (750 calls, 0 logs so far)
+[2026-10-13T17:34:20Z]   progress union0 42220[69189164-72786639]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:34:41Z]   progress repl 8453 validation[43172975-44342216]: 86% (1000 calls, 6 logs so far)
+[2026-10-13T17:36:23Z] union 42220 pass 1: this pass saw 38 logs, union=38, incomplete=False
+[2026-10-13T17:36:25Z]   progress repl 8453 validation[46680701-47849942]: 64% (750 calls, 0 logs so far)
+[2026-10-13T17:36:39Z]   progress repl 8453 validation[42003733-43172974]: 86% (1000 calls, 0 logs so far)
+[2026-10-13T17:37:08Z]   progress repl 8453 validation[45511459-46680700]: 86% (1000 calls, 0 logs so far)
+[2026-10-13T17:38:24Z]   progress repl 8453 validation[46680701-47849942]: 86% (1000 calls, 0 logs so far)
+[2026-10-13T17:38:35Z]   progress union1 42220[61994212-65591687]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:38:35Z]   progress union1 42220[65591688-69189163]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:38:35Z]   progress union1 42220[58396736-61994211]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:39:37Z] replicate 8453 validation over 42003733-49019181: req=12 resp=7
+[2026-10-13T17:41:15Z]   progress union1 42220[69189164-72786639]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:41:16Z]   progress union1 42220[76384116-79981588]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:41:16Z]   progress union1 42220[72786640-76384115]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:42:18Z]   progress repl 8453 Registered[44342217-45511458]: 21% (250 calls, 5518 logs so far)
+[2026-10-13T17:43:15Z]   progress repl 8453 Registered[42003733-43172974]: 21% (250 calls, 1186 logs so far)
+[2026-10-13T17:43:27Z]   progress union1 42220[58396736-61994211]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:43:28Z]   progress union1 42220[61994212-65591687]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:43:42Z]   progress union1 42220[65591688-69189163]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:44:03Z]   progress repl 8453 Registered[46680701-47849942]: 21% (250 calls, 669 logs so far)
+[2026-10-13T17:44:31Z]   progress repl 8453 Registered[47849943-49019181]: 21% (250 calls, 973 logs so far)
+[2026-10-13T17:44:41Z]   progress repl 8453 Registered[43172975-44342216]: 21% (250 calls, 3468 logs so far)
+[2026-10-13T17:44:58Z]   progress repl 8453 Registered[44342217-45511458]: 43% (500 calls, 6094 logs so far)
+[2026-10-13T17:45:43Z]   progress union1 42220[76384116-79981588]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:45:46Z]   progress union1 42220[72786640-76384115]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:46:06Z]   progress repl 8453 Registered[45511459-46680700]: 21% (250 calls, 724 logs so far)
+[2026-10-13T17:46:07Z]   progress union1 42220[69189164-72786639]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:47:50Z]   progress repl 8453 Registered[42003733-43172974]: 43% (500 calls, 2250 logs so far)
+[2026-10-13T17:48:21Z]   progress repl 8453 Registered[46680701-47849942]: 43% (500 calls, 1112 logs so far)
+[2026-10-13T17:48:46Z]   progress repl 8453 Registered[43172975-44342216]: 43% (500 calls, 6652 logs so far)
+[2026-10-13T17:48:47Z]   progress repl 8453 Registered[44342217-45511458]: 64% (750 calls, 6518 logs so far)
+[2026-10-13T17:50:03Z] union 42220 pass 2: this pass saw 0 logs, union=38, incomplete=False
+[2026-10-13T17:50:18Z]   progress repl 8453 Registered[47849943-49019181]: 43% (500 calls, 1480 logs so far)
+[2026-10-13T17:51:10Z]   progress repl 8453 Registered[45511459-46680700]: 43% (500 calls, 4582 logs so far)
+[2026-10-13T17:51:59Z]   progress repl 8453 Registered[44342217-45511458]: 86% (1000 calls, 7042 logs so far)
+[2026-10-13T17:52:28Z]   progress repl 8453 Registered[42003733-43172974]: 64% (750 calls, 4820 logs so far)
+[2026-10-13T17:52:32Z]   progress union2 42220[61994212-65591687]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:52:33Z]   progress union2 42220[65591688-69189163]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:52:35Z]   progress union2 42220[58396736-61994211]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:53:14Z]   progress repl 8453 Registered[43172975-44342216]: 64% (750 calls, 8783 logs so far)
+[2026-10-13T17:54:08Z]   progress repl 8453 Registered[47849943-49019181]: 64% (750 calls, 1867 logs so far)
+[2026-10-13T17:54:43Z]   progress repl 8453 Registered[45511459-46680700]: 64% (750 calls, 5345 logs so far)
+[2026-10-13T17:54:49Z]   progress repl 8453 Registered[46680701-47849942]: 64% (750 calls, 1701 logs so far)
+[2026-10-13T17:55:00Z]   progress union2 42220[76384116-79981588]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:55:01Z]   progress union2 42220[69189164-72786639]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:55:07Z]   progress union2 42220[61994212-65591687]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:55:29Z]   progress repl 8453 Registered[43172975-44342216]: 86% (1000 calls, 9750 logs so far)
+[2026-10-13T17:57:21Z]   progress repl 8453 Registered[45511459-46680700]: 86% (1000 calls, 7082 logs so far)
+[2026-10-13T17:57:33Z]   progress union2 42220[58396736-61994211]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:57:38Z]   progress repl 8453 Registered[46680701-47849942]: 86% (1000 calls, 2171 logs so far)
+[2026-10-13T17:57:39Z]   progress union2 42220[65591688-69189163]: 69% (500 calls, 0 logs so far)
+[2026-10-13T17:57:45Z]   progress union2 42220[72786640-76384115]: 35% (250 calls, 0 logs so far)
+[2026-10-13T17:59:32Z]   progress repl 8453 Registered[47849943-49019181]: 86% (1000 calls, 2281 logs so far)
+[2026-10-13T17:59:44Z]   progress repl 8453 Registered[42003733-43172974]: 86% (1000 calls, 8954 logs so far)
+[2026-10-13T17:59:47Z]   progress union2 42220[76384116-79981588]: 69% (500 calls, 0 logs so far)
+[2026-10-13T18:00:05Z]   progress union2 42220[69189164-72786639]: 69% (500 calls, 0 logs so far)
+[2026-10-13T18:01:36Z] replicate 8453 Registered over 42003733-49019181: 42949
+[2026-10-13T18:02:00Z]   progress union2 42220[72786640-76384115]: 69% (500 calls, 0 logs so far)
+[2026-10-13T18:04:27Z] union 42220 pass 3: this pass saw 0 logs, union=38, incomplete=False
+[2026-10-13T18:04:42Z]   progress repl 8453 NewFeedback[44342217-45511458]: 21% (250 calls, 6587 logs so far)
+[2026-10-13T18:06:18Z]   progress repl 8453 NewFeedback[42003733-43172974]: 21% (250 calls, 1462 logs so far)
+[2026-10-13T18:06:51Z]   progress repl 8453 NewFeedback[45511459-46680700]: 21% (250 calls, 508 logs so far)
+[2026-10-13T18:07:02Z]   progress repl 8453 NewFeedback[43172975-44342216]: 21% (250 calls, 6880 logs so far)
+[2026-10-13T18:07:39Z]   progress repl 8453 NewFeedback[46680701-47849942]: 21% (250 calls, 31042 logs so far)
+[2026-10-13T18:09:18Z]   progress repl 8453 NewFeedback[42003733-43172974]: 43% (500 calls, 3124 logs so far)
+[2026-10-13T18:09:19Z]   progress repl 8453 NewFeedback[44342217-45511458]: 43% (500 calls, 13831 logs so far)
+[2026-10-13T18:11:38Z]   progress repl 8453 NewFeedback[43172975-44342216]: 43% (500 calls, 14224 logs so far)
+[2026-10-13T18:14:14Z]   progress repl 8453 NewFeedback[45511459-46680700]: 43% (500 calls, 1531 logs so far)
+[2026-10-13T18:16:34Z]   progress repl 8453 NewFeedback[42003733-43172974]: 64% (750 calls, 12508 logs so far)
+[2026-10-13T18:16:52Z]   progress repl 8453 NewFeedback[46680701-47849942]: 43% (500 calls, 59854 logs so far)
+[2026-10-13T18:17:10Z]   progress repl 8453 NewFeedback[47849943-49019181]: 21% (250 calls, 36309 logs so far)
+[2026-10-13T18:18:53Z]   progress repl 8453 NewFeedback[44342217-45511458]: 64% (750 calls, 13976 logs so far)
+[2026-10-13T18:19:18Z]   progress repl 8453 NewFeedback[45511459-46680700]: 64% (750 calls, 4561 logs so far)
+[2026-10-13T18:22:34Z]   progress repl 8453 NewFeedback[46680701-47849942]: 64% (750 calls, 90648 logs so far)
+[2026-10-13T18:22:53Z]   progress repl 8453 NewFeedback[42003733-43172974]: 86% (1000 calls, 21313 logs so far)
+[2026-10-13T18:24:38Z]   progress repl 8453 NewFeedback[47849943-49019181]: 43% (500 calls, 50928 logs so far)
+[2026-10-13T18:24:59Z]   progress repl 8453 NewFeedback[43172975-44342216]: 64% (750 calls, 43395 logs so far)
+[2026-10-13T18:26:24Z]   progress repl 8453 NewFeedback[45511459-46680700]: 86% (1000 calls, 14186 logs so far)
+[2026-10-13T18:29:04Z]   progress repl 8453 NewFeedback[47849943-49019181]: 64% (750 calls, 67543 logs so far)
+[2026-10-13T18:31:51Z]   progress repl 8453 NewFeedback[46680701-47849942]: 86% (1000 calls, 124552 logs so far)
+[2026-10-13T18:33:20Z]   progress repl 8453 NewFeedback[43172975-44342216]: 86% (1000 calls, 58419 logs so far)
+[2026-10-13T18:34:49Z]   progress repl 8453 NewFeedback[47849943-49019181]: 86% (1000 calls, 93686 logs so far)
+[2026-10-13T18:36:38Z]   progress repl 8453 NewFeedback[44342217-45511458]: 86% (1000 calls, 26112 logs so far)
+[2026-10-13T18:38:30Z] replicate 8453 NewFeedback over 42003733-49019181: 404811

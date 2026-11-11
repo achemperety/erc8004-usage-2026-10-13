@@ -1,0 +1,63 @@
+{
+ "chainId": 1187947933,
+ "chain": "SKALE Base",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 1,
+ "from_block_source": "code_present_at_search_floor",
+ "to_block": 3072934,
+ "to_block_utc": "2026-10-13T08:27:15Z",
+ "rpc_endpoints_configured": [
+  "https://skale-base.skalenodes.com/v1/base"
+ ],
+ "status": "complete",
+ "scanned_to_block": 3072934,
+ "count": 2226,
+ "first_block": 835769,
+ "last_block": 3067330,
+ "chunks": 1542,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 2000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 1817.3,
+ "segments": 6,
+ "by_topic": {
+  "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 2226
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   1,
+   512156
+  ],
+  [
+   512157,
+   1024312
+  ],
+  [
+   1024313,
+   1536468
+  ],
+  [
+   1536469,
+   2048624
+  ],
+  [
+   2048625,
+   2560780
+  ],
+  [
+   2560781,
+   3072934
+  ]
+ ],
+ "scanned_from": 1,
+ "rpc_endpoints_used": {
+  "https://skale-base.skalenodes.com/v1/base": 1542
+ }
+}

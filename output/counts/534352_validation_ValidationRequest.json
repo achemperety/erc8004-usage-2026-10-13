@@ -1,0 +1,58 @@
+{
+ "chainId": 534352,
+ "chain": "Scroll",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 29432421,
+ "from_block_source": "resolved",
+ "to_block": 35358439,
+ "to_block_utc": "2026-10-13T08:57:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.scroll.io",
+  "https://scroll-rpc.publicnode.com"
+ ],
+ "status": "complete",
+ "scanned_to_block": 35358439,
+ "covered_ranges": [
+  [
+   29432421,
+   30420090
+  ],
+  [
+   30420091,
+   31407760
+  ],
+  [
+   31407761,
+   32395430
+  ],
+  [
+   32395431,
+   33383100
+  ],
+  [
+   33383101,
+   34370770
+  ],
+  [
+   34370771,
+   35358439
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 42,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://rpc.scroll.io": 42
+ }
+}

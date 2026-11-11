@@ -1,0 +1,64 @@
+{
+ "chainId": 8453,
+ "chain": "Base",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 41663784,
+ "from_block_source": "resolved",
+ "to_block": 52546365,
+ "to_block_utc": "2026-10-13T09:01:17Z",
+ "rpc_endpoints_configured": [
+  "https://base.gateway.tenderly.co"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 42263784,
+ "count": 2,
+ "first_block": 41663784,
+ "last_block": 41663800,
+ "chunks": 605,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 1000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 1644.5,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   41663784,
+   41763784
+  ],
+  [
+   41763785,
+   41863785
+  ],
+  [
+   41863786,
+   41963786
+  ],
+  [
+   41963787,
+   42063787
+  ],
+  [
+   42063788,
+   42163788
+  ],
+  [
+   42163789,
+   42263784
+  ]
+ ],
+ "scanned_from": 41663784,
+ "rpc_endpoints_used": {
+  "https://base.gateway.tenderly.co": 605
+ }
+}

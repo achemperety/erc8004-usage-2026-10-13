@@ -1,0 +1,63 @@
+{
+ "chainId": 10,
+ "chain": "Optimism",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 147514948,
+ "from_block_source": "resolved",
+ "to_block": 158141652,
+ "to_block_utc": "2026-10-13T09:01:21Z",
+ "rpc_endpoints_configured": [
+  "https://optimism.gateway.tenderly.co"
+ ],
+ "status": "complete",
+ "scanned_to_block": 158141652,
+ "count": 340,
+ "first_block": 147669554,
+ "last_block": 157519505,
+ "chunks": 54,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 32.7,
+ "segments": 6,
+ "by_topic": {
+  "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 340
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   147514948,
+   149286065
+  ],
+  [
+   149286066,
+   151057183
+  ],
+  [
+   151057184,
+   152828301
+  ],
+  [
+   152828302,
+   154599419
+  ],
+  [
+   154599420,
+   156370537
+  ],
+  [
+   156370538,
+   158141652
+  ]
+ ],
+ "scanned_from": 147514948,
+ "rpc_endpoints_used": {
+  "https://optimism.gateway.tenderly.co": 54
+ }
+}

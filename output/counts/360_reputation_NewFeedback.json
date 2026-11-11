@@ -1,0 +1,61 @@
+{
+ "chainId": 360,
+ "chain": "Shape",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 25649379,
+ "from_block_source": "resolved",
+ "to_block": 35068820,
+ "to_block_utc": "2026-10-13T09:01:51Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.shape.network"
+ ],
+ "status": "complete",
+ "scanned_to_block": 35068820,
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "chunks": 942,
+ "splits": 44,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 10000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 638.9,
+ "segments": 6,
+ "by_topic": {},
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   25649379,
+   27219285
+  ],
+  [
+   27219286,
+   28789192
+  ],
+  [
+   28789193,
+   30359099
+  ],
+  [
+   30359100,
+   31929006
+  ],
+  [
+   31929007,
+   33498913
+  ],
+  [
+   33498914,
+   35068820
+  ]
+ ],
+ "scanned_from": 25649379,
+ "rpc_endpoints_used": {
+  "https://mainnet.shape.network": 942
+ }
+}

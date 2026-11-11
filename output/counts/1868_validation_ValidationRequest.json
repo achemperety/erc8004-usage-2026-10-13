@@ -1,0 +1,19 @@
+{
+ "chainId": 1868,
+ "chain": "Soneium",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 18879204,
+ "from_block_source": "resolved",
+ "to_block": 29373675,
+ "to_block_utc": "2026-10-13T09:01:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.soneium.org"
+ ],
+ "status": "INCOMPLETE",
+ "error": "1868 validation[18879204-20628282] single block 18879204 unfetchable: https://rpc.soneium.org: HTTP 403",
+ "rpc_endpoints_used": {}
+}

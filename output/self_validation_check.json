@@ -1,0 +1,587 @@
+[
+ {
+  "chain": "Monad",
+  "chainId": 143,
+  "block": 106470714,
+  "agentId": 10252,
+  "validator": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+  "owner_now": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Monad",
+  "chainId": 143,
+  "block": 110872153,
+  "agentId": 10280,
+  "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+  "owner_now": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Monad",
+  "chainId": 143,
+  "block": 111383397,
+  "agentId": 10315,
+  "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+  "owner_now": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Monad",
+  "chainId": 143,
+  "block": 111384578,
+  "agentId": 10315,
+  "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+  "owner_now": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Monad",
+  "chainId": 143,
+  "block": 112814384,
+  "agentId": 10386,
+  "validator": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+  "owner_now": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38894992,
+  "agentId": 2179684,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x9a4d42e1ad15688ecb6f7fe0f1a4930cb11aec2f",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895037,
+  "agentId": 2179710,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895069,
+  "agentId": 2179717,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895102,
+  "agentId": 2179735,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895134,
+  "agentId": 2179766,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895166,
+  "agentId": 2179768,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895197,
+  "agentId": 2179854,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895235,
+  "agentId": 2179858,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895269,
+  "agentId": 2179861,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895300,
+  "agentId": 2179869,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895332,
+  "agentId": 2179636,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x6b51256e2a8e746d771763b4c274f17aa65f4922",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895365,
+  "agentId": 2179652,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x5563196240bfb38c0c320b146293cb8fd24d5148",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895397,
+  "agentId": 2179655,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0xb92f4d4219de3c969498c9dec7563bc77be102ba",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "0G",
+  "chainId": 16661,
+  "block": 38895428,
+  "agentId": 2179661,
+  "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "owner_now": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018062,
+  "agentId": 1870,
+  "validator": "0xeed513498cf755bafa9fd13c36b178d70f27ab71",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018107,
+  "agentId": 1870,
+  "validator": "0xa20a6d4e84d3ac4581166f819867c8c83a606282",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018152,
+  "agentId": 1870,
+  "validator": "0x43b8ab8d79d1b1c448df34d503719280f1d08779",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018215,
+  "agentId": 1870,
+  "validator": "0x7b1b2573787a3d9465fd13b6f4466e711a016b50",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018311,
+  "agentId": 1870,
+  "validator": "0xb9116f95c9495ae03887d5a47f675478e3c9ba49",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018359,
+  "agentId": 1870,
+  "validator": "0x09a00d2f4cac819ab9515d9798f1f7c20c068f0d",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018407,
+  "agentId": 1870,
+  "validator": "0xe165595dbdb02c41bf137e42877198567361a55e",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018454,
+  "agentId": 1870,
+  "validator": "0xf44e9e527d58f8a3c3aff0eb1eb70feeb41b938a",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018501,
+  "agentId": 1870,
+  "validator": "0xc72bebf9c42d527256c1e48cd1ed9d743487fb01",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018557,
+  "agentId": 1870,
+  "validator": "0x2d1b460334dc42cf74acb76093e7c2a912877325",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018605,
+  "agentId": 1870,
+  "validator": "0xdbfd92488e74d2da1ba73bf07935e3e455f970ee",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62018651,
+  "agentId": 1870,
+  "validator": "0x075199c4a9dbd6f4688d07524499845181bee10e",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055167,
+  "agentId": 1870,
+  "validator": "0x5c1a4df7f122312904d4d353e8666154afe17742",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055335,
+  "agentId": 1870,
+  "validator": "0x4a9053d29d5a2a8bb9c62154eb3eedde909a4be8",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055384,
+  "agentId": 1870,
+  "validator": "0x3fa1ef1f10c0b8c2a2020643b5ffc2bc6e85ed57",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055430,
+  "agentId": 1870,
+  "validator": "0xbacf92c3d7a37d70321b28901e73e554beff0bd3",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055474,
+  "agentId": 1870,
+  "validator": "0xa852af9312f480e8fb5aa50b44fa8ddd7f149d3e",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055526,
+  "agentId": 1870,
+  "validator": "0x71471766891fbf6778c3a988b6bb18c19ac726e3",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055577,
+  "agentId": 1870,
+  "validator": "0x0c22301c76fdd2d7a81027e6a972b4a0afc5c32e",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055627,
+  "agentId": 1870,
+  "validator": "0x29d6b77e6def78b4262f4ba2bb1399b0528fdeb4",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Celo",
+  "chainId": 42220,
+  "block": 62055678,
+  "agentId": 1870,
+  "validator": "0x32f558f889cb3e5cd229010e9e5028b9dc296023",
+  "owner_now": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96827854,
+  "agentId": 134,
+  "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "owner_now": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96916516,
+  "agentId": 134,
+  "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "owner_now": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96918956,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919121,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919133,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919161,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919173,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919183,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 96919195,
+  "agentId": 136,
+  "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "owner_now": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Mantle",
+  "chainId": 5000,
+  "block": 97174516,
+  "agentId": 134,
+  "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "owner_now": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43134133,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43134146,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43134682,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43134858,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43134870,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43135041,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43138402,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43138830,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43140910,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43177272,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43181588,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 43183045,
+  "agentId": 25331,
+  "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "owner_now": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 50073293,
+  "agentId": 60102,
+  "validator": "0x3a77efd0f47907a32ee9f5c90d9ec91ba7fca4c3",
+  "owner_now": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+  "validator_is_owner": false
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 51606429,
+  "agentId": 95265,
+  "validator": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+  "owner_now": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+  "validator_is_owner": true
+ },
+ {
+  "chain": "Base",
+  "chainId": 8453,
+  "block": 51702363,
+  "agentId": 95374,
+  "validator": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+  "owner_now": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+  "validator_is_owner": true
+ }
+]

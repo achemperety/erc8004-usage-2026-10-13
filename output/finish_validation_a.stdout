@@ -1,0 +1,4 @@
+[2026-10-13T13:32:52Z] finish 143 Monad ValidationRequest: 6 uncovered range(s), 27,488,422 blocks
+[2026-10-13T13:43:55Z] finish 143 Monad ValidationRequest: now status=complete
+[2026-10-13T13:43:55Z] finish 42220 Celo ValidationRequest: 6 uncovered range(s), 8,244,853 blocks
+[2026-10-13T13:49:37Z] finish 42220 Celo ValidationRequest: now status=complete

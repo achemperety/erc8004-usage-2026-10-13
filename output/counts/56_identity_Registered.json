@@ -1,0 +1,19 @@
+{
+ "chainId": 56,
+ "chain": "BSC",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 63036986,
+ "from_block_source": "unresolved_no_archive",
+ "to_block": 127376079,
+ "to_block_utc": "2026-10-13T09:08:02Z",
+ "rpc_endpoints_configured": [
+  "https://bsc-rpc.publicnode.com"
+ ],
+ "status": "INCOMPLETE",
+ "error": "56 Registered[63036986-73760168] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403",
+ "rpc_endpoints_used": {}
+}

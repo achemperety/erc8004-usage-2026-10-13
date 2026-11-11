@@ -1,0 +1,64 @@
+{
+ "chainId": 4663,
+ "chain": "Robinhood Chain",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 1,
+ "from_block_source": "unresolved_no_archive",
+ "to_block": 87395843,
+ "to_block_utc": "2026-10-13T09:09:57Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.mainnet.chain.robinhood.com",
+  "https://robinhood-rpc.publicnode.com"
+ ],
+ "status": "complete",
+ "scanned_to_block": 87395843,
+ "count": 702,
+ "first_block": 38854662,
+ "last_block": 87366384,
+ "chunks": 204,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 56.4,
+ "segments": 6,
+ "by_topic": {
+  "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 702
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   1,
+   14565974
+  ],
+  [
+   14565975,
+   29131948
+  ],
+  [
+   29131949,
+   43697922
+  ],
+  [
+   43697923,
+   58263896
+  ],
+  [
+   58263897,
+   72829870
+  ],
+  [
+   72829871,
+   87395843
+  ]
+ ],
+ "scanned_from": 1,
+ "rpc_endpoints_used": {
+  "https://rpc.mainnet.chain.robinhood.com": 204
+ }
+}

@@ -1,0 +1,24 @@
+chain           endpoint                             correct(3 logs)  false-empty  other/err   (of 45 queries)
+Ethereum        mainnet.gateway.tenderly.co                       45            0          0
+Optimism        optimism.gateway.tenderly.co                      45            0          0
+Gnosis          rpc.gnosischain.com                               45            0          0
+Polygon         polygon.gateway.tenderly.co                       45            0          0
+Monad           rpc2.monad.xyz                                    45            0          0
+Shape           mainnet.shape.network                             45            0          0
+Metis           andromeda.metis.io                                45            0          0
+Abstract        api.mainnet.abs.xyz                               45            0          0
+MegaETH         mainnet.megaeth.com                               45            0          0
+Mantle          mantle-rpc.publicnode.com                         45            0          0
+Base            base.gateway.tenderly.co                          45            0          0
+0G              evmrpc.0g.ai                                      45            0          0
+Celo            forno.celo.org                                    28           17          0  <-- UNRELIABLE
+Avalanche       api.avax.network                                  45            0          0
+Linea           rpc.linea.build                                   45            0          0
+Taiko           taiko-rpc.publicnode.com                          45            0          0
+Scroll          rpc.scroll.io                                     45            0          0
+
+-- chains without a resolved deploy block: known-positive = first Initialized log found by the count scan --
+Arbitrum One    arb1.arbitrum.io                     block 428895443: results {1: 15}
+GOAT Network    rpc.goat.network                     block 10129146: results {1: 15}
+Robinhood Chain rpc.mainnet.chain.robinhood.com      block 12058809: results {1: 15}
+SKALE Base      skale-base.skalenodes.com            block 689182: results {1: 15}

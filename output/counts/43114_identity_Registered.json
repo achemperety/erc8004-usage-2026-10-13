@@ -1,0 +1,63 @@
+{
+ "chainId": 43114,
+ "chain": "Avalanche",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 77389000,
+ "from_block_source": "resolved",
+ "to_block": 97432220,
+ "to_block_utc": "2026-10-13T09:05:20Z",
+ "rpc_endpoints_configured": [
+  "https://api.avax.network/ext/bc/C/rpc"
+ ],
+ "status": "complete",
+ "scanned_to_block": 97432220,
+ "count": 1845,
+ "first_block": 77421834,
+ "last_block": 97227277,
+ "chunks": 73,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 500000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 18.6,
+ "segments": 6,
+ "by_topic": {
+  "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 1845
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   77389000,
+   80729536
+  ],
+  [
+   80729537,
+   84070073
+  ],
+  [
+   84070074,
+   87410610
+  ],
+  [
+   87410611,
+   90751147
+  ],
+  [
+   90751148,
+   94091684
+  ],
+  [
+   94091685,
+   97432220
+  ]
+ ],
+ "scanned_from": 77389000,
+ "rpc_endpoints_used": {
+  "https://api.avax.network/ext/bc/C/rpc": 73
+ }
+}

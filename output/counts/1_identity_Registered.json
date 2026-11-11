@@ -1,0 +1,65 @@
+{
+ "chainId": 1,
+ "chain": "Ethereum",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Registered",
+ "signature": "Registered(uint256,string,address)",
+ "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+ "from_block": 24339871,
+ "from_block_source": "resolved",
+ "to_block": 26182323,
+ "to_block_utc": "2026-10-13T08:18:23Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.gateway.tenderly.co",
+  "https://rpc.mevblocker.io/fast",
+  "https://rpc.mevblocker.io"
+ ],
+ "status": "complete",
+ "scanned_to_block": 26182323,
+ "count": 53903,
+ "first_block": 24339925,
+ "last_block": 26182286,
+ "chunks": 70,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 157073,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 186.8,
+ "segments": 6,
+ "by_topic": {
+  "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 53903
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   24339871,
+   24646946
+  ],
+  [
+   24646947,
+   24954022
+  ],
+  [
+   24954023,
+   25261098
+  ],
+  [
+   25261099,
+   25568174
+  ],
+  [
+   25568175,
+   25875250
+  ],
+  [
+   25875251,
+   26182323
+  ]
+ ],
+ "scanned_from": 24339871,
+ "rpc_endpoints_used": {
+  "https://mainnet.gateway.tenderly.co": 70
+ }
+}

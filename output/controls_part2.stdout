@@ -1,0 +1,13 @@
+[2026-10-13T11:51:42Z] CONTROL chain=4663        Robinhood Chain NewFeedback                            (a) pre-deploy n/a -> None   (b) corrupted topic0 0x6a4a61743519.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:51:55Z] CONTROL chain=4663        Robinhood Chain Registered                             (a) pre-deploy n/a -> None   (b) corrupted topic0 0xca52e62c367d.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:52:45Z] CONTROL chain=4663        Robinhood Chain ValidationRequest+ValidationResponse   (a) pre-deploy n/a -> None   (b) corrupted topic0 0x530436c3634a.. over [1, 12000001] [window] -> 0   (b') true topic0, same window -> 0
+[2026-10-13T11:54:04Z] CONTROL chain=16661       0G            ValidationRequest+ValidationResponse   (a) pre-deploy [30741213, 30941212] -> 0   (b) corrupted topic0 0x530436c3634a.. over [30941213, 42941213] [window] -> 0   (b') true topic0, same window -> 28
+[2026-10-13T11:54:18Z] CONTROL chain=16661       0G            NewFeedback                            (a) pre-deploy [30741196, 30941195] -> 0   (b) corrupted topic0 0x6a4a61743519.. over [30941196, 42941196] [window] -> 0   (b') true topic0, same window -> 10
+[2026-10-13T12:01:48Z] CONTROL-INCOMPLETE chain=16661 0G Registered: time budget hit; (a)=0 (b)=0 (b')=433016 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:03:57Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base Registered: time budget hit; (a)=None (b)=0 (b')=208 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:06:59Z] CONTROL-INCOMPLETE chain=360 Shape ValidationRequest+ValidationResponse: time budget hit; (a)=0 (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:09:48Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base NewFeedback: time budget hit; (a)=None (b)=0 (b')=6082 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:09:52Z] CONTROL-INCOMPLETE chain=360 Shape NewFeedback: time budget hit; (a)=0 (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:09Z] CONTROL-INCOMPLETE chain=1187947933 SKALE Base ValidationRequest+ValidationResponse: time budget hit; (a)=None (b)=0 (b')=0 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:51Z] CONTROL-INCOMPLETE chain=360 Shape Registered: time budget hit; (a)=0 (b)=0 (b')=1904 are LOWER BOUNDS over partial coverage, not a pass
+[2026-10-13T12:10:51Z] 5 control sets returned zero for (a)/(b); 7 incomplete (budget); 0 errored (see controls.json)

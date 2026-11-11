@@ -1,0 +1,57 @@
+{
+ "chainId": 4326,
+ "chain": "MegaETH",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationResponse",
+ "signature": "ValidationResponse(address,uint256,bytes32,uint8,string,bytes32,string)",
+ "topic0": "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae",
+ "from_block": 7833807,
+ "from_block_source": "resolved",
+ "to_block": 29085340,
+ "to_block_utc": "2026-10-13T09:05:51Z",
+ "rpc_endpoints_configured": [
+  "https://mainnet.megaeth.com/rpc"
+ ],
+ "status": "complete",
+ "scanned_to_block": 29085340,
+ "covered_ranges": [
+  [
+   7833807,
+   11375729
+  ],
+  [
+   11375730,
+   14917652
+  ],
+  [
+   14917653,
+   18459575
+  ],
+  [
+   18459576,
+   22001498
+  ],
+  [
+   22001499,
+   25543421
+  ],
+  [
+   25543422,
+   29085340
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 72,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://mainnet.megaeth.com/rpc": 72
+ }
+}

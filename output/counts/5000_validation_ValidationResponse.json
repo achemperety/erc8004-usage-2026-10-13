@@ -1,0 +1,58 @@
+{
+ "chainId": 5000,
+ "chain": "Mantle",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationResponse",
+ "signature": "ValidationResponse(address,uint256,bytes32,uint8,string,bytes32,string)",
+ "topic0": "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae",
+ "from_block": 91333851,
+ "from_block_source": "resolved",
+ "to_block": 101875890,
+ "to_block_utc": "2026-10-13T09:01:32Z",
+ "rpc_endpoints_configured": [
+  "https://mantle-rpc.publicnode.com",
+  "https://rpc.mantle.xyz"
+ ],
+ "status": "complete",
+ "scanned_to_block": 101875890,
+ "covered_ranges": [
+  [
+   91333851,
+   93090857
+  ],
+  [
+   93090858,
+   94847864
+  ],
+  [
+   94847865,
+   96604871
+  ],
+  [
+   96604872,
+   98361878
+  ],
+  [
+   98361879,
+   100118885
+  ],
+  [
+   100118886,
+   101875890
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 222,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://mantle-rpc.publicnode.com": 222
+ }
+}

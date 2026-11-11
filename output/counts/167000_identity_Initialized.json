@@ -1,0 +1,65 @@
+{
+ "chainId": 167000,
+ "chain": "Taiko",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 4305747,
+ "from_block_source": "resolved",
+ "to_block": 12619470,
+ "to_block_utc": "2026-10-13T09:01:31Z",
+ "rpc_endpoints_configured": [
+  "https://taiko-rpc.publicnode.com",
+  "https://rpc.mainnet.taiko.xyz"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 12619470,
+ "count": 2,
+ "first_block": 4305747,
+ "last_block": 4305756,
+ "chunks": 180,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 50000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 184.0,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   4305747,
+   5691367
+  ],
+  [
+   5691368,
+   7076988
+  ],
+  [
+   7076989,
+   8462609
+  ],
+  [
+   8462610,
+   9848230
+  ],
+  [
+   9848231,
+   11233851
+  ],
+  [
+   11233852,
+   12619470
+  ]
+ ],
+ "scanned_from": 4305747,
+ "rpc_endpoints_used": {
+  "https://taiko-rpc.publicnode.com": 180
+ }
+}

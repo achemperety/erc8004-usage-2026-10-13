@@ -1,0 +1,58 @@
+{
+ "chainId": 137,
+ "chain": "Polygon",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 82458489,
+ "from_block_source": "resolved",
+ "to_block": 95451277,
+ "to_block_utc": "2026-10-13T09:03:31Z",
+ "rpc_endpoints_configured": [
+  "https://polygon.gateway.tenderly.co",
+  "https://rpc-mainnet.matic.quiknode.pro"
+ ],
+ "status": "complete",
+ "scanned_to_block": 95451277,
+ "covered_ranges": [
+  [
+   82458489,
+   84623953
+  ],
+  [
+   84623954,
+   86789418
+  ],
+  [
+   86789419,
+   88954883
+  ],
+  [
+   88954884,
+   91120348
+  ],
+  [
+   91120349,
+   93285813
+  ],
+  [
+   93285814,
+   95451277
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 60,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://polygon.gateway.tenderly.co": 60
+ }
+}

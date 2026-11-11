@@ -1,0 +1,57 @@
+{
+ "chainId": 42161,
+ "chain": "Arbitrum One",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationRequest",
+ "signature": "ValidationRequest(address,uint256,string,bytes32)",
+ "topic0": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+ "from_block": 384761330,
+ "from_block_source": "unresolved_no_archive",
+ "to_block": 514383417,
+ "to_block_utc": "2026-10-13T09:08:41Z",
+ "rpc_endpoints_configured": [
+  "https://arb1.arbitrum.io/rpc"
+ ],
+ "status": "complete",
+ "scanned_to_block": 514383417,
+ "covered_ranges": [
+  [
+   384761330,
+   406365011
+  ],
+  [
+   406365012,
+   427968693
+  ],
+  [
+   427968694,
+   449572375
+  ],
+  [
+   449572376,
+   471176057
+  ],
+  [
+   471176058,
+   492779739
+  ],
+  [
+   492779740,
+   514383417
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 1638,
+ "scan_splits": 84,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://arb1.arbitrum.io/rpc": 1638
+ }
+}

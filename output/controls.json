@@ -1,0 +1,1281 @@
+{
+ "errors": [
+  {
+   "error": "ScanError: ctlB 56 ValidationRequest+ValidationResponse[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403",
+   "source": "controls_part1.stdout"
+  },
+  {
+   "error": "ScanError: ctlB 56 Registered[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403",
+   "source": "controls_part1.stdout"
+  },
+  {
+   "error": "ScanError: ctlB 56 NewFeedback[63036986-63536986] single block 63036986 unfetchable: https://bsc-rpc.publicnode.com: HTTP 403",
+   "source": "controls_part1.stdout"
+  }
+ ],
+ "incomplete": [
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741187,
+    30941186
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 280
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 433016,
+   "window": [
+    30941187,
+    42941187
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 1206
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 208,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449381,
+    25649380
+   ],
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1353
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649381,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 911
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 6082,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449379,
+    25649378
+   ],
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1566
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 0,
+   "window": [
+    25649379,
+    35068820
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "SKALE Base",
+   "chainId": 1187947933,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": true,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://skale-base.skalenodes.com/v1/base": 898
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    1200001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "Shape",
+   "chainId": 360,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": true,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    25449378,
+    25649377
+   ],
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://mainnet.shape.network": 1528
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 1904,
+   "window": [
+    25649378,
+    35068820
+   ],
+   "window_is_full_range": true
+  }
+ ],
+ "merged_at_utc": "2026-10-13T12:11:06Z",
+ "nonzero": [],
+ "note": "part1 = first run (parsed from its verbatim stdout, kept as output/controls_part1.stdout); part2 = follow-up run for chains outstanding when part1 was stopped",
+ "results": [
+  {
+   "chain": "Polygon",
+   "chainId": 137,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[82258489, 82458488]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    82458489,
+    94458489
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Polygon",
+   "chainId": 137,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[82258484, 82458483]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 675,
+   "window": [
+    82458484,
+    94458484
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Optimism",
+   "chainId": 10,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[147314949, 147514948]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    147514949,
+    158141652
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Optimism",
+   "chainId": 10,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[147314948, 147514947]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 340,
+   "window": [
+    147514948,
+    158141652
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Optimism",
+   "chainId": 10,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[147314947, 147514946]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 565,
+   "window": [
+    147514947,
+    158141652
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Polygon",
+   "chainId": 137,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[82258486, 82458485]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 500,
+   "window": [
+    82458486,
+    94458486
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Arbitrum One",
+   "chainId": 42161,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    384761330,
+    396761330
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Ethereum",
+   "chainId": 1,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[24139874, 24339873]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    24339874,
+    26182323
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Avalanche",
+   "chainId": 43114,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[77189011, 77389010]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    77389011,
+    89389011
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Ethereum",
+   "chainId": 1,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[24139873, 24339872]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 21337,
+   "window": [
+    24339873,
+    26182323
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Arbitrum One",
+   "chainId": 42161,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    384761330,
+    396761330
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Ethereum",
+   "chainId": 1,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[24139871, 24339870]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 53903,
+   "window": [
+    24339871,
+    26182323
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Arbitrum One",
+   "chainId": 42161,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    384761330,
+    396761330
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Scroll",
+   "chainId": 534352,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[29232421, 29432420]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    29432421,
+    35358439
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Avalanche",
+   "chainId": 43114,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[77189003, 77389002]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 14374,
+   "window": [
+    77389003,
+    89389003
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Avalanche",
+   "chainId": 43114,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[77189000, 77388999]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 1771,
+   "window": [
+    77389000,
+    89389000
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Gnosis",
+   "chainId": 100,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[44305017, 44505016]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    44505017,
+    48732735
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Scroll",
+   "chainId": 534352,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[29232417, 29432416]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 108,
+   "window": [
+    29432417,
+    35358439
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Scroll",
+   "chainId": 534352,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[29232418, 29432417]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    29432418,
+    35358439
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Gnosis",
+   "chainId": 100,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[44305016, 44505015]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 4341,
+   "window": [
+    44505016,
+    48732735
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Gnosis",
+   "chainId": 100,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[44305010, 44505009]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 4159,
+   "window": [
+    44505010,
+    48732735
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Taiko",
+   "chainId": 167000,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[4105747, 4305746]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 94,
+   "window": [
+    4305747,
+    12619470
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Taiko",
+   "chainId": 167000,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[4105750, 4305749]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    4305750,
+    12619470
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Taiko",
+   "chainId": 167000,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[4105749, 4305748]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    4305749,
+    12619470
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "MegaETH",
+   "chainId": 4326,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[7633805, 7833804]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 12727,
+   "window": [
+    7833805,
+    19833805
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "MegaETH",
+   "chainId": 4326,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[7633807, 7833806]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    7833807,
+    19833807
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "MegaETH",
+   "chainId": 4326,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[7633806, 7833805]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 23,
+   "window": [
+    7833806,
+    19833806
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Abstract",
+   "chainId": 2741,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[39396878, 39596877]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    39596878,
+    51596878
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Abstract",
+   "chainId": 2741,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[39396875, 39596874]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 131,
+   "window": [
+    39596875,
+    51596875
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Abstract",
+   "chainId": 2741,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[39396871, 39596870]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 713,
+   "window": [
+    39596871,
+    51596871
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[52752798, 52952797]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    52952798,
+    58952798
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Linea",
+   "chainId": 59144,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[28462556, 28662555]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    28662556,
+    32310196
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Linea",
+   "chainId": 59144,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[28462553, 28662552]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 115,
+   "window": [
+    28662553,
+    32310196
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Linea",
+   "chainId": 59144,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[28462554, 28662553]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 31,
+   "window": [
+    28662554,
+    32310196
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Soneium",
+   "chainId": 1868,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[18679204, 18879203]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    18879204,
+    29373675
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Soneium",
+   "chainId": 1868,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[18679198, 18879197]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    18879198,
+    29373675
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "GOAT Network",
+   "chainId": 2345,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    6931867,
+    16054619
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Soneium",
+   "chainId": 1868,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[18679201, 18879200]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    18879201,
+    29373675
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[41463785, 41663784]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    41663785,
+    42263785
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Metis",
+   "chainId": 1088,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[21961528, 22161527]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    22161528,
+    23271915
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "GOAT Network",
+   "chainId": 2345,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 88,
+   "window": [
+    6931867,
+    16054619
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[52752790, 52952789]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 8359,
+   "window": [
+    52952790,
+    58952790
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Metis",
+   "chainId": 1088,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[21961525, 22161524]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 138,
+   "window": [
+    22161525,
+    23271915
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "GOAT Network",
+   "chainId": 2345,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": "n/a",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 1,
+   "window": [
+    6931867,
+    16054619
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Metis",
+   "chainId": 1088,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[21961527, 22161526]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    22161527,
+    23271915
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[41463784, 41663783]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 12677,
+   "window": [
+    41663784,
+    42263784
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[41463783, 41663782]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 17956,
+   "window": [
+    41663783,
+    42263783
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[52752794, 52952793]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 9009,
+   "window": [
+    52952794,
+    58952794
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[58196729, 58396728]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 1190,
+   "window": [
+    58396729,
+    61396729
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[58196724, 58396723]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 1082,
+   "window": [
+    58396724,
+    61396724
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[58196736, 58396735]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 0,
+   "window": [
+    58396736,
+    61396736
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[30741213, 30941212]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 28,
+   "window": [
+    30941213,
+    42941213
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[30741196, 30941195]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 10,
+   "window": [
+    30941196,
+    42941196
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[91133848, 91333847]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x6a4a61743519..",
+   "true_topic_count_same_window": 1699,
+   "window": [
+    91333848,
+    101875890
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[91133851, 91333850]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0x530436c3634a..",
+   "true_topic_count_same_window": 10,
+   "window": [
+    91333851,
+    101875890
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": "[91133846, 91333845]",
+   "source": "controls_part1.stdout (verbatim log line)",
+   "topic0_corrupted_first": "0xca52e62c367d..",
+   "true_topic_count_same_window": 144,
+   "window": [
+    91333846,
+    101875890
+   ],
+   "window_is_full_range": true
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 108
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "Registered",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "identity",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 108
+   },
+   "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+   "topic0_corrupted": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc40",
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "Robinhood Chain",
+   "chainId": 4663,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": null,
+   "pre_deploy_range": null,
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://rpc.mainnet.chain.robinhood.com": 336
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 0,
+   "window": [
+    1,
+    12000001
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "ValidationRequest+ValidationResponse",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741213,
+    30941212
+   ],
+   "registry": "validation",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 281
+   },
+   "topic0": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+   ],
+   "topic0_corrupted": [
+    "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+    "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+   ],
+   "true_topic_count_same_window": 28,
+   "window": [
+    30941213,
+    42941213
+   ],
+   "window_is_full_range": false
+  },
+  {
+   "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+   "chain": "0G",
+   "chainId": 16661,
+   "corrupted_topic_count": 0,
+   "event": "NewFeedback",
+   "incomplete": false,
+   "pre_deploy_count": 0,
+   "pre_deploy_range": [
+    30741196,
+    30941195
+   ],
+   "registry": "reputation",
+   "rpc_endpoints_used": {
+    "https://evmrpc.0g.ai": 281
+   },
+   "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+   "topic0_corrupted": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58feb0",
+   "true_topic_count_same_window": 10,
+   "window": [
+    30941196,
+    42941196
+   ],
+   "window_is_full_range": false
+  }
+ ]
+}

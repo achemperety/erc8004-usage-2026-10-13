@@ -1,0 +1,48 @@
+{
+ "1": {
+  "author_figures": {
+   "NewFeedback": 3203,
+   "Registered": 36778,
+   "ValidationRequest": 0,
+   "ValidationResponse": 0
+  },
+  "chain": "Ethereum",
+  "my_counts": {
+   "NewFeedback": 3203,
+   "Registered": 36778,
+   "ValidationRequest": 0,
+   "ValidationResponse": 0
+  },
+  "range": [
+   24339800,
+   25601554
+  ],
+  "rpc_endpoints_used": {
+   "https://mainnet.gateway.tenderly.co": 116
+  },
+  "run_at_utc": "2026-10-13T13:36:54Z"
+ },
+ "8453": {
+  "author_figures": {
+   "NewFeedback": 415952,
+   "Registered": 59697,
+   "ValidationRequest": 12,
+   "ValidationResponse": 7
+  },
+  "chain": "Base",
+  "my_counts": {
+   "NewFeedback": 404811,
+   "Registered": 42949,
+   "ValidationRequest": 12,
+   "ValidationResponse": 7
+  },
+  "range": [
+   42003733,
+   49019181
+  ],
+  "rpc_endpoints_used": {
+   "https://base.gateway.tenderly.co": 21060
+  },
+  "run_at_utc": "2026-10-13T18:38:30Z"
+ }
+}

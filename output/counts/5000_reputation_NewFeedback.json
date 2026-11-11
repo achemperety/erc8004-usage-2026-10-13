@@ -1,0 +1,64 @@
+{
+ "chainId": 5000,
+ "chain": "Mantle",
+ "registry": "reputation",
+ "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+ "event": "NewFeedback",
+ "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+ "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+ "from_block": 91333848,
+ "from_block_source": "resolved",
+ "to_block": 101875890,
+ "to_block_utc": "2026-10-13T09:01:32Z",
+ "rpc_endpoints_configured": [
+  "https://mantle-rpc.publicnode.com",
+  "https://rpc.mantle.xyz"
+ ],
+ "status": "complete",
+ "scanned_to_block": 101875890,
+ "count": 1699,
+ "first_block": 94925292,
+ "last_block": 97777343,
+ "chunks": 222,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 50000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 283.3,
+ "segments": 6,
+ "by_topic": {
+  "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 1699
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   91333848,
+   93090855
+  ],
+  [
+   93090856,
+   94847863
+  ],
+  [
+   94847864,
+   96604871
+  ],
+  [
+   96604872,
+   98361879
+  ],
+  [
+   98361880,
+   100118887
+  ],
+  [
+   100118888,
+   101875890
+  ]
+ ],
+ "scanned_from": 91333848,
+ "rpc_endpoints_used": {
+  "https://mantle-rpc.publicnode.com": 222
+ }
+}

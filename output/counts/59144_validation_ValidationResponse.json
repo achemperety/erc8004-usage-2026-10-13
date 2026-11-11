@@ -1,0 +1,57 @@
+{
+ "chainId": 59144,
+ "chain": "Linea",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "ValidationResponse",
+ "signature": "ValidationResponse(address,uint256,bytes32,uint8,string,bytes32,string)",
+ "topic0": "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae",
+ "from_block": 28662556,
+ "from_block_source": "resolved",
+ "to_block": 32310196,
+ "to_block_utc": "2026-10-13T08:37:21Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.linea.build"
+ ],
+ "status": "complete",
+ "scanned_to_block": 32310196,
+ "covered_ranges": [
+  [
+   28662556,
+   29270496
+  ],
+  [
+   29270497,
+   29878437
+  ],
+  [
+   29878438,
+   30486378
+  ],
+  [
+   30486379,
+   31094319
+  ],
+  [
+   31094320,
+   31702260
+  ],
+  [
+   31702261,
+   32310196
+  ]
+ ],
+ "count": 0,
+ "first_block": null,
+ "last_block": null,
+ "logs": [],
+ "distinct_validators": 0,
+ "distinct_agentIds": 0,
+ "scan_chunks": 366,
+ "scan_splits": 0,
+ "scan_duplicates_dropped": 0,
+ "scan_note": "ValidationRequest and ValidationResponse fetched in one eth_getLogs OR-topic scan",
+ "rpc_endpoints_used": {
+  "https://rpc.linea.build": 366
+ }
+}

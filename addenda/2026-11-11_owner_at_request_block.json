@@ -1,0 +1,4261 @@
+{
+ "run_started_utc": "2026-11-11T11:22:52Z",
+ "identity_registry": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "method": "eth_call ownerOf(agentId) at the request block (state after that block), every endpoint; eth_getCode of the Identity registry at the same block as a state-availability check",
+ "endpoints": {
+  "8453": {
+   "https://base.gateway.tenderly.co": 8453,
+   "https://mainnet.base.org": 8453,
+   "https://base-rpc.publicnode.com": 8453,
+   "https://base.drpc.org": 8453,
+   "https://1rpc.io/base": 8453,
+   "https://base.llamarpc.com": "http_error: HTTP 525"
+  },
+  "5000": {
+   "https://mantle-rpc.publicnode.com": 5000,
+   "https://rpc.mantle.xyz": 5000,
+   "https://mantle.drpc.org": 5000,
+   "https://1rpc.io/mantle": 5000
+  },
+  "16661": {
+   "https://evmrpc.0g.ai": 16661,
+   "https://0g.drpc.org": 16661
+  },
+  "143": {
+   "https://rpc2.monad.xyz": 143,
+   "https://rpc1.monad.xyz": 143,
+   "https://rpc.monad.xyz": 143,
+   "https://rpc3.monad.xyz": 143,
+   "https://monad-mainnet.drpc.org": 143
+  },
+  "42220": {
+   "https://forno.celo.org": 42220,
+   "https://celo-rpc.publicnode.com": 42220,
+   "https://celo.drpc.org": 42220,
+   "https://1rpc.io/celo": 42220,
+   "https://celo-rpc.blockreq.com/v1/rpc/public": "http_error: HTTP 410"
+  }
+ },
+ "requests": [
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43134133,
+   "logIndex": 169,
+   "tx": "0x7f95b566aab2706023804dd63c4cd1075d79817557bb212695f9ee3ae857b2fa",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "state at block #43134134 is pruned"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "state at block #43134134 is pruned"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43134146,
+   "logIndex": 869,
+   "tx": "0x3fdd4cca086e6cf9db090fb316c73e4b177002aecb8887c02a1f391dfe9d9cc4",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "state at block #43134147 is pruned"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "state at block #43134147 is pruned"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43134682,
+   "logIndex": 677,
+   "tx": "0x879ab0be74e44a8f0e7eab931b1870dc25bb05403f60573e3dda55fc45181c31",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "rpc_error",
+       "state at block #43134683 is pruned"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43134858,
+   "logIndex": 543,
+   "tx": "0xde34e59888f7067c4d307fa39cb28ff969d0ff5b65caea51255f7449cdfa288e",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43134870,
+   "logIndex": 423,
+   "tx": "0x2cfe585197abe48d45d3765d03a150f7b32782606b5de621d93e9f1132d90346",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43135041,
+   "logIndex": 199,
+   "tx": "0xfe736921d8b98c5e7cb776e360984163875fa148047970816eb78f9017cd807b",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43138402,
+   "logIndex": 255,
+   "tx": "0xc18d0be0454277caa0380e7b94f43fe177e96553b6a5e4947f0368e083b41d42",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 429"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43138830,
+   "logIndex": 284,
+   "tx": "0x3f0150b496c9e1a1743329be66a44ef02279fb3913b6b3d54d8a1280ba9fbd90",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 429"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 429"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43140910,
+   "logIndex": 785,
+   "tx": "0x1501c8da7ecbb0f05840ccb458113b81f65c1f4a2410e0a6dd009b2f232bfd81",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43177272,
+   "logIndex": 454,
+   "tx": "0xc4b96f55d1e494285fa8a5a3990b2b86f81f47b0a7abd1e0e1f0991de8b470d3",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43181588,
+   "logIndex": 302,
+   "tx": "0x3366fc9f0a948b6e344be1723bf43dcb49e93923f42c0f30ae87ccb8e1f82658",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 43183045,
+   "logIndex": 508,
+   "tx": "0x4f88c401bb0c06eb5f465206c767fd64fd1acdfb842fc3699a02e01c0359f89f",
+   "agentId": 25331,
+   "validator": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xc5b29033e63a986b601fe430806a2c9735f2ea97",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000c5b29033e63a986b601fe430806a2c9735f2ea97"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 50073293,
+   "logIndex": 532,
+   "tx": "0x8b4bb34b6681dd0406b19a14ad8a939afb4dbeddb0905881f2713b67ed51620c",
+   "agentId": 60102,
+   "validator": "0x3a77efd0f47907a32ee9f5c90d9ec91ba7fca4c3",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b82a61b2871b221a4a261180dbec042395a60dfb"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b82a61b2871b221a4a261180dbec042395a60dfb"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0xb82a61b2871b221a4a261180dbec042395a60dfb",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b82a61b2871b221a4a261180dbec042395a60dfb"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 51606429,
+   "logIndex": 729,
+   "tx": "0xc73eb383890e98b5f19671e54654ba31a5e1b752af5fcde4a7e4e84d3866ec2d",
+   "agentId": 95265,
+   "validator": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000000c3a19bea92480a978f2a358e8e1e87b9dad14b5"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000000c3a19bea92480a978f2a358e8e1e87b9dad14b5"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x0c3a19bea92480a978f2a358e8e1e87b9dad14b5",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000000c3a19bea92480a978f2a358e8e1e87b9dad14b5"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Base",
+   "chainId": 8453,
+   "block": 51702363,
+   "logIndex": 653,
+   "tx": "0x885769e81d7fb3218cf0e0659e57f1bac48469aabf950222023b14ecb47e7235",
+   "agentId": 95374,
+   "validator": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://base.drpc.org",
+    "https://base.gateway.tenderly.co",
+    "https://mainnet.base.org"
+   ],
+   "per_endpoint": {
+    "https://base.gateway.tenderly.co": {
+     "outcome": "owner",
+     "owner": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000006328f2fe483922721d94b33ee99e9938da3b7911"
+      ]
+     }
+    },
+    "https://mainnet.base.org": {
+     "outcome": "owner",
+     "owner": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000006328f2fe483922721d94b33ee99e9938da3b7911"
+      ]
+     }
+    },
+    "https://base-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://base.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x6328f2fe483922721d94b33ee99e9938da3b7911",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000006328f2fe483922721d94b33ee99e9938da3b7911"
+      ]
+     }
+    },
+    "https://1rpc.io/base": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96827854,
+   "logIndex": 0,
+   "tx": "0xcc51a9016a69234f72ba1189bb88d4e8ba7a40a020fc8c1eee4d3443e616d63d",
+   "agentId": 134,
+   "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "historical state 82e6e58c806248264e2623f3db731142f4217c2084c1342226fb7358b1bd3859 is not available"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "historical state 82e6e58c806248264e2623f3db731142f4217c2084c1342226fb7358b1bd3859 is not available"
+      ]
+     }
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96916516,
+   "logIndex": 0,
+   "tx": "0x3b33774fdc5c63e517d61cdd48601d91dabd66ddf8647c3d123653e7dd4d8600",
+   "agentId": 134,
+   "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "historical state 4b6d1a7b4c55b9ce396948f89d93bff7148cd3912d0037b9acb3b8ceb66073de is not available"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "historical state 4b6d1a7b4c55b9ce396948f89d93bff7148cd3912d0037b9acb3b8ceb66073de is not available"
+      ]
+     }
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96918956,
+   "logIndex": 0,
+   "tx": "0x484d0c29fceb93df0d42678b4317d2e19fbf0c530dae3b277f52c20dae3f4798",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "historical state 9dafd67ef2b49105af18f820a6b71d412f4f14dc20845494298b984b7049fee8 is not available"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "historical state 9dafd67ef2b49105af18f820a6b71d412f4f14dc20845494298b984b7049fee8 is not available"
+      ]
+     }
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919121,
+   "logIndex": 0,
+   "tx": "0x56734b2656e41b14a25634ed430464010527d8ead7344ddab8d37f3ae3703a55",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919133,
+   "logIndex": 3,
+   "tx": "0xff2797204224b8627fc6796f3df5b339ff7258e3719762e0fbeef0183f146702",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919161,
+   "logIndex": 0,
+   "tx": "0x637d4f9f224c9008858444885ea4feabef0ca209afa142001d7841d16bf19c4f",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919173,
+   "logIndex": 0,
+   "tx": "0x0502acd1b7e3149a42c3bcce11a4675dde2cf203724a52a99ebd7cba9de98837",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919183,
+   "logIndex": 0,
+   "tx": "0x4ecfc0b108d66f2c2a86b15d02ae48247c224d2aa1d8979511273bb2e816da32",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 96919195,
+   "logIndex": 7,
+   "tx": "0x2c6f30a46cf3536617fb01e7af72f139af0c2eed9d01e86172d551751ac0f8db",
+   "agentId": 136,
+   "validator": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x9c0bd9b60ea840347b2731aa630d387bbd56e075",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009c0bd9b60ea840347b2731aa630d387bbd56e075"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Mantle",
+   "chainId": 5000,
+   "block": 97174516,
+   "logIndex": 2,
+   "tx": "0x2d65ee6d22ad4ccb4604a68125ffef8059d564a2313851dfca7c98002d1d7403",
+   "agentId": 134,
+   "validator": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://mantle.drpc.org",
+    "https://rpc.mantle.xyz"
+   ],
+   "per_endpoint": {
+    "https://mantle-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://rpc.mantle.xyz": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://mantle.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x36599b0286d3c32f934bc8877eea839d88f3affc",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x00000000000000000000000036599b0286d3c32f934bc8877eea839d88f3affc"
+      ]
+     }
+    },
+    "https://1rpc.io/mantle": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38894992,
+   "logIndex": 0,
+   "tx": "0x40536480c4316295d73132e0bfd12babd4beef397ff60a5f005232553a261a1d",
+   "agentId": 2179684,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9a4d42e1ad15688ecb6f7fe0f1a4930cb11aec2f",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895037,
+   "logIndex": 20,
+   "tx": "0xf5f199448597887203f35bb7b755546d4ac824475fda183bf7a7bceae8c42198",
+   "agentId": 2179710,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895069,
+   "logIndex": 1,
+   "tx": "0x39a549b3b31f618824da7943156758cbff8becb8480ed2100af416862cf21cf9",
+   "agentId": 2179717,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895102,
+   "logIndex": 16,
+   "tx": "0x7bb060ab715556320a9d08ca09b7342481d0684ab02354feb24509437812efdf",
+   "agentId": 2179735,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895134,
+   "logIndex": 0,
+   "tx": "0xf7bbc2eb99f3b0ff3a027adc454c765c87b7f4a2b28b8f51b66962d5033e1c9d",
+   "agentId": 2179766,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895166,
+   "logIndex": 1,
+   "tx": "0x1a89a945e1b814dc7943f8c604c2354d79393bd2b367f25499a58ef8895e1dc8",
+   "agentId": 2179768,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895197,
+   "logIndex": 8,
+   "tx": "0x4fb8d306d22f328c79233b793709aac32cd5e2e07ec7b502bf160f20b7926b62",
+   "agentId": 2179854,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895235,
+   "logIndex": 8,
+   "tx": "0xc7bfa077d30054190c06f8db0b4fa75536b5c010fa18b33f9622142ee35d3b10",
+   "agentId": 2179858,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895269,
+   "logIndex": 1,
+   "tx": "0x1d6e62646aae26b1794c3fe5366d35ce069954cc5e48bd993bf00f7dead8aca3",
+   "agentId": 2179861,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895300,
+   "logIndex": 0,
+   "tx": "0x201d2eb9fd9aebd1c37c4de627ef59097d7a6b276e1cac2a7d3d1c82af0eb034",
+   "agentId": 2179869,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895332,
+   "logIndex": 1,
+   "tx": "0xeb8289bc5127c8956959c50d18751bf67cc740957b1bae29161a7d17eca0e0b4",
+   "agentId": 2179636,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x6b51256e2a8e746d771763b4c274f17aa65f4922",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895365,
+   "logIndex": 0,
+   "tx": "0xb2a285530edfa11a34b68082f0861e0d1090eb3e9c2e7efad83eb3190366624f",
+   "agentId": 2179652,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x5563196240bfb38c0c320b146293cb8fd24d5148",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895397,
+   "logIndex": 8,
+   "tx": "0x486cc104ee337a7d18eb66d8fec708f10c9d77ea7140b19da97f55c96fd3c39e",
+   "agentId": 2179655,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xb92f4d4219de3c969498c9dec7563bc77be102ba",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "0G",
+   "chainId": 16661,
+   "block": 38895428,
+   "logIndex": 18,
+   "tx": "0xbc3a5ab020064a06c3c16f121c4d6b9aee4494cb9fd560fc510d14240ae06468",
+   "agentId": 2179661,
+   "validator": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://0g.drpc.org",
+    "https://evmrpc.0g.ai"
+   ],
+   "per_endpoint": {
+    "https://evmrpc.0g.ai": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    },
+    "https://0g.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x929d7e2448a60b1eb70766bb35a620504f9bc972",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000929d7e2448a60b1eb70766bb35a620504f9bc972"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "block": 106470714,
+   "logIndex": 190,
+   "tx": "0xd501be29d44915010b563dd6d84dbe06c0c40fa3e2ee76326aa2a820aeb531c3",
+   "agentId": 10252,
+   "validator": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://rpc.monad.xyz",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz"
+   ],
+   "per_endpoint": {
+    "https://rpc2.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000db6c6340342e71a63cd11ebac2185204b7777777"
+      ]
+     }
+    },
+    "https://rpc1.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000db6c6340342e71a63cd11ebac2185204b7777777"
+      ]
+     }
+    },
+    "https://rpc.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xdb6c6340342e71a63cd11ebac2185204b7777777",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000db6c6340342e71a63cd11ebac2185204b7777777"
+      ]
+     }
+    },
+    "https://rpc3.monad.xyz": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ]
+     }
+    },
+    "https://monad-mainnet.drpc.org": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 400"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 400"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "block": 110872153,
+   "logIndex": 132,
+   "tx": "0xa000377418f2a13d3e1f87a06c11dcd1a8f666987e713e01f62338fa9000abb3",
+   "agentId": 10280,
+   "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://rpc.monad.xyz",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz"
+   ],
+   "per_endpoint": {
+    "https://rpc2.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000004f3f999b60750cef97d7d56c75f30f050a583d53"
+      ]
+     }
+    },
+    "https://rpc1.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000004f3f999b60750cef97d7d56c75f30f050a583d53"
+      ]
+     }
+    },
+    "https://rpc.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x4f3f999b60750cef97d7d56c75f30f050a583d53",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000004f3f999b60750cef97d7d56c75f30f050a583d53"
+      ]
+     }
+    },
+    "https://rpc3.monad.xyz": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ]
+     }
+    },
+    "https://monad-mainnet.drpc.org": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 400"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 400"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "block": 111383397,
+   "logIndex": 147,
+   "tx": "0x98af1ab7d618416e9b0ed8a463c721336003a780d77df1410b4d0dca7d6e90bd",
+   "agentId": 10315,
+   "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://rpc.monad.xyz",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz"
+   ],
+   "per_endpoint": {
+    "https://rpc2.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc1.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc3.monad.xyz": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ],
+      "eth_call": [
+       "rpc_error",
+       "Block requested not found. Request might be querying historical state that is not available. If possible, reformulate query to point to more recent blocks"
+      ]
+     }
+    },
+    "https://monad-mainnet.drpc.org": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 400"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 400"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "block": 111384578,
+   "logIndex": 161,
+   "tx": "0x31db53e3218b912c363573fcec5fc56489008dd9bb95827d2e74d6d53761a806",
+   "agentId": 10315,
+   "validator": "0x77a55a4980769f543ea5bb799f4f49a8c1cd0d85",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://rpc.monad.xyz",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz"
+   ],
+   "per_endpoint": {
+    "https://rpc2.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc1.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0xb925d44d52815d19c2f91c30f6abd3b4d0546d4e",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000b925d44d52815d19c2f91c30f6abd3b4d0546d4e"
+      ]
+     }
+    },
+    "https://rpc3.monad.xyz": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://monad-mainnet.drpc.org": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Monad",
+   "chainId": 143,
+   "block": 112814384,
+   "logIndex": 247,
+   "tx": "0xb67376ee79ad9fa2f0bccdc6417f13d8e092bee1a5abd95b74219f59431227e5",
+   "agentId": 10386,
+   "validator": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+   "validator_is_owner_at_request_block": true,
+   "owner_latest_2026_10_13": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+   "validator_is_owner_latest_2026_10_13": true,
+   "endpoints_answered": [
+    "https://rpc.monad.xyz",
+    "https://rpc1.monad.xyz",
+    "https://rpc2.monad.xyz"
+   ],
+   "per_endpoint": {
+    "https://rpc2.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009f0af03c5695b72903c03852f7dd4fe5a0d49fc9"
+      ]
+     }
+    },
+    "https://rpc1.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009f0af03c5695b72903c03852f7dd4fe5a0d49fc9"
+      ]
+     }
+    },
+    "https://rpc.monad.xyz": {
+     "outcome": "owner",
+     "owner": "0x9f0af03c5695b72903c03852f7dd4fe5a0d49fc9",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x0000000000000000000000009f0af03c5695b72903c03852f7dd4fe5a0d49fc9"
+      ]
+     }
+    },
+    "https://rpc3.monad.xyz": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://monad-mainnet.drpc.org": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018062,
+   "logIndex": 5,
+   "tx": "0xeaab6a6cc5f5a8f562cf3853c0e7ee6a6f84c76755c264dbeb012ddf0839d531",
+   "agentId": 1870,
+   "validator": "0xeed513498cf755bafa9fd13c36b178d70f27ab71",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://1rpc.io/celo",
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018107,
+   "logIndex": 8,
+   "tx": "0xcda305e114e1fd36a9a8695c1326f6c2335d8067d4279b83fc49f9b4e57f7116",
+   "agentId": 1870,
+   "validator": "0xa20a6d4e84d3ac4581166f819867c8c83a606282",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "rpc_error",
+       "state at block #62018108 is pruned"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018152,
+   "logIndex": 202,
+   "tx": "0x4bdbdb0965cf63cb7c61a56bc9706b5dd618330a0c0affbe0868db699296f8a5",
+   "agentId": 1870,
+   "validator": "0x43b8ab8d79d1b1c448df34d503719280f1d08779",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "error",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "http_error",
+       "HTTP 403"
+      ],
+      "eth_call": [
+       "http_error",
+       "HTTP 403"
+      ]
+     }
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "no_state",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "rpc_error",
+       "state at block #62018153 is pruned"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018215,
+   "logIndex": 10,
+   "tx": "0xc7e2d56ffc7e49ec669d01862bd12695b64985fd1f805fe9528d65926c185c59",
+   "agentId": 1870,
+   "validator": "0x7b1b2573787a3d9465fd13b6f4466e711a016b50",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "empty",
+     "owner": null,
+     "raw": {
+      "getCode": [
+       "rpc_error",
+       "state at block #62018216 is pruned"
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018311,
+   "logIndex": 12,
+   "tx": "0x42ffd78695d63ad534f779b7653222744dba4e0a21d60b3def64afe60687e882",
+   "agentId": 1870,
+   "validator": "0xb9116f95c9495ae03887d5a47f675478e3c9ba49",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018359,
+   "logIndex": 8,
+   "tx": "0xac7eeb017ade77a85a2fa6d91de3698e38503299919e11f4285b74dceac91213",
+   "agentId": 1870,
+   "validator": "0x09a00d2f4cac819ab9515d9798f1f7c20c068f0d",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018407,
+   "logIndex": 15,
+   "tx": "0xcf6403c42ca1ac8c3a1069d49a7791c8ecd250938601bbaeecb67cad59ce65c5",
+   "agentId": 1870,
+   "validator": "0xe165595dbdb02c41bf137e42877198567361a55e",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018454,
+   "logIndex": 224,
+   "tx": "0xb329ff034e3961b0292667c417e88c85026dda9800f89d2809cb19e965ac24a7",
+   "agentId": 1870,
+   "validator": "0xf44e9e527d58f8a3c3aff0eb1eb70feeb41b938a",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018501,
+   "logIndex": 2,
+   "tx": "0xebf99ddfee1d81dc010bc98e1b2701d8e02abfa24d62275b5f57649485ded937",
+   "agentId": 1870,
+   "validator": "0xc72bebf9c42d527256c1e48cd1ed9d743487fb01",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018557,
+   "logIndex": 9,
+   "tx": "0xd123760e19aade80fcef8c27ac9ccf9d23551c58e1e68060a86d0234e7de312e",
+   "agentId": 1870,
+   "validator": "0x2d1b460334dc42cf74acb76093e7c2a912877325",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018605,
+   "logIndex": 13,
+   "tx": "0x87cb64ac024f2d4b07f1569a03e5d1cfdeab421ef1ce89ed4c3e6592d7cbbc6d",
+   "agentId": 1870,
+   "validator": "0xdbfd92488e74d2da1ba73bf07935e3e455f970ee",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62018651,
+   "logIndex": 21,
+   "tx": "0x19e9a81b41f61ab46349de7e4ec59baea2cd3458dca74558d2ebf9b7a9b00218",
+   "agentId": 1870,
+   "validator": "0x075199c4a9dbd6f4688d07524499845181bee10e",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055167,
+   "logIndex": 5,
+   "tx": "0xcb8bcb57b1c4afa2022a5619443f075ca76d382f4d756efe9f88e9177bbb5d5f",
+   "agentId": 1870,
+   "validator": "0x5c1a4df7f122312904d4d353e8666154afe17742",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055335,
+   "logIndex": 206,
+   "tx": "0x3cedbcb304625a264985e92921a3fece47ad92181762b2461d8f3c9adeb55b72",
+   "agentId": 1870,
+   "validator": "0x4a9053d29d5a2a8bb9c62154eb3eedde909a4be8",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055384,
+   "logIndex": 0,
+   "tx": "0xc9058708cb129d3f0b2fec2ef854982c72210d2235924a4f9b95e143e1aa55a2",
+   "agentId": 1870,
+   "validator": "0x3fa1ef1f10c0b8c2a2020643b5ffc2bc6e85ed57",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055430,
+   "logIndex": 3,
+   "tx": "0x03b3ef5913a892613000f9fc3deb1208b105e9ef8a134ba1d49c7e5532b4121b",
+   "agentId": 1870,
+   "validator": "0xbacf92c3d7a37d70321b28901e73e554beff0bd3",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055474,
+   "logIndex": 209,
+   "tx": "0x75210a7e17d8860778a365077ddd2a1ae8fcf5b9cf4c644a99ee5d3ca15e1cc0",
+   "agentId": 1870,
+   "validator": "0xa852af9312f480e8fb5aa50b44fa8ddd7f149d3e",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055526,
+   "logIndex": 274,
+   "tx": "0xcfd3aa4854c1c699613626d2d4250062353b85bbe3234cdc70d3af08c3f31dfe",
+   "agentId": 1870,
+   "validator": "0x71471766891fbf6778c3a988b6bb18c19ac726e3",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055577,
+   "logIndex": 202,
+   "tx": "0x13de63abd89e055234aab4c9b3e5c89615dd5cda1b98b059e06f444638addb06",
+   "agentId": 1870,
+   "validator": "0x0c22301c76fdd2d7a81027e6a972b4a0afc5c32e",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055627,
+   "logIndex": 14,
+   "tx": "0xbb51c367f99cdccb415716022ff4536997777a6fc438cf4459086ecd428bd4e7",
+   "agentId": 1870,
+   "validator": "0x29d6b77e6def78b4262f4ba2bb1399b0528fdeb4",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  },
+  {
+   "chain": "Celo",
+   "chainId": 42220,
+   "block": 62055678,
+   "logIndex": 1,
+   "tx": "0xf9228b490ccb4b5afbe712e1e3268331d130c8ccde00a73a6492ee55f1b359b8",
+   "agentId": 1870,
+   "validator": "0x32f558f889cb3e5cd229010e9e5028b9dc296023",
+   "status": "determined",
+   "outcome_at_request_block": "owner",
+   "owner_at_request_block": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_at_request_block": false,
+   "owner_latest_2026_10_13": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+   "validator_is_owner_latest_2026_10_13": false,
+   "endpoints_answered": [
+    "https://celo.drpc.org",
+    "https://forno.celo.org"
+   ],
+   "per_endpoint": {
+    "https://forno.celo.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://celo-rpc.publicnode.com": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    },
+    "https://celo.drpc.org": {
+     "outcome": "owner",
+     "owner": "0x558e7bfaf2cf1a494f44e50d92431afc060c9d12",
+     "raw": {
+      "getCode": [
+       "ok",
+       130
+      ],
+      "eth_call": [
+       "ok",
+       "0x000000000000000000000000558e7bfaf2cf1a494f44e50d92431afc060c9d12"
+      ]
+     }
+    },
+    "https://1rpc.io/celo": {
+     "outcome": "skipped",
+     "owner": null,
+     "raw": "skipped after 3 consecutive non-answers on this chain"
+    }
+   }
+  }
+ ],
+ "run_finished_utc": "2026-11-11T11:24:23Z"
+}

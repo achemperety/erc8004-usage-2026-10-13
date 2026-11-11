@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# third-party chain list (contains upstream RPC credentials); fetch it with the command in PROVENANCE-chain-list.md
+output/chainlist.json

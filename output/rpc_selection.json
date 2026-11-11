@@ -1,0 +1,650 @@
+{
+ "1": {
+  "max_range_historical": {
+   "https://mainnet.gateway.tenderly.co": 500000,
+   "https://rpc.mevblocker.io": 10000,
+   "https://rpc.mevblocker.io/fast": 50000,
+   "https://rpc.mevblocker.io/fullprivacy": 10000,
+   "https://rpc.mevblocker.io/noreverts": 10000,
+   "https://xrpc.cl/eth": 1000
+  },
+  "max_range_measured": {
+   "https://mainnet.gateway.tenderly.co": 500000,
+   "https://rpc.mevblocker.io": 10000,
+   "https://rpc.mevblocker.io/fast": 50000
+  },
+  "name": "Ethereum",
+  "rejected": [
+   [
+    "https://api.mycryptoapi.com/eth",
+    "RpcFail: https://api.mycryptoapi.com/eth: HTTP 403"
+   ],
+   [
+    "https://cloudflare-eth.com",
+    "RpcFail: https://cloudflare-eth.com: rpc error: Cannot fulfill reques"
+   ],
+   [
+    "https://rpc.blocknative.com/boost",
+    "RpcFail: https://rpc.blocknative.com/boost: URLError: <urlopen error "
+   ],
+   [
+    "https://rpc.flashbots.net",
+    "RpcFail: https://rpc.flashbots.net: HTTP 504"
+   ],
+   [
+    "https://rpc.flashbots.net/fast",
+    "RpcFail: https://rpc.flashbots.net/fast: HTTP 504"
+   ]
+  ],
+  "rpcs": [
+   "https://mainnet.gateway.tenderly.co",
+   "https://rpc.mevblocker.io/fast",
+   "https://rpc.mevblocker.io"
+  ]
+ },
+ "10": {
+  "max_range_historical": {
+   "https://optimism.gateway.tenderly.co": 500000
+  },
+  "max_range_measured": {
+   "https://optimism.gateway.tenderly.co": 500000
+  },
+  "name": "Optimism",
+  "rejected": [
+   [
+    "https://mainnet.optimism.io",
+    "RpcFail: https://mainnet.optimism.io: HTTP 403"
+   ],
+   [
+    "https://optimism.drpc.org",
+    "RpcFail: https://optimism.drpc.org: HTTP 400"
+   ],
+   [
+    "https://1rpc.io/op",
+    "RpcFail: https://1rpc.io/op: HTTP 522"
+   ],
+   [
+    "https://optimism.llamarpc.com",
+    "RpcFail: https://optimism.llamarpc.com: URLError: <urlopen error [Err"
+   ],
+   [
+    "https://mainnet.optimism.io",
+    "RpcFail: https://mainnet.optimism.io: HTTP 403"
+   ],
+   [
+    "https://optimism.drpc.org",
+    "RpcFail: https://optimism.drpc.org: HTTP 400"
+   ],
+   [
+    "https://xrpc.cl/optimism",
+    "RpcFail: https://xrpc.cl/optimism: HTTP 429"
+   ]
+  ],
+  "rpcs": [
+   "https://optimism.gateway.tenderly.co"
+  ]
+ },
+ "100": {
+  "max_range_historical": {
+   "https://gnosis-rpc.publicnode.com": 10000,
+   "https://gnosis.oat.farm": 10000,
+   "https://rpc.gnosis.gateway.fm": 500000,
+   "https://rpc.gnosischain.com": 500000
+  },
+  "max_range_measured": {
+   "https://gnosis.oat.farm": 10000,
+   "https://rpc.gnosis.gateway.fm": 500000,
+   "https://rpc.gnosischain.com": 500000
+  },
+  "name": "Gnosis",
+  "rejected": [
+   [
+    "https://rpc.ankr.com/gnosis",
+    "RpcFail: https://rpc.ankr.com/gnosis: rpc error: Unauthorized: You mu"
+   ],
+   [
+    "https://gnosis-mainnet.public.blastapi.io",
+    "RpcFail: https://gnosis-mainnet.public.blastapi.io: HTTP 403"
+   ],
+   [
+    "https://gnosis.api.onfinality.io/public",
+    "RpcFail: https://gnosis.api.onfinality.io/public: HTTP 429"
+   ],
+   [
+    "https://gnosis.blockpi.network/v1/rpc/public",
+    "RpcFail: https://gnosis.blockpi.network/v1/rpc/public: HTTP 521"
+   ]
+  ],
+  "rpcs": [
+   "https://rpc.gnosischain.com",
+   "https://rpc.gnosis.gateway.fm",
+   "https://gnosis.oat.farm"
+  ]
+ },
+ "1088": {
+  "max_range_historical": {
+   "https://andromeda.metis.io/?owner=1088": 500000,
+   "https://metis-rpc.publicnode.com": 50000
+  },
+  "max_range_measured": {
+   "https://andromeda.metis.io/?owner=1088": 500000,
+   "https://metis-rpc.publicnode.com": 50000
+  },
+  "name": "Metis",
+  "rejected": [
+   [
+    "https://metis.drpc.org",
+    "RpcFail: https://metis.drpc.org: HTTP 400"
+   ]
+  ],
+  "rpcs": [
+   "https://andromeda.metis.io/?owner=1088",
+   "https://metis-rpc.publicnode.com"
+  ]
+ },
+ "1187947933": {
+  "max_range_historical": {
+   "https://skale-base.skalenodes.com/v1/base": 2000
+  },
+  "max_range_measured": {
+   "https://skale-base.skalenodes.com/v1/base": 2000
+  },
+  "name": "SKALE Base",
+  "rejected": [],
+  "rpcs": [
+   "https://skale-base.skalenodes.com/v1/base"
+  ]
+ },
+ "137": {
+  "max_range_historical": {
+   "https://polygon.gateway.tenderly.co": 500000,
+   "https://rpc-mainnet.matic.quiknode.pro": 10000
+  },
+  "max_range_measured": {
+   "https://polygon.gateway.tenderly.co": 500000,
+   "https://rpc-mainnet.matic.quiknode.pro": 10000
+  },
+  "name": "Polygon",
+  "rejected": [
+   [
+    "https://polygon.drpc.org",
+    "RpcFail: https://polygon.drpc.org: HTTP 400"
+   ],
+   [
+    "https://polygon-bor-rpc.publicnode.com",
+    "RpcFail: https://polygon-bor-rpc.publicnode.com: HTTP 403"
+   ],
+   [
+    "https://rpc.satelink.network/rpc/polygon",
+    "RpcFail: https://rpc.satelink.network/rpc/polygon: HTTP 402"
+   ],
+   [
+    "https://rpcfree.com/polygon-rpc",
+    "RpcFail: https://rpcfree.com/polygon-rpc: JSONDecodeError: Expecting "
+   ],
+   [
+    "https://xrpc.cl/polygon",
+    "RpcFail: https://xrpc.cl/polygon: HTTP 429"
+   ]
+  ],
+  "rpcs": [
+   "https://polygon.gateway.tenderly.co",
+   "https://rpc-mainnet.matic.quiknode.pro"
+  ]
+ },
+ "143": {
+  "max_range_historical": {
+   "https://rpc2.monad.xyz": 10000,
+   "https://rpc3.monad.xyz": 1000
+  },
+  "max_range_measured": {
+   "https://rpc2.monad.xyz": 10000,
+   "https://rpc3.monad.xyz": 1000
+  },
+  "name": "Monad",
+  "rejected": [
+   [
+    "https://rpc1.monad.xyz",
+    "RpcFail: https://rpc1.monad.xyz: rpc error: block range too large"
+   ],
+   [
+    "https://monad-mainnet.drpc.org",
+    "RpcFail: https://monad-mainnet.drpc.org: HTTP 400"
+   ],
+   [
+    "https://rpc.monad.xyz",
+    "RpcFail: https://rpc.monad.xyz: HTTP 413"
+   ]
+  ],
+  "rpcs": [
+   "https://rpc2.monad.xyz",
+   "https://rpc3.monad.xyz"
+  ]
+ },
+ "16661": {
+  "max_range_historical": {
+   "https://evmrpc.0g.ai": 100000
+  },
+  "max_range_measured": {
+   "https://evmrpc.0g.ai": 100000
+  },
+  "name": "0G",
+  "rejected": [],
+  "rpcs": [
+   "https://evmrpc.0g.ai"
+  ]
+ },
+ "167000": {
+  "max_range_historical": {
+   "https://rpc.mainnet.taiko.xyz": 10000,
+   "https://taiko-rpc.publicnode.com": 50000
+  },
+  "max_range_measured": {
+   "https://rpc.mainnet.taiko.xyz": 10000,
+   "https://taiko-rpc.publicnode.com": 50000
+  },
+  "name": "Taiko",
+  "rejected": [],
+  "rpcs": [
+   "https://taiko-rpc.publicnode.com",
+   "https://rpc.mainnet.taiko.xyz"
+  ]
+ },
+ "1776": {
+  "max_range_measured": {
+   "https://injective-evm-rpc.publicnode.com": 10000,
+   "https://injectiveevm-rpc.polkachu.com": 10000,
+   "https://sentry.evm-rpc.injective.network": 10000
+  },
+  "name": "Injective",
+  "rejected": [
+   [
+    "https://injective.drpc.org",
+    "RpcFail: https://injective.drpc.org: HTTP 400"
+   ],
+   [
+    "https://evm-rpc.injective.network",
+    "RpcFail: https://evm-rpc.injective.network: URLError: <urlopen error "
+   ]
+  ],
+  "rpcs": [
+   "https://injective-evm-rpc.publicnode.com",
+   "https://sentry.evm-rpc.injective.network",
+   "https://injectiveevm-rpc.polkachu.com"
+  ]
+ },
+ "1868": {
+  "max_range_historical": {
+   "https://rpc.soneium.org": 100000
+  },
+  "max_range_measured": {
+   "https://rpc.soneium.org": 100000
+  },
+  "name": "Soneium",
+  "rejected": [],
+  "rpcs": [
+   "https://rpc.soneium.org"
+  ]
+ },
+ "196": {
+  "max_range_measured": {},
+  "name": "XLayer",
+  "rejected": [
+   [
+    "https://xlayer.drpc.org",
+    "RpcFail: https://xlayer.drpc.org: HTTP 400"
+   ],
+   [
+    "https://xlayer-rpc.publicnode.com",
+    "RpcFail: https://xlayer-rpc.publicnode.com: HTTP 404"
+   ],
+   [
+    "https://endpoints.omniatech.io/v1/xlayer/mainnet/public",
+    "RpcFail: https://endpoints.omniatech.io/v1/xlayer/mainnet/public: HTT"
+   ],
+   [
+    "https://rpc.xlayer.tech",
+    "RpcFail: https://rpc.xlayer.tech: HTTP 400"
+   ],
+   [
+    "https://xlayerrpc.okx.com",
+    "RpcFail: https://xlayerrpc.okx.com: HTTP 400"
+   ]
+  ],
+  "rpcs": []
+ },
+ "2345": {
+  "max_range_historical": {
+   "https://rpc.goat.network": 500000
+  },
+  "max_range_measured": {
+   "https://rpc.goat.network": 500000
+  },
+  "name": "GOAT Network",
+  "rejected": [],
+  "rpcs": [
+   "https://rpc.goat.network"
+  ]
+ },
+ "2741": {
+  "max_range_historical": {
+   "https://api.mainnet.abs.xyz": 500000
+  },
+  "max_range_measured": {
+   "https://api.mainnet.abs.xyz": 500000
+  },
+  "name": "Abstract",
+  "rejected": [],
+  "rpcs": [
+   "https://api.mainnet.abs.xyz"
+  ]
+ },
+ "295": {
+  "max_range_measured": {
+   "https://hedera.linkpool.pro": 100000,
+   "https://mainnet.hashio.io/api": 100000
+  },
+  "name": "Hedera",
+  "rejected": [],
+  "rpcs": [
+   "https://mainnet.hashio.io/api",
+   "https://hedera.linkpool.pro"
+  ]
+ },
+ "360": {
+  "max_range_historical": {
+   "https://mainnet.shape.network": 50000
+  },
+  "max_range_measured": {
+   "https://mainnet.shape.network": 50000
+  },
+  "name": "Shape",
+  "rejected": [
+   [
+    "https://shape-mainnet.g.alchemy.com/public",
+    "RpcFail: https://shape-mainnet.g.alchemy.com/public: HTTP 400"
+   ]
+  ],
+  "rpcs": [
+   "https://mainnet.shape.network"
+  ]
+ },
+ "42161": {
+  "max_range_historical": {
+   "https://arb1.arbitrum.io/rpc": 500000
+  },
+  "max_range_measured": {
+   "https://arb1.arbitrum.io/rpc": 500000
+  },
+  "name": "Arbitrum One",
+  "rejected": [
+   [
+    "https://arbitrum-one-rpc.publicnode.com",
+    "RpcFail: https://arbitrum-one-rpc.publicnode.com: HTTP 403"
+   ],
+   [
+    "https://rpcfree.com/arbitrum-rpc",
+    "RpcFail: https://rpcfree.com/arbitrum-rpc: JSONDecodeError: Expecting"
+   ],
+   [
+    "https://rpc.satelink.network/rpc/arbitrum",
+    "RpcFail: https://rpc.satelink.network/rpc/arbitrum: HTTP 402"
+   ],
+   [
+    "https://xrpc.cl/arbitrum",
+    "RpcFail: https://xrpc.cl/arbitrum: HTTP 503"
+   ]
+  ],
+  "rpcs": [
+   "https://arb1.arbitrum.io/rpc"
+  ]
+ },
+ "42220": {
+  "max_range_historical": {
+   "https://forno.celo.org": 5000
+  },
+  "max_range_measured": {
+   "https://forno.celo.org": 5000
+  },
+  "name": "Celo",
+  "rejected": [],
+  "rpcs": [
+   "https://forno.celo.org"
+  ]
+ },
+ "43114": {
+  "max_range_historical": {
+   "https://api.avax.network/ext/bc/C/rpc": 500000
+  },
+  "max_range_measured": {
+   "https://api.avax.network/ext/bc/C/rpc": 500000
+  },
+  "name": "Avalanche",
+  "rejected": [
+   [
+    "https://xrpc.cl/avalanche",
+    "RpcFail: https://xrpc.cl/avalanche: HTTP 503"
+   ]
+  ],
+  "rpcs": [
+   "https://api.avax.network/ext/bc/C/rpc"
+  ]
+ },
+ "4326": {
+  "max_range_historical": {
+   "https://mainnet.megaeth.com/rpc": 500000
+  },
+  "max_range_measured": {
+   "https://mainnet.megaeth.com/rpc": 500000
+  },
+  "name": "MegaETH",
+  "rejected": [],
+  "rpcs": [
+   "https://mainnet.megaeth.com/rpc"
+  ]
+ },
+ "45056": {
+  "max_range_measured": {},
+  "name": "Billions",
+  "rejected": [
+   [
+    "https://billions-rpc.eu-north-2.gateway.fm",
+    "RpcFail: https://billions-rpc.eu-north-2.gateway.fm: URLError: <urlop"
+   ]
+  ],
+  "rpcs": []
+ },
+ "4663": {
+  "max_range_historical": {
+   "https://robinhood-rpc.publicnode.com": 1000,
+   "https://rpc.mainnet.chain.robinhood.com": 500000
+  },
+  "max_range_measured": {
+   "https://robinhood-rpc.publicnode.com": 1000,
+   "https://rpc.mainnet.chain.robinhood.com": 500000
+  },
+  "name": "Robinhood Chain",
+  "rejected": [
+   [
+    "https://robinhood-rpc.publicnode.com",
+    "RpcFail: https://robinhood-rpc.publicnode.com: HTTP 403"
+   ],
+   [
+    "https://rpc.arrowrpc.com",
+    "RpcFail: https://rpc.arrowrpc.com: HTTP 530"
+   ],
+   [
+    "https://rpc.ordofi.network",
+    "RpcFail: https://rpc.ordofi.network: rpc error: the network is busy, "
+   ],
+   [
+    "https://robinhood.drpc.org",
+    "RpcFail: https://robinhood.drpc.org: HTTP 400"
+   ],
+   [
+    "https://api.blockvectra.com/v1/robinhood_mainnet/public",
+    "RpcFail: https://api.blockvectra.com/v1/robinhood_mainnet/public: rpc"
+   ]
+  ],
+  "rpcs": [
+   "https://rpc.mainnet.chain.robinhood.com",
+   "https://robinhood-rpc.publicnode.com"
+  ]
+ },
+ "5000": {
+  "max_range_historical": {
+   "https://mantle-rpc.publicnode.com": 50000,
+   "https://rpc.mantle.xyz": 10000
+  },
+  "max_range_measured": {
+   "https://mantle-rpc.publicnode.com": 50000,
+   "https://rpc.mantle.xyz": 10000
+  },
+  "name": "Mantle",
+  "rejected": [],
+  "rpcs": [
+   "https://mantle-rpc.publicnode.com",
+   "https://rpc.mantle.xyz"
+  ]
+ },
+ "534352": {
+  "max_range_historical": {
+   "https://rpc.scroll.io": 500000,
+   "https://scroll-rpc.publicnode.com": 50000
+  },
+  "max_range_measured": {
+   "https://rpc.scroll.io": 500000,
+   "https://scroll-rpc.publicnode.com": 50000
+  },
+  "name": "Scroll",
+  "rejected": [
+   [
+    "https://rpc.ankr.com/scroll",
+    "RpcFail: https://rpc.ankr.com/scroll: HTTP 403"
+   ],
+   [
+    "https://scroll-mainnet.chainstacklabs.com",
+    "RpcFail: https://scroll-mainnet.chainstacklabs.com: URLError: <urlope"
+   ]
+  ],
+  "rpcs": [
+   "https://rpc.scroll.io",
+   "https://scroll-rpc.publicnode.com"
+  ]
+ },
+ "56": {
+  "max_range_measured": {
+   "https://bsc-rpc.publicnode.com": 5000
+  },
+  "name": "BSC",
+  "rejected": [
+   [
+    "https://bsc.drpc.org",
+    "RpcFail: https://bsc.drpc.org: HTTP 429"
+   ],
+   [
+    "https://1rpc.io/bnb",
+    "RpcFail: https://1rpc.io/bnb: HTTP 522"
+   ],
+   [
+    "https://binance.llamarpc.com",
+    "RpcFail: https://binance.llamarpc.com: URLError: <urlopen error [Errn"
+   ],
+   [
+    "https://bsc-dataseed1.bnbchain.org",
+    "RpcFail: https://bsc-dataseed1.bnbchain.org: rpc error: limit exceede"
+   ],
+   [
+    "https://bsc-dataseed2.bnbchain.org",
+    "RpcFail: https://bsc-dataseed2.bnbchain.org: rpc error: limit exceede"
+   ],
+   [
+    "https://bsc-dataseed3.bnbchain.org",
+    "RpcFail: https://bsc-dataseed3.bnbchain.org: rpc error: limit exceede"
+   ],
+   [
+    "https://bsc-dataseed4.bnbchain.org",
+    "RpcFail: https://bsc-dataseed4.bnbchain.org: rpc error: limit exceede"
+   ],
+   [
+    "https://bsc-dataseed1.defibit.io",
+    "RpcFail: https://bsc-dataseed1.defibit.io: rpc error: limit exceeded"
+   ],
+   [
+    "https://bsc-dataseed2.defibit.io",
+    "RpcFail: https://bsc-dataseed2.defibit.io: rpc error: limit exceeded"
+   ],
+   [
+    "https://bsc-dataseed3.defibit.io",
+    "RpcFail: https://bsc-dataseed3.defibit.io: rpc error: limit exceeded"
+   ],
+   [
+    "https://bsc-dataseed4.defibit.io",
+    "RpcFail: https://bsc-dataseed4.defibit.io: rpc error: limit exceeded"
+   ],
+   [
+    "https://bsc-dataseed1.ninicoin.io",
+    "RpcFail: https://bsc-dataseed1.ninicoin.io: rpc error: limit exceeded"
+   ],
+   [
+    "https://bsc-dataseed2.ninicoin.io",
+    "RpcFail: https://bsc-dataseed2.ninicoin.io: rpc error: limit exceeded"
+   ]
+  ],
+  "rpcs": [
+   "https://bsc-rpc.publicnode.com"
+  ]
+ },
+ "59144": {
+  "max_range_historical": {
+   "https://rpc.linea.build": 10000
+  },
+  "max_range_measured": {
+   "https://rpc.linea.build": 10000
+  },
+  "name": "Linea",
+  "rejected": [
+   [
+    "https://linea-rpc.publicnode.com",
+    "RpcFail: https://linea-rpc.publicnode.com: HTTP 403"
+   ]
+  ],
+  "rpcs": [
+   "https://rpc.linea.build"
+  ]
+ },
+ "8453": {
+  "max_range_historical": {
+   "https://base.gateway.tenderly.co": 1000
+  },
+  "max_range_measured": {
+   "https://base.gateway.tenderly.co": 1000
+  },
+  "name": "Base",
+  "rejected": [
+   [
+    "https://mainnet.base.org/",
+    "RpcFail: https://mainnet.base.org/: HTTP 429"
+   ],
+   [
+    "https://developer-access-mainnet.base.org/",
+    "RpcFail: https://developer-access-mainnet.base.org/: URLError: <urlop"
+   ],
+   [
+    "https://rpcfree.com/base-rpc",
+    "RpcFail: https://rpcfree.com/base-rpc: JSONDecodeError: Expecting val"
+   ],
+   [
+    "https://rpc.satelink.network/rpc/base",
+    "RpcFail: https://rpc.satelink.network/rpc/base: HTTP 402"
+   ],
+   [
+    "https://xrpc.cl/base",
+    "RpcFail: https://xrpc.cl/base: HTTP 429"
+   ]
+  ],
+  "rpcs": [
+   "https://base.gateway.tenderly.co"
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "chainId": 1868,
+ "chain": "Soneium",
+ "registry": "validation",
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 18879204,
+ "from_block_source": "resolved",
+ "to_block": 29373675,
+ "to_block_utc": "2026-10-13T09:01:41Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.soneium.org"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "INCOMPLETE",
+ "error": "1868 Initialized[18879204-20628282] single block 18879204 unfetchable: https://rpc.soneium.org: HTTP 403",
+ "rpc_endpoints_used": {}
+}

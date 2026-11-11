@@ -1,0 +1,66 @@
+{
+ "chainId": 100,
+ "chain": "Gnosis",
+ "registry": "identity",
+ "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+ "event": "Initialized",
+ "signature": "Initialized(uint64)",
+ "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+ "from_block": 44505010,
+ "from_block_source": "resolved",
+ "to_block": 48732735,
+ "to_block_utc": "2026-10-13T08:48:20Z",
+ "rpc_endpoints_configured": [
+  "https://rpc.gnosischain.com",
+  "https://rpc.gnosis.gateway.fm",
+  "https://gnosis.oat.farm"
+ ],
+ "to_block_note": "Initialized presence check scanned only the window after the deploy block",
+ "status": "complete",
+ "scanned_to_block": 48732735,
+ "count": 2,
+ "first_block": 44505010,
+ "last_block": 44505068,
+ "chunks": 81,
+ "splits": 0,
+ "duplicates_dropped": 0,
+ "largest_ok_range": 320000,
+ "distinct_topic1": null,
+ "distinct_topic2": null,
+ "elapsed_s": 85.0,
+ "segments": 6,
+ "by_topic": {
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+ },
+ "incomplete": false,
+ "covered_ranges": [
+  [
+   44505010,
+   45209630
+  ],
+  [
+   45209631,
+   45914251
+  ],
+  [
+   45914252,
+   46618872
+  ],
+  [
+   46618873,
+   47323493
+  ],
+  [
+   47323494,
+   48028114
+  ],
+  [
+   48028115,
+   48732735
+  ]
+ ],
+ "scanned_from": 44505010,
+ "rpc_endpoints_used": {
+  "https://rpc.gnosischain.com": 81
+ }
+}

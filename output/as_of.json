@@ -1,0 +1,227 @@
+{
+ "1": {
+  "fixed_at_utc": "2026-10-13T09:09:49Z",
+  "head_when_fixed": 26182579,
+  "name": "Ethereum",
+  "safety_blocks": 256,
+  "to_block": 26182323,
+  "to_block_ts": 1791879503,
+  "to_block_utc": "2026-10-13T08:18:23Z"
+ },
+ "10": {
+  "fixed_at_utc": "2026-10-13T09:09:54Z",
+  "head_when_fixed": 158141908,
+  "name": "Optimism",
+  "safety_blocks": 256,
+  "to_block": 158141652,
+  "to_block_ts": 1791882081,
+  "to_block_utc": "2026-10-13T09:01:21Z"
+ },
+ "100": {
+  "fixed_at_utc": "2026-10-13T09:10:03Z",
+  "head_when_fixed": 48732991,
+  "name": "Gnosis",
+  "safety_blocks": 256,
+  "to_block": 48732735,
+  "to_block_ts": 1791881300,
+  "to_block_utc": "2026-10-13T08:48:20Z"
+ },
+ "1088": {
+  "fixed_at_utc": "2026-10-13T09:10:18Z",
+  "head_when_fixed": 23272171,
+  "name": "Metis",
+  "safety_blocks": 256,
+  "to_block": 23271915,
+  "to_block_ts": 1791875607,
+  "to_block_utc": "2026-10-13T07:13:27Z"
+ },
+ "1187947933": {
+  "fixed_at_utc": "2026-10-13T09:10:22Z",
+  "head_when_fixed": 3073190,
+  "name": "SKALE Base",
+  "safety_blocks": 256,
+  "to_block": 3072934,
+  "to_block_ts": 1791880035,
+  "to_block_utc": "2026-10-13T08:27:15Z"
+ },
+ "137": {
+  "fixed_at_utc": "2026-10-13T09:09:56Z",
+  "head_when_fixed": 95451533,
+  "name": "Polygon",
+  "safety_blocks": 256,
+  "to_block": 95451277,
+  "to_block_ts": 1791882211,
+  "to_block_utc": "2026-10-13T09:03:31Z"
+ },
+ "143": {
+  "fixed_at_utc": "2026-10-13T09:10:00Z",
+  "head_when_fixed": 113001475,
+  "name": "Monad",
+  "safety_blocks": 256,
+  "to_block": 113001219,
+  "to_block_ts": 1791882521,
+  "to_block_utc": "2026-10-13T09:08:41Z"
+ },
+ "16661": {
+  "fixed_at_utc": "2026-10-13T09:10:28Z",
+  "head_when_fixed": 47006192,
+  "name": "0G",
+  "safety_blocks": 256,
+  "to_block": 47005936,
+  "to_block_ts": 1791882398,
+  "to_block_utc": "2026-10-13T09:06:38Z"
+ },
+ "167000": {
+  "fixed_at_utc": "2026-10-13T09:10:06Z",
+  "head_when_fixed": 12619726,
+  "name": "Taiko",
+  "safety_blocks": 256,
+  "to_block": 12619470,
+  "to_block_ts": 1791882091,
+  "to_block_utc": "2026-10-13T09:01:31Z"
+ },
+ "1776": {
+  "fixed_at_utc": "2026-10-13T09:10:27Z",
+  "head_when_fixed": 187095164,
+  "name": "Injective",
+  "safety_blocks": 256,
+  "to_block": 187094908,
+  "to_block_ts": 1791882473,
+  "to_block_utc": "2026-10-13T09:07:53Z"
+ },
+ "1868": {
+  "fixed_at_utc": "2026-10-13T09:10:14Z",
+  "head_when_fixed": 29373931,
+  "name": "Soneium",
+  "safety_blocks": 256,
+  "to_block": 29373675,
+  "to_block_ts": 1791882101,
+  "to_block_utc": "2026-10-13T09:01:41Z"
+ },
+ "2345": {
+  "fixed_at_utc": "2026-10-13T09:10:16Z",
+  "head_when_fixed": 16054875,
+  "name": "GOAT Network",
+  "safety_blocks": 256,
+  "to_block": 16054619,
+  "to_block_ts": 1791881712,
+  "to_block_utc": "2026-10-13T08:55:12Z"
+ },
+ "2741": {
+  "fixed_at_utc": "2026-10-13T09:10:10Z",
+  "head_when_fixed": 87536239,
+  "name": "Abstract",
+  "safety_blocks": 256,
+  "to_block": 87535983,
+  "to_block_ts": 1791882240,
+  "to_block_utc": "2026-10-13T09:04:00Z"
+ },
+ "295": {
+  "fixed_at_utc": "2026-10-13T09:10:20Z",
+  "head_when_fixed": 101068087,
+  "name": "Hedera",
+  "safety_blocks": 256,
+  "to_block": 101067831,
+  "to_block_ts": 1791882059,
+  "to_block_utc": "2026-10-13T09:00:59Z"
+ },
+ "360": {
+  "fixed_at_utc": "2026-10-13T09:10:24Z",
+  "head_when_fixed": 35069076,
+  "name": "Shape",
+  "safety_blocks": 256,
+  "to_block": 35068820,
+  "to_block_ts": 1791882111,
+  "to_block_utc": "2026-10-13T09:01:51Z"
+ },
+ "42161": {
+  "fixed_at_utc": "2026-10-13T09:09:53Z",
+  "head_when_fixed": 514383673,
+  "name": "Arbitrum One",
+  "safety_blocks": 256,
+  "to_block": 514383417,
+  "to_block_ts": 1791882521,
+  "to_block_utc": "2026-10-13T09:08:41Z"
+ },
+ "42220": {
+  "fixed_at_utc": "2026-10-13T09:10:04Z",
+  "head_when_fixed": 79981844,
+  "name": "Celo",
+  "safety_blocks": 256,
+  "to_block": 79981588,
+  "to_block_ts": 1791882346,
+  "to_block_utc": "2026-10-13T09:05:46Z"
+ },
+ "43114": {
+  "fixed_at_utc": "2026-10-13T09:09:57Z",
+  "head_when_fixed": 97432476,
+  "name": "Avalanche",
+  "safety_blocks": 256,
+  "to_block": 97432220,
+  "to_block_ts": 1791882320,
+  "to_block_utc": "2026-10-13T09:05:20Z"
+ },
+ "4326": {
+  "fixed_at_utc": "2026-10-13T09:10:09Z",
+  "head_when_fixed": 29085596,
+  "name": "MegaETH",
+  "safety_blocks": 256,
+  "to_block": 29085340,
+  "to_block_ts": 1791882351,
+  "to_block_utc": "2026-10-13T09:05:51Z"
+ },
+ "4663": {
+  "fixed_at_utc": "2026-10-13T09:10:25Z",
+  "head_when_fixed": 87396099,
+  "name": "Robinhood Chain",
+  "safety_blocks": 256,
+  "to_block": 87395843,
+  "to_block_ts": 1791882597,
+  "to_block_utc": "2026-10-13T09:09:57Z"
+ },
+ "5000": {
+  "fixed_at_utc": "2026-10-13T09:10:12Z",
+  "head_when_fixed": 101876146,
+  "name": "Mantle",
+  "safety_blocks": 256,
+  "to_block": 101875890,
+  "to_block_ts": 1791882092,
+  "to_block_utc": "2026-10-13T09:01:32Z"
+ },
+ "534352": {
+  "fixed_at_utc": "2026-10-13T09:10:01Z",
+  "head_when_fixed": 35358695,
+  "name": "Scroll",
+  "safety_blocks": 256,
+  "to_block": 35358439,
+  "to_block_ts": 1791881861,
+  "to_block_utc": "2026-10-13T08:57:41Z"
+ },
+ "56": {
+  "fixed_at_utc": "2026-10-13T09:09:58Z",
+  "head_when_fixed": 127376335,
+  "name": "BSC",
+  "safety_blocks": 256,
+  "to_block": 127376079,
+  "to_block_ts": 1791882482,
+  "to_block_utc": "2026-10-13T09:08:02Z"
+ },
+ "59144": {
+  "fixed_at_utc": "2026-10-13T09:10:08Z",
+  "head_when_fixed": 32310452,
+  "name": "Linea",
+  "safety_blocks": 256,
+  "to_block": 32310196,
+  "to_block_ts": 1791880641,
+  "to_block_utc": "2026-10-13T08:37:21Z"
+ },
+ "8453": {
+  "fixed_at_utc": "2026-10-13T09:09:51Z",
+  "head_when_fixed": 52546621,
+  "name": "Base",
+  "safety_blocks": 256,
+  "to_block": 52546365,
+  "to_block_ts": 1791882077,
+  "to_block_utc": "2026-10-13T09:01:17Z"
+ }
+}
