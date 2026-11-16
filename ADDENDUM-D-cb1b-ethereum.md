@@ -249,3 +249,175 @@ The three `Upgraded` logs are the same (block, log index, tx) as in section 1 of
   late logs. Without a known log late in the range, this read cannot tell the two apart. The limit stated in
   section 4 still applies. The agreement of two nodes, with different chunking (36 calls against 200 calls with 21
   splits), remains the only cross-check there.
+
+## Update, 2026-11-16: late-range positive control
+
+This section adds to addendum D. It changes no line above it, no earlier file and no published total.
+
+Caveat 2 of this addendum: no check showed that the reader returns logs late in the range. Every log found at
+`0x8004Cb1B…4272` is in the first 6.1 % of it. RealSpap suggested the remedy
+([#453](https://ethereum-magicians.org/t/25098/453)). Run the same reader, with the same chunking, the same range and
+the same two nodes, on a contract known to emit logs late in the range, and confirm that logs come back from the last
+part. **Credit:** the design of this control is RealSpap's.
+
+**Method**
+
+- **Code:** `addenda/2026-11-16_late_range_control.py`. Raw output: `addenda/2026-11-16_late_range_control.json`.
+- **Reader:** the scanner's filtered `scan_parallel`, unchanged and imported from `erc8004_usage.py` (SHA-256
+  `f55fd146…49a5ce`, as in `SHA256SUMS`). It filters on topic0, splits on error or at a suspected cap, re-checks
+  every log and de-duplicates.
+- **Chunk sizes:** those of addendum D, initial 10,000 blocks and maximum 500,000, with 6 parallel segments.
+- **Range:** the all-topics range of the previous update, 24,204,475 – 26,427,741 (2,223,267 blocks). Both nodes'
+  heads at the run were 26,429,029.
+- **Nodes:** `https://mainnet.gateway.tenderly.co` and `https://rpc.mevblocker.io/fast`, each a separate client with
+  one URL and no failover.
+- **Run:** 2026-11-16T17:17:35Z to 17:24:50Z.
+- **Read-only:** `eth_chainId`, `eth_blockNumber`, `eth_getBlockByNumber`, `eth_getCode`, `eth_getLogs`.
+- **Stored output:** the JSON keeps per-node counts, deciles, the last five logs, and a SHA-256 of each node's sorted
+  (block, tx, log index) list. It does not keep the 94,018 logs themselves.
+
+**Target and why**
+
+Option (a) of the instructions was used: the ERC-8004 registries on Ethereum mainnet, at the addresses and topic0s of
+the 13 October scan (`ADDR` and `event_sig` in `erc8004_usage.py`, from the vendored ABIs).
+
+| event | address | topic0 |
+|---|---|---|
+| IdentityRegistry `Registered(uint256,string,address)` | `0x8004A169FB4a3325136EB29fA0ceB6D2e539a432` | `0xca52e62c…bc4a` |
+| ReputationRegistry `NewFeedback(…)` | `0x8004BAa17C55a88189AE136b182e5fdA19dE9b63` | `0x6a4a6174…febc` |
+
+- **Why these:** both emit logs in the last 10 % of the range, so the ERC-20 fallback (b) was not needed.
+- **A comparison point:** they have a published count up to the 13 October snapshot block, so a second test is
+  possible.
+- **Same scope as the original question:** they are the scanner's own targets on the same chain.
+
+**Results, per node**
+
+| | Tenderly: `Registered` | MEV Blocker: `Registered` | Tenderly: `NewFeedback` | MEV Blocker: `NewFeedback` |
+|---|---:|---:|---:|---:|
+| logs, full range | 56,568 | 56,568 | 37,450 | 37,450 |
+| logs in the last 10 % (block > 26,205,415) | 2,406 | 2,406 | 7,404 | 7,404 |
+| last log block | 26,427,688 | 26,427,688 | 26,427,708 | 26,427,708 |
+| last log as fraction of range | 0.999976 | 0.999976 | 0.999985 | 0.999985 |
+| `eth_getLogs` calls / splits | 94 / 3 | 243 / 14 | 42 / 0 | 221 / 12 |
+| largest range returned in one call | 160,000 | 20,000 | 160,000 | 20,000 |
+| RPC requests in total, including point reads and refused calls | 100 | 260 | 45 | 236 |
+| duplicates dropped | 0 | 0 | 0 | 0 |
+
+The last logs in detail:
+
+- **`Registered`:** block 26,427,688, 2026-11-16T12:47:47Z, tx
+  `0xa504c04ff0b2aa2c366b606193f4716b42580da2e78e5070447d5aa43c75f8e2`, log index 292. This is 53 blocks before the
+  end of the range.
+- **`NewFeedback`:** block 26,427,708, 2026-11-16T12:51:47Z, tx
+  `0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e`, log index 552. This is 33 blocks before the
+  end of the range.
+
+**Agreement between nodes**
+
+- **`Registered`:** the (block, tx, log index) sets are identical. 0 logs are found on one node only. The SHA-256 of
+  the sorted list is `4f7a1a50…d43c2` on both nodes.
+- **`NewFeedback`:** the sets are identical. 0 logs are found on one node only. The SHA-256 is `726c4936…a0be5` on
+  both nodes.
+- **Chunking:** the two nodes read the range with very different chunking, as in the earlier sections. Tenderly used
+  ranges of up to 160,000 blocks. MEV Blocker used ranges of up to 20,000 blocks, with 12–14 splits.
+
+**Distribution over the range, in deciles (identical on both nodes)**
+
+| decile | blocks | `Registered` | `NewFeedback` |
+|---:|---|---:|---:|
+| 1 | 24,204,475 – 24,426,800 | 23,977 | 1,079 |
+| 2 | 24,426,801 – 24,649,127 | 4,548 | 1,711 |
+| 3 | 24,649,128 – 24,871,454 | 3,369 | 149 |
+| 4 | 24,871,455 – 25,093,780 | 452 | 122 |
+| 5 | 25,093,781 – 25,316,107 | 2,292 | 119 |
+| 6 | 25,316,108 – 25,538,434 | 1,952 | 7 |
+| 7 | 25,538,435 – 25,760,760 | 13,423 | 28 |
+| 8 | 25,760,761 – 25,983,087 | 793 | 230 |
+| 9 | 25,983,088 – 26,205,414 | 3,356 | 26,601 |
+| 10 | 26,205,415 – 26,427,741 | 2,406 | 7,404 |
+
+Every decile returned logs for both events, on both nodes. The registries' deploy blocks, 24,339,871 and 24,339,873,
+fall in decile 1.
+
+**Comparison with the published 13 October count**
+
+| | `Registered` | `NewFeedback` |
+|---|---:|---:|
+| published Ethereum count (`output/counts/1_identity_Registered.json`, `1_reputation_NewFeedback.json`) | 53,903 | 21,337 |
+| published scan range | 24,339,871 – 26,182,323 | 24,339,873 – 26,182,323 |
+| this read, 24,204,475 – 26,182,323, both nodes | **53,903** | **21,337** |
+| of which before the deploy block (24,204,475 – deploy − 1), both nodes | 0 | 0 |
+| first log, this read and published | 24,339,925 / 24,339,925 | 24,341,987 / 24,341,987 |
+
+- **Equal on both nodes.** The two counts match the published counts exactly.
+- **The start blocks differ, but the comparison is still exact.** The published files hold totals only, not
+  individual logs, so the restriction could not be computed from published logs. The published scans started at the
+  registries' deploy blocks, not at 24,204,475. This does not change the comparison, for two reasons:
+  - Both nodes return no code at deploy − 1 for either registry (`eth_getCode`).
+  - This read counts 0 logs between 24,204,475 and deploy − 1.
+  So restricting this read to the published start block changes neither count.
+- **Not an independent replication.** The 13 October scan was served entirely by Tenderly
+  (`rpc_endpoints_used`). The Tenderly part of this match is therefore the same node a month later. The MEV Blocker
+  match is the cross-node part.
+- **Logs after the snapshot:** 2,665 `Registered` and 16,113 `NewFeedback`, on both nodes. These are not part of
+  any published total.
+
+**Widest ranges at Cb1B, and a fixed-chunk re-read**
+
+The reader is adaptive. At the quiet Cb1B address it may have read wider ranges than this control did. Some nodes
+answer a range that is too wide with an empty result instead of an error. The widest range returned successfully by
+one `eth_getLogs` call at Cb1B:
+
+| | Tenderly | MEV Blocker |
+|---|---:|---:|
+| section 3 of this addendum (validation scan) | not recorded | not recorded |
+| all-topics update | 160,000 | 80,000 |
+| this control, for comparison | 160,000 | 20,000 |
+
+`addenda/2026-11-16_cb1b_ethereum.json` records chunks and splits, but not the widest range. MEV Blocker's 80,000 is
+wider than this control's 20,000, and section 3 is not recorded on either node. So the last 10 % of the range was
+read again:
+
+- **Range:** 26,205,415 – 26,427,741, which is 222,327 blocks.
+- **Chunks:** on both nodes, a fixed chunk of 500,000 blocks, so one call. On MEV Blocker also 80,000 blocks, so
+  three calls.
+- **No splitting or growth:** each call either returned logs, which were re-checked as the reader does, or its error
+  was recorded.
+- **Cross-check:** each successful call was compared with Tenderly's 500,000-block read of the same sub-range.
+- **Code:** `addenda/2026-11-16_late_range_fixed_chunk.py`.
+- **Output:** `addenda/2026-11-16_late_range_fixed_chunk.json` holds run 2, 17:30:07Z–17:31:41Z.
+  `addenda/2026-11-16_late_range_fixed_chunk.run1.json` holds run 1, 17:29:04Z–17:29:40Z, made before the
+  per-call cross-check was added.
+
+| run 2 | `Registered` (control: 2,406) | `NewFeedback` (control: 7,404) |
+|---|---|---|
+| Tenderly, chunk 500,000 | 2,406, **match** | 7,404, **match** |
+| MEV Blocker, chunk 500,000 | no result: error "service temporarily unavailable" | 7,404, **match**, identical to Tenderly |
+| MEV Blocker, chunk 80,000 | 2 of 3 calls returned 1,294 + 769 logs, each identical to Tenderly's sub-range; the 3rd timed out after 30 s | 1 of 3 calls returned 1,592 logs, identical to Tenderly's sub-range; 2 errors |
+
+- **Run 1, Tenderly:** the same as run 2.
+- **Run 1, MEV Blocker:** at the 500,000 chunk, both events returned an error. At the 80,000 chunk, one call per
+  event succeeded, with 1,294 and 1,592 logs, the same counts as in run 2. The other calls returned errors.
+- **Tenderly:** both counts match the control at a fixed chunk of 500,000 blocks. That is wider than any range it used
+  at Cb1B. The last logs are identical to the control's.
+- **MEV Blocker, calls that returned:** every one returned exactly Tenderly's logs for the same sub-range. This
+  includes one call over all 222,327 blocks (`NewFeedback`).
+- **MEV Blocker, calls that failed:** each failed with an explicit error or a timeout. None returned an empty or
+  short result. The reader splits a range on such an error.
+- **MEV Blocker, what is missing:** in neither run did the fixed-chunk re-read of `Registered` complete. So the match
+  this check requires is shown on MEV Blocker for `NewFeedback` only.
+
+**Result**
+
+The original pass criteria are met on both nodes, for both events:
+- logs in the last 10 % of the range;
+- identical (block, tx, log index) sets, with 0 duplicates;
+- counts equal to the published counts up to the 13 October snapshot block.
+
+**Caveat 2 is closed for Tenderly. It is not closed for MEV Blocker.**
+- **Tenderly:** the reader returned logs from every decile up to 33 blocks before the end of the range, and a fixed
+  500,000-block read of the last 10 % matched for both events. So on Tenderly the absence of any log at
+  `0x8004Cb1B…4272` after block 24,339,656 is not explained by the reader failing to cover the late part of the range.
+- **MEV Blocker:** every wide-range failure seen was an error, not an empty result. But the fixed-chunk re-read of
+  `Registered` did not complete, so on this node the caveat stays open.

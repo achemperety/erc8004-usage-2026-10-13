@@ -1,0 +1,230 @@
+{
+ "all_match": false,
+ "erc8004_usage.py_sha256": "f55fd146ec2183cc9525787712a5accbf5e582d9b4a38cd81c36038f4d49a5ce",
+ "expected": {
+  "NewFeedback": 7404,
+  "Registered": 2406
+ },
+ "nodes": {
+  "mevblocker": {
+   "cb1b_widest_recorded": {
+    "all_topics": 80000,
+    "section_3": null
+   },
+   "chainId": 1,
+   "control_widest": 20000,
+   "head_at_run": 26429087,
+   "reads": [
+    {
+     "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+     "calls": [
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26205415,
+       "ok": false,
+       "s": 0.4,
+       "span": 222327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 500000,
+     "complete": false,
+     "count": 0,
+     "duplicates_dropped": 0,
+     "event": "Registered",
+     "expected": 2406,
+     "keys_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "last_log": null,
+     "matches_control": false,
+     "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a"
+    },
+    {
+     "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+     "calls": [
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26205415,
+       "ok": false,
+       "s": 0.4,
+       "span": 222327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 500000,
+     "complete": false,
+     "count": 0,
+     "duplicates_dropped": 0,
+     "event": "NewFeedback",
+     "expected": 7404,
+     "keys_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+     "last_log": null,
+     "matches_control": false,
+     "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc"
+    },
+    {
+     "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+     "calls": [
+      {
+       "cap_suspect": false,
+       "from": 26205415,
+       "n": 1294,
+       "ok": true,
+       "s": 2.3,
+       "span": 80000,
+       "to": 26285414
+      },
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26285415,
+       "ok": false,
+       "s": 0.7,
+       "span": 80000,
+       "to": 26365414
+      },
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26365415,
+       "ok": false,
+       "s": 0.6,
+       "span": 62327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 80000,
+     "complete": false,
+     "count": 1294,
+     "duplicates_dropped": 0,
+     "event": "Registered",
+     "expected": 2406,
+     "keys_sha256": "c721c3e54d20587c90d04964309a847796ada3487d343039e3d53852b17e506b",
+     "last_log": [
+      26284921,
+      98,
+      "0xc096e39dc5769ead819aebf232053b7bdcb62f5b20d176d71f14a096f15ca194"
+     ],
+     "matches_control": false,
+     "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a"
+    },
+    {
+     "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+     "calls": [
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26205415,
+       "ok": false,
+       "s": 0.5,
+       "span": 80000,
+       "to": 26285414
+      },
+      {
+       "cap_suspect": false,
+       "from": 26285415,
+       "n": 1592,
+       "ok": true,
+       "s": 18.2,
+       "span": 80000,
+       "to": 26365414
+      },
+      {
+       "error": "https://rpc.mevblocker.io/fast: rpc error: service temporarily unavailable",
+       "from": 26365415,
+       "ok": false,
+       "s": 0.5,
+       "span": 62327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 80000,
+     "complete": false,
+     "count": 1592,
+     "duplicates_dropped": 0,
+     "event": "NewFeedback",
+     "expected": 7404,
+     "keys_sha256": "51741f43f567f88ec0568b0acd0db14d45320fdf6294246f1d783134f0e1d145",
+     "last_log": [
+      26365366,
+      221,
+      "0xd07263e71d5b9a4d197dfeb906116667e3a4b07d35a5f26340c4c9c6aaf498f1"
+     ],
+     "matches_control": false,
+     "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc"
+    }
+   ],
+   "url": "https://rpc.mevblocker.io/fast"
+  },
+  "tenderly": {
+   "cb1b_widest_recorded": {
+    "all_topics": 160000,
+    "section_3": null
+   },
+   "chainId": 1,
+   "control_widest": 160000,
+   "head_at_run": 26429087,
+   "reads": [
+    {
+     "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+     "calls": [
+      {
+       "cap_suspect": false,
+       "from": 26205415,
+       "n": 2406,
+       "ok": true,
+       "s": 4.6,
+       "span": 222327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 500000,
+     "complete": true,
+     "count": 2406,
+     "duplicates_dropped": 0,
+     "event": "Registered",
+     "expected": 2406,
+     "keys_sha256": "e1d7deadf53198b91e784d13bf89ea79020a4084704f1cd14f709667816181e6",
+     "last_log": [
+      26427688,
+      292,
+      "0xa504c04ff0b2aa2c366b606193f4716b42580da2e78e5070447d5aa43c75f8e2"
+     ],
+     "matches_control": true,
+     "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a"
+    },
+    {
+     "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+     "calls": [
+      {
+       "cap_suspect": false,
+       "from": 26205415,
+       "n": 7404,
+       "ok": true,
+       "s": 30.3,
+       "span": 222327,
+       "to": 26427741
+      }
+     ],
+     "chunk": 500000,
+     "complete": true,
+     "count": 7404,
+     "duplicates_dropped": 0,
+     "event": "NewFeedback",
+     "expected": 7404,
+     "keys_sha256": "952723be93130aa12733cdb6c9fd04901ff3e5c8ddff0544420e334ed59151ef",
+     "last_log": [
+      26427708,
+      552,
+      "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e"
+     ],
+     "matches_control": true,
+     "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc"
+    }
+   ],
+   "url": "https://mainnet.gateway.tenderly.co"
+  }
+ },
+ "range": [
+  26205415,
+  26427741
+ ],
+ "run_finished_utc": "2026-11-16T17:29:40Z",
+ "run_started_utc": "2026-11-16T17:29:04Z"
+}

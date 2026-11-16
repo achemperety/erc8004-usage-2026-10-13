@@ -1,0 +1,605 @@
+{
+ "all_pass": true,
+ "chunking": {
+  "init_chunk": 10000,
+  "max_chunk": 500000
+ },
+ "comparison": {
+  "NewFeedback": {
+   "identical": true,
+   "only_mevblocker": 0,
+   "only_mevblocker_examples": [],
+   "only_tenderly": 0,
+   "only_tenderly_examples": []
+  },
+  "Registered": {
+   "identical": true,
+   "only_mevblocker": 0,
+   "only_mevblocker_examples": [],
+   "only_tenderly": 0,
+   "only_tenderly_examples": []
+  }
+ },
+ "deciles": [
+  [
+   24204475,
+   24426800
+  ],
+  [
+   24426801,
+   24649127
+  ],
+  [
+   24649128,
+   24871454
+  ],
+  [
+   24871455,
+   25093780
+  ],
+  [
+   25093781,
+   25316107
+  ],
+  [
+   25316108,
+   25538434
+  ],
+  [
+   25538435,
+   25760760
+  ],
+  [
+   25760761,
+   25983087
+  ],
+  [
+   25983088,
+   26205414
+  ],
+  [
+   26205415,
+   26427741
+  ]
+ ],
+ "deploy_blocks": {
+  "identity": 24339871,
+  "reputation": 24339873
+ },
+ "last10_threshold_above": 26205415,
+ "nodes": {
+  "mevblocker": {
+   "chainId": 1,
+   "events": {
+    "NewFeedback": {
+     "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+     "by_decile": [
+      1079,
+      1711,
+      149,
+      122,
+      119,
+      7,
+      28,
+      230,
+      26601,
+      7404
+     ],
+     "code_at_deploy": true,
+     "code_at_deploy_minus_1": false,
+     "count": 37450,
+     "count_above_last10_threshold": 7404,
+     "count_after_snapshot": 16113,
+     "count_deploy_to_snapshot": 21337,
+     "count_lo_to_deploy_minus_1": 0,
+     "count_lo_to_snapshot": 21337,
+     "equals_published": true,
+     "event": "NewFeedback",
+     "first_log": [
+      24341987,
+      "0x179ddb9485e5c940e716f60353cfc839d003ed5e3491f246d08c556cb7cafa6a",
+      240
+     ],
+     "keys_sha256": "726c493694ffbf27791cd9699922fc8cbd1730d4f9aa0b8f82db49d31b6a0be5",
+     "last_log_block": 26427708,
+     "last_log_fraction_of_range": 0.999985,
+     "last_log_utc": "2026-11-16T12:51:47Z",
+     "last_logs": [
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       548
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       549
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       550
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       551
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       552
+      ]
+     ],
+     "pass_last10": true,
+     "published": {
+      "chunks": 57,
+      "count": 21337,
+      "duplicates_dropped": 0,
+      "file": "output/counts/1_reputation_NewFeedback.json",
+      "file_sha256": "79da6e98f13fa98cdf71fcf1c2f766ff425b04b43c83eb6d8f3f5b4135172948",
+      "first_block": 24341987,
+      "from_block": 24339873,
+      "last_block": 26168619,
+      "rpc_endpoints_used": {
+       "https://mainnet.gateway.tenderly.co": 57
+      },
+      "splits": 0,
+      "to_block": 26182323
+     },
+     "reader": {
+      "by_topic": {
+       "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 37450
+      },
+      "chunks": 221,
+      "count": 37450,
+      "covered_ranges": [
+       [
+        24204475,
+        24575019
+       ],
+       [
+        24575020,
+        24945564
+       ],
+       [
+        24945565,
+        25316109
+       ],
+       [
+        25316110,
+        25686654
+       ],
+       [
+        25686655,
+        26057199
+       ],
+       [
+        26057200,
+        26427741
+       ]
+      ],
+      "distinct_topic1": 2695,
+      "distinct_topic2": null,
+      "duplicates_dropped": 0,
+      "elapsed_s": 220.8,
+      "first_block": 24341987,
+      "incomplete": false,
+      "largest_ok_range": 20000,
+      "last_block": 26427708,
+      "scanned_from": 24204475,
+      "scanned_to": 26427741,
+      "segments": 6,
+      "splits": 12
+     },
+     "rpc_requests": 236,
+     "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+     "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+     "wall_s": 220.9
+    },
+    "Registered": {
+     "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+     "by_decile": [
+      23977,
+      4548,
+      3369,
+      452,
+      2292,
+      1952,
+      13423,
+      793,
+      3356,
+      2406
+     ],
+     "code_at_deploy": true,
+     "code_at_deploy_minus_1": false,
+     "count": 56568,
+     "count_above_last10_threshold": 2406,
+     "count_after_snapshot": 2665,
+     "count_deploy_to_snapshot": 53903,
+     "count_lo_to_deploy_minus_1": 0,
+     "count_lo_to_snapshot": 53903,
+     "equals_published": true,
+     "event": "Registered",
+     "first_log": [
+      24339925,
+      "0x132c8ea538e8210a3058dbbcff6f901e2ff7a8204d5c30db19d15cceeb4db791",
+      117
+     ],
+     "keys_sha256": "4f7a1a506b23c8385c822875fbff7ee6377ece1aafe4103744420894336d43c2",
+     "last_log_block": 26427688,
+     "last_log_fraction_of_range": 0.999976,
+     "last_log_utc": "2026-11-16T12:47:47Z",
+     "last_logs": [
+      [
+       26427616,
+       "0xf60d0287d54e14e7af62b2445dc28e9fd07f6e2f4ccb06ce897cb4e67b99d9b8",
+       371
+      ],
+      [
+       26427626,
+       "0x2d4892d52efce9ec7e64528b1b4e48db923867f781221eaf57f17a59d27ee1ab",
+       701
+      ],
+      [
+       26427628,
+       "0x21026be79f672e0f57d4e3062dbc022fe48de89bca99fcae13cd006da57aaacf",
+       292
+      ],
+      [
+       26427631,
+       "0x01925ab7bc799544c5b66b4a861aa59ee7347f627c5e541525bd133bfbe1b315",
+       504
+      ],
+      [
+       26427688,
+       "0xa504c04ff0b2aa2c366b606193f4716b42580da2e78e5070447d5aa43c75f8e2",
+       292
+      ]
+     ],
+     "pass_last10": true,
+     "published": {
+      "chunks": 70,
+      "count": 53903,
+      "duplicates_dropped": 0,
+      "file": "output/counts/1_identity_Registered.json",
+      "file_sha256": "d773bed7645ce9b5e90e2bb752eb77632374c850b8fc01c76f69fb91dbbd6249",
+      "first_block": 24339925,
+      "from_block": 24339871,
+      "last_block": 26182286,
+      "rpc_endpoints_used": {
+       "https://mainnet.gateway.tenderly.co": 70
+      },
+      "splits": 0,
+      "to_block": 26182323
+     },
+     "reader": {
+      "by_topic": {
+       "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 56568
+      },
+      "chunks": 243,
+      "count": 56568,
+      "covered_ranges": [
+       [
+        24204475,
+        24575019
+       ],
+       [
+        24575020,
+        24945564
+       ],
+       [
+        24945565,
+        25316109
+       ],
+       [
+        25316110,
+        25686654
+       ],
+       [
+        25686655,
+        26057199
+       ],
+       [
+        26057200,
+        26427741
+       ]
+      ],
+      "distinct_topic1": 56568,
+      "distinct_topic2": null,
+      "duplicates_dropped": 0,
+      "elapsed_s": 207.6,
+      "first_block": 24339925,
+      "incomplete": false,
+      "largest_ok_range": 20000,
+      "last_block": 26427688,
+      "scanned_from": 24204475,
+      "scanned_to": 26427741,
+      "segments": 6,
+      "splits": 14
+     },
+     "rpc_requests": 260,
+     "signature": "Registered(uint256,string,address)",
+     "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+     "wall_s": 207.8
+    }
+   },
+   "head_at_run": 26429029,
+   "range_end_within_head_minus_safety": true,
+   "url": "https://rpc.mevblocker.io/fast"
+  },
+  "tenderly": {
+   "chainId": 1,
+   "events": {
+    "NewFeedback": {
+     "address": "0x8004BAa17C55a88189AE136b182e5fdA19dE9b63",
+     "by_decile": [
+      1079,
+      1711,
+      149,
+      122,
+      119,
+      7,
+      28,
+      230,
+      26601,
+      7404
+     ],
+     "code_at_deploy": true,
+     "code_at_deploy_minus_1": false,
+     "count": 37450,
+     "count_above_last10_threshold": 7404,
+     "count_after_snapshot": 16113,
+     "count_deploy_to_snapshot": 21337,
+     "count_lo_to_deploy_minus_1": 0,
+     "count_lo_to_snapshot": 21337,
+     "equals_published": true,
+     "event": "NewFeedback",
+     "first_log": [
+      24341987,
+      "0x179ddb9485e5c940e716f60353cfc839d003ed5e3491f246d08c556cb7cafa6a",
+      240
+     ],
+     "keys_sha256": "726c493694ffbf27791cd9699922fc8cbd1730d4f9aa0b8f82db49d31b6a0be5",
+     "last_log_block": 26427708,
+     "last_log_fraction_of_range": 0.999985,
+     "last_log_utc": "2026-11-16T12:51:47Z",
+     "last_logs": [
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       548
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       549
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       550
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       551
+      ],
+      [
+       26427708,
+       "0x40c14a7bb061bbf95c3ceb23c75aec6da287be20c9f76d082ea2e65c7d43586e",
+       552
+      ]
+     ],
+     "pass_last10": true,
+     "published": {
+      "chunks": 57,
+      "count": 21337,
+      "duplicates_dropped": 0,
+      "file": "output/counts/1_reputation_NewFeedback.json",
+      "file_sha256": "79da6e98f13fa98cdf71fcf1c2f766ff425b04b43c83eb6d8f3f5b4135172948",
+      "first_block": 24341987,
+      "from_block": 24339873,
+      "last_block": 26168619,
+      "rpc_endpoints_used": {
+       "https://mainnet.gateway.tenderly.co": 57
+      },
+      "splits": 0,
+      "to_block": 26182323
+     },
+     "reader": {
+      "by_topic": {
+       "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc": 37450
+      },
+      "chunks": 42,
+      "count": 37450,
+      "covered_ranges": [
+       [
+        24204475,
+        24575019
+       ],
+       [
+        24575020,
+        24945564
+       ],
+       [
+        24945565,
+        25316109
+       ],
+       [
+        25316110,
+        25686654
+       ],
+       [
+        25686655,
+        26057199
+       ],
+       [
+        26057200,
+        26427741
+       ]
+      ],
+      "distinct_topic1": 2695,
+      "distinct_topic2": null,
+      "duplicates_dropped": 0,
+      "elapsed_s": 172.6,
+      "first_block": 24341987,
+      "incomplete": false,
+      "largest_ok_range": 160000,
+      "last_block": 26427708,
+      "scanned_from": 24204475,
+      "scanned_to": 26427741,
+      "segments": 6,
+      "splits": 0
+     },
+     "rpc_requests": 45,
+     "signature": "NewFeedback(uint256,address,uint64,int128,uint8,string,string,string,string,string,bytes32)",
+     "topic0": "0x6a4a61743519c9d648a14e6493f47dbe3ff1aa29e7785c96c8326a205e58febc",
+     "wall_s": 172.7
+    },
+    "Registered": {
+     "address": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+     "by_decile": [
+      23977,
+      4548,
+      3369,
+      452,
+      2292,
+      1952,
+      13423,
+      793,
+      3356,
+      2406
+     ],
+     "code_at_deploy": true,
+     "code_at_deploy_minus_1": false,
+     "count": 56568,
+     "count_above_last10_threshold": 2406,
+     "count_after_snapshot": 2665,
+     "count_deploy_to_snapshot": 53903,
+     "count_lo_to_deploy_minus_1": 0,
+     "count_lo_to_snapshot": 53903,
+     "equals_published": true,
+     "event": "Registered",
+     "first_log": [
+      24339925,
+      "0x132c8ea538e8210a3058dbbcff6f901e2ff7a8204d5c30db19d15cceeb4db791",
+      117
+     ],
+     "keys_sha256": "4f7a1a506b23c8385c822875fbff7ee6377ece1aafe4103744420894336d43c2",
+     "last_log_block": 26427688,
+     "last_log_fraction_of_range": 0.999976,
+     "last_log_utc": "2026-11-16T12:47:47Z",
+     "last_logs": [
+      [
+       26427616,
+       "0xf60d0287d54e14e7af62b2445dc28e9fd07f6e2f4ccb06ce897cb4e67b99d9b8",
+       371
+      ],
+      [
+       26427626,
+       "0x2d4892d52efce9ec7e64528b1b4e48db923867f781221eaf57f17a59d27ee1ab",
+       701
+      ],
+      [
+       26427628,
+       "0x21026be79f672e0f57d4e3062dbc022fe48de89bca99fcae13cd006da57aaacf",
+       292
+      ],
+      [
+       26427631,
+       "0x01925ab7bc799544c5b66b4a861aa59ee7347f627c5e541525bd133bfbe1b315",
+       504
+      ],
+      [
+       26427688,
+       "0xa504c04ff0b2aa2c366b606193f4716b42580da2e78e5070447d5aa43c75f8e2",
+       292
+      ]
+     ],
+     "pass_last10": true,
+     "published": {
+      "chunks": 70,
+      "count": 53903,
+      "duplicates_dropped": 0,
+      "file": "output/counts/1_identity_Registered.json",
+      "file_sha256": "d773bed7645ce9b5e90e2bb752eb77632374c850b8fc01c76f69fb91dbbd6249",
+      "first_block": 24339925,
+      "from_block": 24339871,
+      "last_block": 26182286,
+      "rpc_endpoints_used": {
+       "https://mainnet.gateway.tenderly.co": 70
+      },
+      "splits": 0,
+      "to_block": 26182323
+     },
+     "reader": {
+      "by_topic": {
+       "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a": 56568
+      },
+      "chunks": 94,
+      "count": 56568,
+      "covered_ranges": [
+       [
+        24204475,
+        24575019
+       ],
+       [
+        24575020,
+        24945564
+       ],
+       [
+        24945565,
+        25316109
+       ],
+       [
+        25316110,
+        25686654
+       ],
+       [
+        25686655,
+        26057199
+       ],
+       [
+        26057200,
+        26427741
+       ]
+      ],
+      "distinct_topic1": 56568,
+      "distinct_topic2": null,
+      "duplicates_dropped": 0,
+      "elapsed_s": 168.2,
+      "first_block": 24339925,
+      "incomplete": false,
+      "largest_ok_range": 160000,
+      "last_block": 26427688,
+      "scanned_from": 24204475,
+      "scanned_to": 26427741,
+      "segments": 6,
+      "splits": 3
+     },
+     "rpc_requests": 100,
+     "signature": "Registered(uint256,string,address)",
+     "topic0": "0xca52e62c367d81bb2e328eb795f7c7ba24afb478408a26c0e201d155c449bc4a",
+     "wall_s": 168.3
+    }
+   },
+   "head_at_run": 26429029,
+   "range_end_within_head_minus_safety": true,
+   "url": "https://mainnet.gateway.tenderly.co"
+  }
+ },
+ "range": [
+  24204475,
+  26427741
+ ],
+ "range_blocks": 2223267,
+ "reader": {
+  "erc8004_usage.py_sha256": "f55fd146ec2183cc9525787712a5accbf5e582d9b4a38cd81c36038f4d49a5ce",
+  "function": "erc8004_usage.scan_parallel (unchanged)"
+ },
+ "run_finished_utc": "2026-11-16T17:24:50Z",
+ "run_started_utc": "2026-11-16T17:17:35Z",
+ "snapshot_block": 26182323,
+ "suggested_by": "RealSpap, ethereum-magicians topic 25098 post #453"
+}
