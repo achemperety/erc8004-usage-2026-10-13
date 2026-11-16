@@ -1,0 +1,453 @@
+{
+ "address": "0x8004Cb1BF31DAf7788923b405b754f57acEB4272",
+ "chunking": {
+  "init_chunk": 10000,
+  "max_chunk": 500000
+ },
+ "expected_per_RealSpap": {
+  "Initialized": 2,
+  "OwnershipTransferred": 2,
+  "Upgraded": 3,
+  "total": 7,
+  "validation_events": 0
+ },
+ "nodes": {
+  "mevblocker": {
+   "all_topics": {
+    "by_topic": {
+     "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": 2,
+     "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": 3,
+     "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+    },
+    "chunks": 200,
+    "count": 7,
+    "covered_ranges": [
+     [
+      24204475,
+      24575019
+     ],
+     [
+      24575020,
+      24945564
+     ],
+     [
+      24945565,
+      25316109
+     ],
+     [
+      25316110,
+      25686654
+     ],
+     [
+      25686655,
+      26057199
+     ],
+     [
+      26057200,
+      26427741
+     ]
+    ],
+    "distinct_topic1": 5,
+    "distinct_topic2": null,
+    "duplicates_dropped": 0,
+    "elapsed_s": 100.2,
+    "first_block": 24204475,
+    "incomplete": false,
+    "largest_ok_range": 80000,
+    "last_block": 24339656,
+    "scanned_from": 24204475,
+    "scanned_to": 26427741,
+    "segments": 6,
+    "splits": 21
+   },
+   "chainId": 1,
+   "filtered_crosscheck": {
+    "chunks": 226,
+    "count": 7,
+    "duplicates_dropped": 0,
+    "same_logs_as_all_topics": true,
+    "splits": 16,
+    "topic0s": [
+     "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+    ]
+   },
+   "head_at_run": 26428030,
+   "logs": [
+    {
+     "block": 24204475,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 428,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204475,
+     "data": "0x",
+     "event": "OwnershipTransferred(address,address)",
+     "logIndex": 429,
+     "n_topics": 3,
+     "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204475,
+     "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "event": "Initialized(uint64)",
+     "logIndex": 430,
+     "n_topics": 1,
+     "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+     "topics": [
+      "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 727,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000106e3d8500b92a86d669702e75097e945c2e2b0e"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x",
+     "event": "OwnershipTransferred(address,address)",
+     "logIndex": 728,
+     "n_topics": 3,
+     "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x0000000000000000000000000000000000000000000000000000000000000002",
+     "event": "Initialized(uint64)",
+     "logIndex": 729,
+     "n_topics": 1,
+     "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+     "topics": [
+      "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24339656,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 889,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99"
+     ],
+     "tx": "0x08f38f7a65f755f904d8e227c953a6b4c792a21e154c0d0f9721b8b051f0e099",
+     "utc": "2026-01-29T09:37:11Z"
+    }
+   ],
+   "range_end_within_head_minus_safety": true,
+   "rpc_calls": 472,
+   "summary": {
+    "by_signature": {
+     "Initialized(uint64)": 2,
+     "OwnershipTransferred(address,address)": 2,
+     "Upgraded(address)": 3
+    },
+    "last_log_block": 24339656,
+    "last_log_fraction_of_range": 0.060803,
+    "matches_expected": true,
+    "total": 7,
+    "unknown_topic0": [],
+    "upgraded_equal_addendum_D": true,
+    "validation_events": 0
+   },
+   "url": "https://rpc.mevblocker.io/fast"
+  },
+  "tenderly": {
+   "all_topics": {
+    "by_topic": {
+     "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": 2,
+     "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": 3,
+     "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": 2
+    },
+    "chunks": 36,
+    "count": 7,
+    "covered_ranges": [
+     [
+      24204475,
+      24575019
+     ],
+     [
+      24575020,
+      24945564
+     ],
+     [
+      24945565,
+      25316109
+     ],
+     [
+      25316110,
+      25686654
+     ],
+     [
+      25686655,
+      26057199
+     ],
+     [
+      26057200,
+      26427741
+     ]
+    ],
+    "distinct_topic1": 5,
+    "distinct_topic2": null,
+    "duplicates_dropped": 0,
+    "elapsed_s": 6.9,
+    "first_block": 24204475,
+    "incomplete": false,
+    "largest_ok_range": 160000,
+    "last_block": 24339656,
+    "scanned_from": 24204475,
+    "scanned_to": 26427741,
+    "segments": 6,
+    "splits": 0
+   },
+   "chainId": 1,
+   "filtered_crosscheck": {
+    "chunks": 36,
+    "count": 7,
+    "duplicates_dropped": 0,
+    "same_logs_as_all_topics": true,
+    "splits": 0,
+    "topic0s": [
+     "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+    ]
+   },
+   "head_at_run": 26428030,
+   "logs": [
+    {
+     "block": 24204475,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 428,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000d53de688e0b0ad436fbdbda00036832ff6499234"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204475,
+     "data": "0x",
+     "event": "OwnershipTransferred(address,address)",
+     "logIndex": 429,
+     "n_topics": 3,
+     "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204475,
+     "data": "0x0000000000000000000000000000000000000000000000000000000000000001",
+     "event": "Initialized(uint64)",
+     "logIndex": 430,
+     "n_topics": 1,
+     "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+     "topics": [
+      "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+     ],
+     "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+     "utc": "2026-01-10T13:03:47Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 727,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000106e3d8500b92a86d669702e75097e945c2e2b0e"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x",
+     "event": "OwnershipTransferred(address,address)",
+     "logIndex": 728,
+     "n_topics": 3,
+     "topic0": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+     "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603",
+      "0x000000000000000000000000547289319c3e6aedb179c0b8e8af0b5acd062603"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24204487,
+     "data": "0x0000000000000000000000000000000000000000000000000000000000000002",
+     "event": "Initialized(uint64)",
+     "logIndex": 729,
+     "n_topics": 1,
+     "topic0": "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2",
+     "topics": [
+      "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2"
+     ],
+     "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+     "utc": "2026-01-10T13:06:11Z"
+    },
+    {
+     "block": 24339656,
+     "data": "0x",
+     "event": "Upgraded(address)",
+     "logIndex": 889,
+     "n_topics": 2,
+     "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+     "topics": [
+      "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+      "0x000000000000000000000000db31f5d9167f8ebc8b30fbbf814c4d297c2d7f99"
+     ],
+     "tx": "0x08f38f7a65f755f904d8e227c953a6b4c792a21e154c0d0f9721b8b051f0e099",
+     "utc": "2026-01-29T09:37:11Z"
+    }
+   ],
+   "range_end_within_head_minus_safety": true,
+   "rpc_calls": 81,
+   "summary": {
+    "by_signature": {
+     "Initialized(uint64)": 2,
+     "OwnershipTransferred(address,address)": 2,
+     "Upgraded(address)": 3
+    },
+    "last_log_block": 24339656,
+    "last_log_fraction_of_range": 0.060803,
+    "matches_expected": true,
+    "total": 7,
+    "unknown_topic0": [],
+    "upgraded_equal_addendum_D": true,
+    "validation_events": 0
+   },
+   "url": "https://mainnet.gateway.tenderly.co"
+  }
+ },
+ "nodes_agree": true,
+ "range": [
+  24204475,
+  26427741
+ ],
+ "range_source": "RealSpap, ethereum-magicians topic 25098 post #451",
+ "reader": {
+  "derived_scan_all_sha256": "eefa576e5ee596347f1a1b5749719e787d59f2ba33d25c3aee91d9c2e0ac0185",
+  "derived_scan_parallel_all_sha256": "51e5da3af04490c86e850256afb63ba21d2aaa410c73ca7f1b5294f356e97cab",
+  "erc8004_usage.py_sha256": "f55fd146ec2183cc9525787712a5accbf5e582d9b4a38cd81c36038f4d49a5ce",
+  "substitutions_scan": [
+   [
+    "def scan(rpc, addr, topic0, lo, hi,",
+    "def scan_all(rpc, addr, topic0, lo, hi,"
+   ],
+   [
+    ", \"topics\": [t_list if len(t_list) > 1 else t_list[0]]}], tries=2)",
+    "}], tries=2)"
+   ],
+   [
+    " or l[\"topics\"][0].lower() not in t_set:",
+    ":"
+   ],
+   [
+    "by_topic[l[\"topics\"][0].lower()] += 1",
+    "by_topic[l[\"topics\"][0].lower() if l[\"topics\"] else \"(no topics)\"] += 1"
+   ]
+  ],
+  "substitutions_scan_parallel": [
+   [
+    "def scan_parallel(rpc, addr, topic0, lo, hi,",
+    "def scan_parallel_all(rpc, addr, topic0, lo, hi,"
+   ],
+   [
+    "return scan(rpc, addr, topic0, lo, hi, keep_logs",
+    "return scan_all(rpc, addr, topic0, lo, hi, keep_logs"
+   ],
+   [
+    "lambda se: scan(rpc, addr, topic0, se[0]",
+    "lambda se: scan_all(rpc, addr, topic0, se[0]"
+   ]
+  ]
+ },
+ "run_finished_utc": "2026-11-16T14:01:16Z",
+ "run_started_utc": "2026-11-16T13:56:31Z",
+ "topic0_candidates": {
+  "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059": {
+   "name": "ValidationRequest",
+   "signature": "ValidationRequest(address,uint256,string,bytes32)",
+   "source": "abis/ValidationRegistry.json via E.event_sig"
+  },
+  "0x7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498": {
+   "name": "Initialized",
+   "signature": "Initialized(uint8)",
+   "source": "keccak256 computed in this script"
+  },
+  "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
+   "name": "OwnershipTransferred",
+   "signature": "OwnershipTransferred(address,address)",
+   "source": "keccak256 computed in this script"
+  },
+  "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae": {
+   "name": "ValidationResponse",
+   "signature": "ValidationResponse(address,uint256,bytes32,uint8,string,bytes32,string)",
+   "source": "abis/ValidationRegistry.json via E.event_sig"
+  },
+  "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b": {
+   "name": "Upgraded",
+   "signature": "Upgraded(address)",
+   "source": "abis/ValidationRegistry.json via E.event_sig"
+  },
+  "0xc7f505b2f371ae2175ee4913f4499e1f2633a7b5936321eed1cdaeb6115181d2": {
+   "name": "Initialized",
+   "signature": "Initialized(uint64)",
+   "source": "keccak256 computed in this script"
+  }
+ }
+}

@@ -168,3 +168,84 @@ replayed:
 - **What the code does.** As in addendum B, a `PUSH4` search finds dispatcher entries. It does not prove what a
   function does, or that a call would have succeeded.
 - **Unemitted activity.** Calls that reverted, or state written without an event, are not visible in logs.
+
+## Update, 2026-11-16: all-topics read (RealSpap's check, replayed)
+
+This section adds to addendum D. It changes no line above it, no earlier file and no published total.
+
+RealSpap read every log at `0x8004Cb1B…4272` on Ethereum mainnet with no topic filter, over blocks 24,204,475 to
+26,427,741 ([#451](https://ethereum-magicians.org/t/25098/451), 2026-11-16T13:27Z). His figures: 7 logs, made up of
+3 `Upgraded`, 2 `OwnershipTransferred` and 2 `Initialized`, and no validation events. This update repeats that read.
+
+**Method**
+
+- **Code:** `addenda/2026-11-16_cb1b_all_topics.py`. Raw output: `addenda/2026-11-16_cb1b_all_topics.json`.
+- **Range:** his range, 24,204,475 – 26,427,741 (2,223,267 blocks). Both nodes' heads at the run were 26,428,030,
+  so the range ends at least 256 blocks below the head.
+- **Nodes:** the two nodes of addendum D, `https://mainnet.gateway.tenderly.co` and `https://rpc.mevblocker.io/fast`,
+  each a separate client with no failover.
+- **Run:** 2026-11-16T13:56:31Z to 14:01:16Z.
+- **Read-only:** `eth_chainId`, `eth_blockNumber`, `eth_getBlockByNumber`, `eth_getLogs`.
+- **Chunk sizes:** those of addendum D, initial 10,000 blocks and maximum 500,000, with 6 parallel segments.
+- **Reader:** the scanner's reader `scan` always sends a topic0 filter. It also rejects any returned log whose topic0
+  was not requested. So it cannot read all topics unchanged, and `erc8004_usage.py` was not edited.
+  - The script takes the source of `scan` and `scan_parallel` and applies the substitutions listed in the script and
+    in the output. Each substitution must match exactly once. They remove the `topics` key from the `eth_getLogs`
+    request and the topic0 re-check, and let a log with no topics be counted.
+  - The derived reader runs in the scanner's own module namespace.
+  - Everything else is the scanner's code as it is: split on error, split at a suspected cap, adaptive chunk size,
+    re-check of block range and address, and de-duplication.
+  - The output records the SHA-256 of `erc8004_usage.py` (`f55fd146…49a5ce`, the value in `SHA256SUMS`) and of the
+    derived source.
+- **Cross-check:** on each node, the topic0 values found were read again with the unchanged filtered reader
+  (`scan_parallel`, OR-filter on those topic0 values, same range and chunk sizes). This is a check of the derived
+  reader against the original one on the same node. It is not an independent source.
+
+**Topic0 identification**
+
+| event | topic0 | source | found |
+|---|---|---|---:|
+| `Upgraded(address)` | `0xbc7cd75a…2d3b` | vendored ABI | 3 |
+| `ValidationRequest(address,uint256,string,bytes32)` | `0x530436c3…5059` | vendored ABI | 0 |
+| `ValidationResponse(address,uint256,bytes32,uint8,string,bytes32,string)` | `0xafddf629…49ae` | vendored ABI | 0 |
+| `OwnershipTransferred(address,address)` | `0x8be0079c…57e0` | computed | 2 |
+| `Initialized(uint8)` | `0x7f26b83f…2498` | computed | 0 |
+| `Initialized(uint64)` | `0xc7f505b2…81d2` | computed | 2 |
+
+Both `Initialized` logs match **`Initialized(uint64)`**. This is also the `Initialized` signature in the vendored ABI.
+No log has a topic0 outside this table, and no log has zero topics.
+
+**Logs found, identical on both nodes**
+
+| # | block | UTC | tx | log index | event |
+|---:|---:|---|---|---:|---|
+| 1 | 24204475 | 2026-01-10T13:03:47Z | `0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868` | 428 | `Upgraded` |
+| 2 | 24204475 | 2026-01-10T13:03:47Z | `0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868` | 429 | `OwnershipTransferred` |
+| 3 | 24204475 | 2026-01-10T13:03:47Z | `0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868` | 430 | `Initialized(uint64)` |
+| 4 | 24204487 | 2026-01-10T13:06:11Z | `0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b` | 727 | `Upgraded` |
+| 5 | 24204487 | 2026-01-10T13:06:11Z | `0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b` | 728 | `OwnershipTransferred` |
+| 6 | 24204487 | 2026-01-10T13:06:11Z | `0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b` | 729 | `Initialized(uint64)` |
+| 7 | 24339656 | 2026-01-29T09:37:11Z | `0x08f38f7a65f755f904d8e227c953a6b4c792a21e154c0d0f9721b8b051f0e099` | 889 | `Upgraded` |
+
+The three `Upgraded` logs are the same (block, log index, tx) as in section 1 of this addendum.
+
+| | Tenderly | MEV Blocker |
+|---|---:|---:|
+| logs, all topics | 7 | 7 |
+| calls / splits, all-topics read | 36 / 0 | 200 / 21 |
+| duplicates dropped | 0 | 0 |
+| filtered cross-check: same 7 logs | yes (36 calls, 0 splits) | yes (226 calls, 16 splits) |
+
+**Result**
+
+- **Matches RealSpap:** 7 logs, of which 3 are `Upgraded`, 2 `OwnershipTransferred` and 2 `Initialized`, on both
+  nodes.
+- **Validation events: 0** (`ValidationRequest` 0, `ValidationResponse` 0), as expected. This agrees with section 3.
+  **The Ethereum count remains 0.**
+- **Last log:** block 24,339,656, which is 135,181 blocks into a range of 2,223,267 blocks, so at **0.061** of the
+  range. Everything after the first 6.1 % of the range returned no log on either node.
+- **What this read shows about late-range coverage: nothing.** No log of any kind lies in the last 93.9 % of the
+  range. That fits a proxy that emitted nothing after its last upgrade. It would also fit a reader or node that missed
+  late logs. Without a known log late in the range, this read cannot tell the two apart. The limit stated in
+  section 4 still applies. The agreement of two nodes, with different chunking (36 calls against 200 calls with 21
+  splits), remains the only cross-check there.
