@@ -1,0 +1,240 @@
+{
+ "address": "0x8004Cb1BF31DAf7788923b405b754f57acEB4272",
+ "chunking": {
+  "init_chunk": 10000,
+  "max_chunk": 500000
+ },
+ "claimed_by_RealSpap": {
+  "creation_block": 24204475,
+  "switch_block": 24204487,
+  "switch_utc": "2026-01-10T13:06:11Z",
+  "upgraded_events": 3
+ },
+ "head_fixed": 26422987,
+ "head_fixed_utc": "2026-11-15T21:05:59Z",
+ "heads_seen": {
+  "mevblocker": 26423243,
+  "tenderly": 26423243
+ },
+ "nodes": {
+  "mevblocker": {
+   "error": "RpcFail: https://rpc.mevblocker.io/fast: TimeoutError: The read operation timed out",
+   "url": "https://rpc.mevblocker.io/fast"
+  },
+  "tenderly": {
+   "chainId": 1,
+   "controls": {
+    "a_pre_deployment": {
+     "count": 0,
+     "pass": true,
+     "range": [
+      24004475,
+      24204474
+     ]
+    },
+    "b_corrupted_topic0": {
+     "count": 0,
+     "pass": true,
+     "range": [
+      24204475,
+      26422987
+     ],
+     "topics": [
+      "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5050",
+      "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349a0"
+     ]
+    },
+    "b_prime_true_topic0_same_range": 0,
+    "c_positive_upgraded": {
+     "count": 3,
+     "every_log_matches_slot_transition": true,
+     "pass": true,
+     "range": [
+      24204475,
+      26422987
+     ],
+     "slot_at_head_equals_last_upgraded": true
+    }
+   },
+   "counts": {
+    "creation_to_24204486": {
+     "ValidationRequest": 0,
+     "ValidationResponse": 0,
+     "chunks": 1,
+     "duplicates_dropped": 0,
+     "range": [
+      24204475,
+      24204486
+     ],
+     "splits": 0
+    },
+    "creation_to_head": {
+     "ValidationRequest": 0,
+     "ValidationResponse": 0,
+     "chunks": 36,
+     "duplicates_dropped": 0,
+     "range": [
+      24204475,
+      26422987
+     ],
+     "splits": 0
+    },
+    "creation_to_snapshot": {
+     "ValidationRequest": 0,
+     "ValidationResponse": 0,
+     "chunks": 36,
+     "duplicates_dropped": 0,
+     "range": [
+      24204475,
+      26182323
+     ],
+     "splits": 0
+    }
+   },
+   "creation": {
+    "block": 24204475,
+    "block_utc": "2026-01-10T13:03:47Z",
+    "code_at_block": true,
+    "n_probes": 24,
+    "no_code_at_prev_block": true,
+    "runtime_code": {
+     "bytes": 130,
+     "keccak": "d0e45b1d89fa9b6cc7e97c1f155d64180e5c232aaccf9900ef9d4fd738c02b41"
+    },
+    "search_window": [
+     23479244,
+     26182323
+    ],
+    "status": "resolved"
+   },
+   "head_at_run": 26423243,
+   "implementations": {
+    "0x106e3d8500b92a86d669702e75097e945c2e2b0e": {
+     "at_first_upgrade_block": {
+      "block": 24204487,
+      "bytes": 6044,
+      "keccak": "0235d32a1c6be15e50181a9926cd5b422aef83d815f4c9b5c11e18f05fbfd792",
+      "selectors": {
+       "getValidationStatus(bytes32)": "present",
+       "validationRequest(address,uint256,string,bytes32)": "present",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "present"
+      }
+     },
+     "at_head_fixed": {
+      "block": 26422987,
+      "bytes": 6044,
+      "keccak": "0235d32a1c6be15e50181a9926cd5b422aef83d815f4c9b5c11e18f05fbfd792",
+      "selectors": {
+       "getValidationStatus(bytes32)": "present",
+       "validationRequest(address,uint256,string,bytes32)": "present",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "present"
+      }
+     }
+    },
+    "0xd53de688e0b0ad436fbdbda00036832ff6499234": {
+     "at_first_upgrade_block": {
+      "block": 24204475,
+      "bytes": 2188,
+      "keccak": "2af9793af793756760192816ef0ad1405724fc18dce66485299189b26f1b91b4",
+      "selectors": {
+       "getValidationStatus(bytes32)": "absent",
+       "validationRequest(address,uint256,string,bytes32)": "absent",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "absent"
+      }
+     },
+     "at_head_fixed": {
+      "block": 26422987,
+      "bytes": 2188,
+      "keccak": "2af9793af793756760192816ef0ad1405724fc18dce66485299189b26f1b91b4",
+      "selectors": {
+       "getValidationStatus(bytes32)": "absent",
+       "validationRequest(address,uint256,string,bytes32)": "absent",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "absent"
+      }
+     }
+    },
+    "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99": {
+     "at_first_upgrade_block": {
+      "block": 24339656,
+      "bytes": 5876,
+      "keccak": "14ffccec8b46c9175bb80327a5471b0333596aed02e2ff500d772bd505a303c6",
+      "selectors": {
+       "getValidationStatus(bytes32)": "present",
+       "validationRequest(address,uint256,string,bytes32)": "present",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "present"
+      }
+     },
+     "at_head_fixed": {
+      "block": 26422987,
+      "bytes": 5876,
+      "keccak": "14ffccec8b46c9175bb80327a5471b0333596aed02e2ff500d772bd505a303c6",
+      "selectors": {
+       "getValidationStatus(bytes32)": "present",
+       "validationRequest(address,uint256,string,bytes32)": "present",
+       "validationResponse(bytes32,uint8,string,bytes32,string)": "present"
+      }
+     }
+    }
+   },
+   "rpc_calls": 249,
+   "slot": {
+    "at_24204486": "0xd53de688e0b0ad436fbdbda00036832ff6499234",
+    "at_24204487": "0x106e3d8500b92a86d669702e75097e945c2e2b0e",
+    "at_creation": "0xd53de688e0b0ad436fbdbda00036832ff6499234",
+    "at_head_fixed": "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+    "at_snapshot": "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99"
+   },
+   "upgraded": {
+    "chunks_to_head": 36,
+    "count_to_head": 3,
+    "count_to_snapshot": 3,
+    "events": [
+     {
+      "block": 24204475,
+      "implementation": "0xd53de688e0b0ad436fbdbda00036832ff6499234",
+      "logIndex": 428,
+      "slot_at_block": "0xd53de688e0b0ad436fbdbda00036832ff6499234",
+      "slot_at_block_minus_1": "(before creation)",
+      "tx": "0x5a22b472636ee0330e91138978c3167939a8a44167c086a2ba8c8022f9b34868",
+      "utc": "2026-01-10T13:03:47Z"
+     },
+     {
+      "block": 24204487,
+      "implementation": "0x106e3d8500b92a86d669702e75097e945c2e2b0e",
+      "logIndex": 727,
+      "slot_at_block": "0x106e3d8500b92a86d669702e75097e945c2e2b0e",
+      "slot_at_block_minus_1": "0xd53de688e0b0ad436fbdbda00036832ff6499234",
+      "tx": "0xe8f4f82c5ffa7bba1045a001f1f0417d9f94c7afe93c4a8930eccea7cb67293b",
+      "utc": "2026-01-10T13:06:11Z"
+     },
+     {
+      "block": 24339656,
+      "implementation": "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+      "logIndex": 889,
+      "slot_at_block": "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+      "slot_at_block_minus_1": "0x106e3d8500b92a86d669702e75097e945c2e2b0e",
+      "tx": "0x08f38f7a65f755f904d8e227c953a6b4c792a21e154c0d0f9721b8b051f0e099",
+      "utc": "2026-01-29T09:37:11Z"
+     }
+    ],
+    "splits_to_head": 0
+   },
+   "url": "https://mainnet.gateway.tenderly.co",
+   "validation_events": []
+  }
+ },
+ "run_finished_utc": "2026-11-15T22:03:27Z",
+ "run_started_utc": "2026-11-15T21:57:47Z",
+ "safety_blocks": 256,
+ "selectors": {
+  "getValidationStatus(bytes32)": "0xff2febfc",
+  "validationRequest(address,uint256,string,bytes32)": "0xaaf400c4",
+  "validationResponse(bytes32,uint8,string,bytes32,string)": "0x3d659a96"
+ },
+ "snapshot_block": 26182323,
+ "topics": {
+  "Upgraded": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+  "ValidationRequest": "0x530436c3634a98e1e626b0898be2f1e9980cc1bd2a78c07a0aba52d0a48a5059",
+  "ValidationResponse": "0xafddf629e874ccc3963b6a888c477bd464a6c8525024fc88759ea3b2326349ae"
+ }
+}

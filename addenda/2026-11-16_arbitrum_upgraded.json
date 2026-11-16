@@ -1,0 +1,30 @@
+{
+ "address": "0x8004Cc8439f36fd5F9F049D9fF86523Df6dAAB58",
+ "chunks": 1,
+ "count": 2,
+ "expected": 2,
+ "logs": [
+  {
+   "block": 428895484,
+   "implementation": "0xcb7af40c0be4fb92e183942b6dbb6b14a888f067",
+   "logIndex": 1,
+   "tx": "0x49a608f66c90e2db757a942fa69ced1cc096f8f80c383a959ba41155f1109eae",
+   "utc": "2026-02-05T13:16:11Z"
+  },
+  {
+   "block": 428895794,
+   "implementation": "0xdb31f5d9167f8ebc8b30fbbf814c4d297c2d7f99",
+   "logIndex": 10,
+   "tx": "0xc84ecf26e3d0c4ff631606eadfb39686357e9b20720f2741511be4127a7d43ae",
+   "utc": "2026-02-05T13:17:28Z"
+  }
+ ],
+ "matches": true,
+ "range": [
+  428895484,
+  428895794
+ ],
+ "run_utc": "2026-11-15T21:58:09Z",
+ "topic0": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+ "url": "https://arb1.arbitrum.io/rpc"
+}

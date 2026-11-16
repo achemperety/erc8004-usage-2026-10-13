@@ -474,6 +474,7 @@ Base and 0G dominate the run time. A single small chain (`--chains 5000`) takes 
 | `output/` | the raw record: RPC selection, as-of and deploy blocks, controls, `counts/*.json` (one file per chain, registry and event; validation files include every raw log), replication, self-validation, endpoint consistency, `run.log` and per-stage stdout. Everything from the run except `output/chainlist.json`. |
 | `PROVENANCE-chain-list.md` | where the excluded `output/chainlist.json` came from, its SHA-256 and a command to fetch and verify it |
 | `ADDENDUM-2026-11-11-*.md`, `addenda/` | three dated addenda, with their code and raw call output |
+| `ADDENDUM-D-cb1b-ethereum.md` | addendum D (16 November 2026): validation events at the testnet-listed Validation proxy on Ethereum mainnet; code and raw output in `addenda/2026-11-16_*` |
 | `SHA256SUMS` | SHA-256 of every file in this repository except `SHA256SUMS` itself and git metadata (`shasum -a 256 -c SHA256SUMS`) |
 
 `output/rpc_selection.v1.json` is the endpoint selection before `ranges` re-ranked it. It is kept as part of the record.
@@ -484,6 +485,7 @@ output, and with one file left out: `output/chainlist.json`.
 
 None as of first publication (11 November 2026). Later corrections go here with a date and in new files. The original
 output is never edited.
+- 16 November 2026: [addendum D](ADDENDUM-D-cb1b-ethereum.md) reads the testnet-listed Validation proxy `0x8004Cb1BF31DAf7788923b405b754f57acEB4272` on Ethereum mainnet, which the count did not scan. It found 0 validation events there, so the Ethereum count remains 0.
 
 ## Licence
 
